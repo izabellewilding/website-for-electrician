@@ -1,4 +1,4 @@
-/* .recipe-layout1 {
+.recipe-layout1 {
   display: grid;
   grid-gap: 5px;
   grid-template-columns: 10vw 80vw 10vw;
@@ -311,4 +311,4 @@ h2 {
     list-style-position: inside;
     list-style-type: circle;
   }
-} */
+}

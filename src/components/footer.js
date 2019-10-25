@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import "./footer.css"
-import Img from "../components/image"
 
 import "../../node_modules/font-awesome/css/font-awesome.css"
 
