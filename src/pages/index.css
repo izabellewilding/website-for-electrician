@@ -6,3 +6,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+.website-logo {
+  padding: 5rem;
+}

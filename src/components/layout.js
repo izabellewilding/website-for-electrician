@@ -7,19 +7,25 @@
 
 import React from "react"
 import PropTypes from "prop-types"
+import "./layout.css"
 
 import Header from "./header"
-import Footer from "./footer"
 
 import "../../node_modules/font-awesome/css/font-awesome.css"
 
 const Layout = ({ children }) => {
   return (
     <>
+      <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+      ></link>
+      {/* <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
+        rel="stylesheet"
+      ></link> */}
       <Header />
-
       {children}
-      <Footer />
     </>
   )
 }
