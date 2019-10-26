@@ -44,7 +44,7 @@
 }
 
 .arrow-up:hover {
-  background-color: rgba(255, 255, 255, 0.205) !important;
+  background-color: rgba(255, 255, 255, 0.698) !important;
   border-radius: 50% !important;
 }
 
@@ -54,22 +54,37 @@
 }
 
 .header-dropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
   position: fixed;
 
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.972);
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
   transform: translateY(-100%);
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.5fr 1fr 1fr;
+  height: 100%;
 
   transition: all 1s;
 
-  overflow: hidden;
+  padding: 2rem;
+
+  overflow: auto;
+}
+
+.service-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  padding: 4rem;
+  padding-top: 0px;
+
+  width: 872px;
 }
 
 .header-dropdown-active {
@@ -77,43 +92,83 @@
 }
 
 .services-title {
-  grid-column: 1/4;
-  grid-row: 1/2;
-
   text-justify: center;
   text-align: center;
-
-  padding: 3rem;
+  padding: 2rem;
+  height: auto;
 }
 
-.appliance-svg {
+/* .appliance-svg {
   grid-column: 1/2;
   grid-row: 2/3;
 
-  padding: 5rem;
-  border-radius: 50%;
+  padding: 1rem;
+  max-width: 300px;
+} */
 
-  width: 100%;
+.appliance-svg-wrapper {
+  display: flex;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-svg {
+  width: 200px;
   height: auto;
 }
 
-.light-bulb-svg {
+.light-bulb-wrapper {
+  display: flex;
+  grid-column: 2/3;
+  grid-row: 1/2;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.rewire-wrapper {
+  display: flex;
+  grid-column: 3/4;
+  grid-row: 1/2;
+
+  /* padding: 2rem; */
+
+  justify-content: center;
+  align-items: center;
+}
+
+.bolt-wrapper {
+  display: flex;
+  grid-column: 1/2;
+  grid-row: 2/3;
+
+  /* padding: 2rem; */
+
+  justify-content: center;
+  align-items: center;
+}
+
+.fuse-box-wrapper {
+  display: flex;
   grid-column: 2/3;
   grid-row: 2/3;
 
-  padding: 5rem;
-  border-radius: 50%;
+  /* padding: 2rem; */
 
-  width: 100%;
-  height: auto;
+  justify-content: center;
+  align-items: center;
 }
 
-.rewire-svg {
+.fault-wrapper {
+  display: flex;
   grid-column: 3/4;
   grid-row: 2/3;
 
-  padding: 5rem;
+  /* padding: 2rem; */
 
-  width: 100%;
-  height: auto;
+  justify-content: center;
+  align-items: center;
 }

@@ -8,6 +8,9 @@ import { Icon } from "@rmwc/icon"
 import Appliance from "../assets/applicance.svg"
 import Bulb from "../assets/light-bulb.svg"
 import Rewire from "../assets/plugs.svg"
+import Bolt from "../assets/bolt.svg"
+import Fuse from "../assets/fuse-box.svg"
+import Fault from "../assets/fault.svg"
 
 const Header = () => {
   const [open, setOpen] = useState(false)
@@ -34,9 +37,26 @@ const Header = () => {
         })}
       >
         <h1 className="services-title">OUR SERVICES</h1>
-        <Appliance className="appliance-svg" />
-        <Bulb className="light-bulb-svg" />
-        <Rewire className="rewire-svg" />
+        <div className="service-items-wrapper">
+          <div className="appliance-svg-wrapper">
+            <Appliance className="service-svg" />
+          </div>
+          <div className="light-bulb-wrapper">
+            <Bulb className="service-svg" />
+          </div>
+          <div className="rewire-wrapper">
+            <Rewire className="service-svg" />
+          </div>
+          <div className="bolt-wrapper">
+            <Bolt className="service-svg" />
+          </div>
+          <div className="fuse-box-wrapper">
+            <Fuse className="service-svg" />
+          </div>
+          <div className="fault-wrapper">
+            <Fault className="service-svg" />
+          </div>
+        </div>
       </div>
     </>
   )

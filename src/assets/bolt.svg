@@ -1,0 +1,15 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 493.06 496">
+  <defs>
+    <style>
+      .svg-fill {
+      
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+    </style>
+  </defs>
+  <title>bolt</title>
+  <ellipse class="svg-fill" cx="246.53" cy="248" rx="241.53" ry="243"/>
+  <polygon points="247.15 70.45 247.15 209.26 134.4 209.26 247.15 423.25 247.15 284.44 359.9 284.44 247.15 70.45"/>
+</svg>

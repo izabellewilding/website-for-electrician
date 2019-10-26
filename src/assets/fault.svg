@@ -1,0 +1,25 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 493.06 496">
+  <defs>
+    <style>
+      .svg-fill,  {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      
+      }
+
+      .cls-2 {
+        fill: black;
+        stroke-width: 10px;
+    
+      }
+
+     
+    </style>
+  </defs>
+  <title>fault</title>
+  <circle class="svg-fill" cx="275" cy="217.96" r="54.98"/>
+  <ellipse class="svg-fill" cx="246.53" cy="248" rx="241.53" ry="243"/>
+  <path d="M274.4,107a109.73,109.73,0,0,0-88.62,174.53L95.91,371.44l23.89,23.89,89.87-89.87A109.78,109.78,0,1,0,274.4,107Zm0,202.7a92.91,92.91,0,1,1,92.91-92.91A93,93,0,0,1,274.4,309.74Z"/>
+  <rect class=".cls-2" x="266.76" y="183.27" width="14.4" height="44.51"/>
+  <ellipse class="cls-2" cx="273.8" cy="243.08" rx="9" ry="9.14"/>
+</svg>
