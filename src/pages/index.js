@@ -16,6 +16,11 @@ const IndexPage = () => {
         <div className="logo-section">
           <Icon className="website-logo" />
         </div>
+        <div className="contact-details">
+          <p>alex@alexwildingelectricalservices.com</p>
+          <p>Tel: 01437 532307</p>
+          <p>Mob: 07527 929222</p>
+        </div>
       </body>
     </Layout>
   )

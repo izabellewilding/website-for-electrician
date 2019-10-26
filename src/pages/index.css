@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(18, 53, 94);
+  background: linear-gradient(rgb(23, 104, 158), rgba(18, 35, 107, 0.972));
+  height: 100vh;
 }
 
 .homepage-body {
@@ -7,6 +8,18 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
-.website-logo {
-  padding: 5rem;
+.logo-section {
+  grid-column: 1/2;
+  padding: 8rem;
+}
+
+.contact-details {
+  grid-column: 2/3;
+  padding: 8rem;
+
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+
+  font-family: "europa";
 }
