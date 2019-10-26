@@ -5,6 +5,7 @@ import Img from "../components/image"
 import classNames from "classnames"
 import "@rmwc/icon/icon.css"
 import { Icon } from "@rmwc/icon"
+import Appliance from "../assets/applicance.svg"
 
 const Header = () => {
   const [open, setOpen] = useState(false)
@@ -20,11 +21,15 @@ const Header = () => {
         className={classNames("arrow-up-off", { "arrow-up": open })}
         onClick={() => setOpen(false)}
       />
+
       <div
         className={classNames("header-dropdown", {
           "header-dropdown-active": open,
         })}
-      ></div>
+      >
+        <Appliance className="applicance-svg" />
+      </div>
+      {/* end header dropdown */}
     </header>
   )
 }

@@ -9,7 +9,7 @@
   box-shadow: 0 5px 10px -2px rgba(3, 1, 37, 0.671);
   position: fixed;
 
-  z-index: 1;
+  z-index: 2;
 }
 
 .arrow-down {
@@ -56,18 +56,22 @@
   position: fixed;
   background: linear-gradient(rgb(23, 104, 158), rgba(18, 35, 107, 0.972));
 
-  top: 75px;
+  top: 0;
   bottom: 0;
   right: 0;
   left: 0;
+  transform: translateY(-120%);
+  z-index: -1;
 
-  z-index: 0;
-
-  height: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 
   transition: all 1s;
+
+  overflow: hidden;
 }
 
 .header-dropdown-active {
-  height: 100%;
+  transform: translateY(0%);
 }

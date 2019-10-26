@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./index.css"
 
-import Icon from "../assets/alex-wilding-logo.svg"
+import Logo from "../assets/alex-wilding-logo.svg"
 
 const IndexPage = () => {
   const [viewMore, setViewMore] = useState(false)
@@ -14,7 +14,7 @@ const IndexPage = () => {
       <SEO title="Homepage" />
       <body className="homepage-body">
         <div className="logo-section">
-          <Icon className="website-logo" />
+          <Logo className="website-logo" />
           <div className="contact-details">
             <p>alex@alexwildingelectricalservices.com</p>
             <p>Tel: 01437 532307</p>
