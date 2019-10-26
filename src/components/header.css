@@ -19,7 +19,8 @@
   font-size: 2.25rem !important;
 
   position: fixed;
-  right: 0;
+  right: 3%;
+  top: 3%;
 }
 
 .arrow-down:hover {
@@ -40,11 +41,12 @@
   display: block;
 
   position: fixed;
-  right: 0;
+  right: 3%;
+  top: 3%;
 }
 
 .arrow-up:hover {
-  background-color: rgba(255, 255, 255, 0.698) !important;
+  background-color: rgba(135, 152, 182, 0.698) !important;
   border-radius: 50% !important;
 }
 
@@ -61,7 +63,7 @@
 
   position: fixed;
 
-  background-color: rgba(255, 255, 255, 0.842);
+  background-color: rgba(255, 255, 255, 0.973);
   top: 0;
   bottom: 0;
   right: 0;
@@ -83,7 +85,7 @@
 
   padding-top: 0px;
 
-  width: 872px;
+  width: 1000px;
 
   /* background-color: rgba(255, 255, 255, 0.986); */
 }
@@ -95,7 +97,7 @@
 .services-title {
   text-justify: center;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   height: auto;
 }
 
@@ -109,8 +111,8 @@
 
 .appliance-svg-wrapper {
   display: flex;
-  grid-column: 1/2;
-  grid-row: 1/2;
+  flex-direction: column;
+  grid-row: 2/3;
   padding: 1rem;
   justify-content: center;
   align-items: center;
@@ -120,18 +122,29 @@
   width: 200px;
   height: auto;
 
-  background-color: white;
+  background-color: rgba(13, 43, 71, 0.959);
   border-radius: 50%;
 
-  fill: rgba(1, 11, 44, 0.952);
+  fill: rgb(255, 255, 255);
 
   box-shadow: 0 5px 10px -2px rgba(36, 62, 119, 0.671);
 }
 
+.service-icon-text {
+  color: rgba(19, 34, 66, 0.918);
+  font-family: "Ubuntu Bold";
+  font-size: 1.39rem;
+  padding: 0.75rem;
+
+  text-justify: center;
+  text-align: center;
+}
 .light-bulb-wrapper {
   display: flex;
-  grid-column: 2/3;
-  grid-row: 1/2;
+  flex-direction: column;
+
+  /* grid-column: 2/3; */
+  grid-row: 2/3;
 
   justify-content: center;
   align-items: center;
@@ -139,7 +152,9 @@
 
 .rewire-wrapper {
   display: flex;
-  grid-column: 3/4;
+  flex-direction: column;
+
+  /* grid-column: 1/2; */
   grid-row: 1/2;
 
   /* padding: 2rem; */
@@ -150,7 +165,9 @@
 
 .bolt-wrapper {
   display: flex;
-  grid-column: 1/2;
+  flex-direction: column;
+
+  /* grid-column: 1/2; */
   grid-row: 2/3;
 
   /* padding: 2rem; */
@@ -161,8 +178,10 @@
 
 .fuse-box-wrapper {
   display: flex;
-  grid-column: 2/3;
-  grid-row: 2/3;
+  flex-direction: column;
+
+  /* grid-column: 2/3; */
+  grid-row: 1/2;
 
   /* padding: 2rem; */
 
@@ -170,12 +189,28 @@
   align-items: center;
 }
 
+.fuse-box-text {
+  font-size: 1.39rem;
+}
+
 .fault-wrapper {
   display: flex;
-  grid-column: 3/4;
-  grid-row: 2/3;
+  flex-direction: column;
+
+  /* grid-column: 3/4; */
+  grid-row: 1/2;
 
   /* padding: 2rem; */
+
+  justify-content: center;
+  align-items: center;
+}
+
+.EICR-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  grid-row: 2/3;
 
   justify-content: center;
   align-items: center;

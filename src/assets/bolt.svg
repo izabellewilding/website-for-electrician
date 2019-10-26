@@ -3,7 +3,7 @@
     <style>
       .svg-fill {
       
-        stroke: #000;
+        <!-- stroke: #000; -->
         stroke-miterlimit: 10;
         stroke-width: 10px;
       }

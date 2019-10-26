@@ -11,7 +11,7 @@ import Rewire from "../assets/plugs.svg"
 import Bolt from "../assets/bolt.svg"
 import Fuse from "../assets/fuse-box.svg"
 import Fault from "../assets/fault.svg"
-
+import EICR from "../assets/EICR.svg"
 const Header = () => {
   const [open, setOpen] = useState(false)
   return (
@@ -36,25 +36,36 @@ const Header = () => {
           "header-dropdown-active": open,
         })}
       >
-        <h1 className="services-title">OUR SERVICES</h1>
+        <h1 className="services-title">SERVICES</h1>
         <div className="service-items-wrapper">
-          <div className="appliance-svg-wrapper">
-            <Appliance className="service-svg" />
-          </div>
-          <div className="light-bulb-wrapper">
-            <Bulb className="service-svg" />
-          </div>
           <div className="rewire-wrapper">
             <Rewire className="service-svg" />
-          </div>
-          <div className="bolt-wrapper">
-            <Bolt className="service-svg" />
+            <p className="service-icon-text">DOMESTIC REWIRES </p>
           </div>
           <div className="fuse-box-wrapper">
             <Fuse className="service-svg" />
+            <p className="service-icon-text fuse-box-text">
+              CONSUMER UNIT UPGRADES{" "}
+            </p>
           </div>
           <div className="fault-wrapper">
             <Fault className="service-svg" />
+            <p className="service-icon-text ">FAULT FINDING </p>
+          </div>
+
+          <div className="EICR-wrapper">
+            <EICR className="service-svg" />
+            <p className="service-icon-text">EICRs </p>
+          </div>
+
+          <div className="bolt-wrapper">
+            <Bolt className="service-svg" />
+            <p className="service-icon-text">COMMERCIAL </p>
+          </div>
+
+          <div className="appliance-svg-wrapper">
+            <Appliance className="service-svg" />
+            <p className="service-icon-text">PAT TESTING </p>
           </div>
         </div>
       </div>

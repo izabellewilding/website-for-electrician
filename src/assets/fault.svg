@@ -2,14 +2,15 @@
   <defs>
     <style>
       .svg-fill,  {
-        stroke: #000;
+        <!-- stroke: #000; -->
         stroke-miterlimit: 10;
-      
+
       }
 
       .cls-2 {
-        fill: black;
+        fill: white;
         stroke-width: 10px;
+        
     
       }
 
