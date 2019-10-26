@@ -90,8 +90,7 @@
   grid-column: 1/2;
   grid-row: 2/3;
 
-  padding: 3rem;
-  margin: 3rem;
+  padding: 5rem;
   border-radius: 50%;
 
   width: 100%;
@@ -102,8 +101,7 @@
   grid-column: 2/3;
   grid-row: 2/3;
 
-  padding: 3rem;
-  margin: 3rem;
+  padding: 5rem;
   border-radius: 50%;
 
   width: 100%;
@@ -114,7 +112,7 @@
   grid-column: 3/4;
   grid-row: 2/3;
 
-  padding: 1rem;
+  padding: 5rem;
 
   width: 100%;
   height: auto;
