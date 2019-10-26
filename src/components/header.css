@@ -8,15 +8,66 @@
 
   box-shadow: 0 5px 10px -2px rgba(3, 1, 37, 0.671);
   position: fixed;
+
+  z-index: 1;
 }
 
-.material-icons {
-  padding: 0.25rem;
-  margin: 1rem;
+.arrow-down {
+  padding: 0.25rem !important;
+  margin: 1rem !important;
   font-size: 2.25rem !important;
+
+  position: fixed;
+  right: 0;
 }
 
-.material-icons:hover {
-  background-color: rgba(255, 255, 255, 0.205);
+.arrow-down:hover {
+  background-color: rgba(255, 255, 255, 0.205) !important;
   border-radius: 50% !important;
+}
+
+.arrow-down-off {
+  display: none !important;
+}
+
+.arrow-up {
+  padding: 0.25rem !important;
+  margin: 1rem !important;
+  font-size: 2.25rem !important;
+  color: black !important;
+
+  display: block;
+
+  position: fixed;
+  right: 0;
+}
+
+.arrow-up:hover {
+  background-color: rgba(255, 255, 255, 0.205) !important;
+  border-radius: 50% !important;
+}
+
+.arrow-up-off {
+  display: none;
+  color: transparent;
+}
+
+.header-dropdown {
+  position: fixed;
+  background: linear-gradient(rgb(23, 104, 158), rgba(18, 35, 107, 0.972));
+
+  top: 75px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  z-index: 0;
+
+  height: 0;
+
+  transition: all 1s;
+}
+
+.header-dropdown-active {
+  height: 100%;
 }

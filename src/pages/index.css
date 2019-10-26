@@ -10,16 +10,20 @@ body {
 
 .logo-section {
   grid-column: 1/2;
-  padding: 8rem;
+
+  margin: 6rem;
 }
 
 .contact-details {
-  grid-column: 2/3;
-  padding: 8rem;
+  grid-column: 1/2;
 
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: bold;
   color: white;
+  font-family: "Ubuntu";
+  letter-spacing: 0.15rem;
+  line-height: 3rem;
 
-  font-family: "europa";
+  text-justify: center;
+  text-align: center;
 }
