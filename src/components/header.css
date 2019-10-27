@@ -61,9 +61,9 @@
 
   align-items: center;
 
-  background-image: "../images/nicolas-thomas-3GZi6OpSDcY-unsplash.jpg";
   position: fixed;
 
+  background-color: rgba(255, 255, 255, 0.973);
   top: 0;
   bottom: 0;
   right: 0;
@@ -76,6 +76,8 @@
   padding: 2rem;
 
   overflow: auto;
+
+  z-index: 1;
 }
 
 .service-items-wrapper {
@@ -83,12 +85,13 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 
+  padding-top: 0px;
+
+  padding: 2rem;
+  border-radius: 5%;
   width: 1000px;
 
-  padding: 3rem;
-  padding-bottom: 2rem;
-  background-color: rgba(255, 255, 255, 0.746);
-  border-radius: 2.5%;
+  background-color: rgba(255, 255, 255, 0.877);
 }
 
 .header-dropdown-active {
@@ -101,7 +104,7 @@
   padding: 1rem;
   height: auto;
 
-  color: white;
+  color: rgba(13, 43, 71, 0.959);
 }
 
 /* .appliance-svg {

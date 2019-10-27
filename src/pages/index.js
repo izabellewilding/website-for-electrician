@@ -3,6 +3,7 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./index.css"
+import Img from "../components/image.js"
 
 import Logo from "../assets/alex-wilding-logo.svg"
 
@@ -12,7 +13,12 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Homepage" />
-      <body className="homepage-body">
+      {/* <body className="homepage-body"> */}
+      <div className="homepage">
+        <Img
+          src="../images/electrician-3087536_1920.jpg"
+          className="index-img"
+        />
         <div className="logo-section">
           <Logo className="website-logo" />
           <div className="contact-details">
@@ -21,7 +27,8 @@ const IndexPage = () => {
             <p>Mob: 07527 929222</p>
           </div>
         </div>
-      </body>
+      </div>
+      {/* </body> */}
     </Layout>
   )
 }

@@ -31,7 +31,6 @@ const Header = props => {
           className={"arrow-down"}
           onClick={() => {
             setOpen(!open)
-            props.onToggleServices(open)
           }}
         />
         {/* <Icon

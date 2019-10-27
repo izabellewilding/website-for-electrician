@@ -1,28 +1,51 @@
-body {
-  background: linear-gradient(rgb(23, 104, 158), rgb(4, 19, 32));
+.homepage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   height: 100vh;
 }
 
-.homepage-body {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.index-img {
+  position: fixed !important;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+
+  height: auto;
+  width: 100%;
 }
 
 .logo-section {
-  grid-column: 1/2;
+  width: 100vw;
+  height: auto;
 
-  margin: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /* border-radius: 15px; */
+
+  background: linear-gradient(rgba(23, 104, 158, 0.87), rgb(4, 19, 32));
+
+  z-index: 0;
+}
+
+.website-logo {
+  width: 575px;
 }
 
 .contact-details {
-  grid-column: 1/2;
-
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: white;
   font-family: "Ubuntu";
   letter-spacing: 0.15rem;
-  line-height: 3rem;
+  line-height: 2.25rem;
+  padding: 3rem;
 
   text-justify: center;
   text-align: center;
