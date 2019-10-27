@@ -5,6 +5,9 @@ import Img from "../components/image"
 import classNames from "classnames"
 import "@rmwc/icon/icon.css"
 import { Icon } from "@rmwc/icon"
+import "@material/fab/dist/mdc.fab.css"
+import { Fab } from "@rmwc/fab"
+
 import Appliance from "../assets/applicance.svg"
 import Bulb from "../assets/light-bulb.svg"
 import Rewire from "../assets/plugs.svg"
@@ -12,6 +15,7 @@ import Bolt from "../assets/bolt.svg"
 import Fuse from "../assets/fuse-box.svg"
 import Fault from "../assets/fault.svg"
 import EICR from "../assets/EICR.svg"
+
 const Header = props => {
   const [open, setOpen] = useState(false)
 
@@ -26,19 +30,38 @@ const Header = props => {
   return (
     <>
       <header className="header">
-        <Icon
-          icon={arrowIcon}
-          className={"arrow-down"}
-          onClick={() => {
-            setOpen(!open)
-          }}
+        {/* <div className="quote-button">
+          <p>GET A QUOTE</p>
+        </div> */}
+
+        <Img
+          src="../images/eca-registered-member-logo.jpg"
+          className="ECA-logo-header"
         />
+        <nav className="nav">
+          <Fab
+            icon="add"
+            label="GET QUOTE"
+            className="quote-button header-buttons"
+          />
+          <Fab
+            icon="add"
+            label="SERVICES"
+            className="services-button header-buttons"
+          />{" "}
+          <Icon
+            icon={"arrowIcon"}
+            className={"arrow-down"}
+            onClick={() => {
+              setOpen(!open)
+            }}
+          />
+        </nav>
         {/* <Icon
           icon="keyboard_arrow_up"
           className={classNames("arrow-up-off", { "arrow-up": open })}
           onClick={() => setOpen(false)}
         /> */}
-
         {/* end header dropdown */}
       </header>
 

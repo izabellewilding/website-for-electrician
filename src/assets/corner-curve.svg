@@ -1,0 +1,14 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 602.19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <title>corner-curve</title>
+  <path class="cls-1" d="M1921.5,502.5c-46.53,99.92-123.93,228-253,342-386.74,341.52-986,244-986,246,0,1.35,279.18,1.68,1238-1Z" transform="translate(-682 -500.23)"/>
+</svg>

@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./index.css"
 import Img from "../components/image.js"
+import Curve from "../assets/corner-curve.svg"
 
 import Logo from "../assets/alex-wilding-logo.svg"
 

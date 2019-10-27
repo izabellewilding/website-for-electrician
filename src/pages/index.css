@@ -20,7 +20,7 @@
 
 .logo-section {
   width: 100vw;
-  height: auto;
+  height: 100vh;
 
   display: flex;
   justify-content: center;
@@ -29,7 +29,7 @@
 
   /* border-radius: 15px; */
 
-  background: linear-gradient(rgba(23, 104, 158, 0.87), rgb(4, 19, 32));
+  background: linear-gradient(rgba(23, 104, 158, 0.726), rgb(4, 19, 32));
 
   z-index: 0;
 }

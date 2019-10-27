@@ -27,6 +27,7 @@ const Layout = ({ children }) => {
         rel="stylesheet"
       ></link> */}
       <Header />
+
       {children}
     </>
   )
