@@ -5,9 +5,11 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
+import React, { useState } from "react"
 import PropTypes from "prop-types"
+import classNames from "classnames"
 import "./layout.css"
+import Img from "../components/image.js"
 
 import Header from "./header"
 

@@ -12,21 +12,33 @@ import Bolt from "../assets/bolt.svg"
 import Fuse from "../assets/fuse-box.svg"
 import Fault from "../assets/fault.svg"
 import EICR from "../assets/EICR.svg"
-const Header = () => {
+const Header = props => {
   const [open, setOpen] = useState(false)
+
+  console.warn(props.className)
+  let arrowIcon
+
+  if (open) {
+    arrowIcon = "keyboard_arrow_up"
+  } else {
+    arrowIcon = "keyboard_arrow_down"
+  }
   return (
     <>
       <header className="header">
         <Icon
-          icon="keyboard_arrow_down"
-          className={classNames("arrow-down", { "arrow-down-off": open })}
-          onClick={() => setOpen(true)}
+          icon={arrowIcon}
+          className={"arrow-down"}
+          onClick={() => {
+            setOpen(!open)
+            props.onToggleServices(open)
+          }}
         />
-        <Icon
+        {/* <Icon
           icon="keyboard_arrow_up"
           className={classNames("arrow-up-off", { "arrow-up": open })}
           onClick={() => setOpen(false)}
-        />
+        /> */}
 
         {/* end header dropdown */}
       </header>
