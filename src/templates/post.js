@@ -43,11 +43,11 @@ export default function Template({ data }) {
           {/* <!--end into text--> */}
 
           <div className="mainImage-container">
-            <Img
+            {/* <Img
               className="main-image"
               fileName={post.frontmatter.recipeImage}
               alt="finished dish"
-            />
+            /> */}
             {/* <p className="image-text">
           Chicken Thighs, Soft Aubergine, and Healthy Brown Chickpeas in a
           classNameic Indian Spiced Yoghurt Sauce
