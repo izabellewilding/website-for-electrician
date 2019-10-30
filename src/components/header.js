@@ -27,35 +27,48 @@ const Header = props => {
   } else {
     arrowIcon = "keyboard_arrow_down"
   }
+
   return (
     <>
       <header className="header">
         {/* <div className="quote-button">
           <p>GET A QUOTE</p>
         </div> */}
+        <div className="header-logo-wrapper">
+          <Img
+            src="../images/eca-registered-member-logo.jpg"
+            className="ECA-logo-header"
+          />
+          <Img
+            src="../images/new-elecsa-logo.jpg"
+            className="elesca-logo-header"
+          />
+        </div>
 
-        <Img
-          src="../images/eca-registered-member-logo.jpg"
-          className="ECA-logo-header"
-        />
         <nav className="nav">
           <Fab
-            icon="add"
+            icon={arrowIcon}
             label="GET QUOTE"
+            onClick={() => {
+              setOpen(!open)
+            }}
             className="quote-button header-buttons"
           />
           <Fab
-            icon="add"
-            label="SERVICES"
+            icon={arrowIcon}
             className="services-button header-buttons"
-          />{" "}
-          <Icon
+            onClick={() => {
+              setOpen(!open)
+            }}
+            label="SERVICES"
+          />
+          {/* <Icon
             icon={"arrowIcon"}
             className={"arrow-down"}
             onClick={() => {
               setOpen(!open)
             }}
-          />
+          /> */}
         </nav>
         {/* <Icon
           icon="keyboard_arrow_up"
@@ -70,7 +83,7 @@ const Header = props => {
           "header-dropdown-active": open,
         })}
       >
-        <h1 className="services-title">SERVICES</h1>
+        {/* <h1 className="services-title">SERVICES</h1> */}
         <div className="service-items-wrapper">
           <div className="rewire-wrapper">
             <Rewire className="service-svg" />

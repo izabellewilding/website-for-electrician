@@ -28,6 +28,7 @@ const IndexPage = () => {
             <p>Mob: 07527 929222</p>
           </div>
         </div>
+        <Img src="../images/badge-icon-png-12521.png" className="badge" />
       </div>
       {/* </body> */}
     </Layout>

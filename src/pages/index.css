@@ -50,3 +50,11 @@
   text-justify: center;
   text-align: center;
 }
+
+.badge {
+  position: fixed !important;
+  bottom: 4rem;
+  right: 4rem;
+  height: 200px;
+  width: 200px;
+}
