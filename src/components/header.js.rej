@@ -1,9 +1,0 @@
-diff a/src/components/header.js b/src/components/header.js	(rejected hunks)
-@@ -36,6 +36,7 @@
-           className={"arrow-down"}
-           onClick={() => {
-             setOpen(!open)
-+            props.onToggleServices(open)
-           }}
-         />
-         {/* <Icon
