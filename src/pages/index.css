@@ -51,10 +51,50 @@
   text-align: center;
 }
 
-.badge {
-  position: fixed !important;
-  bottom: 4rem;
-  right: 4rem;
-  height: 200px;
-  width: 200px;
+@media (max-width: 850px) {
+  .homepage {
+    width: 100%;
+    height: auto;
+  }
+
+  .index-img {
+    position: fixed !important;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+
+    height: auto;
+    width: 100%;
+  }
+
+  .logo-section {
+    display: none;
+  }
+
+  .website-logo {
+    display: none;
+  }
+
+  .contact-details {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    font-family: "Ubuntu";
+    letter-spacing: 0.15rem;
+    line-height: 2.25rem;
+    padding: 3rem;
+
+    text-justify: center;
+    text-align: center;
+  }
+
+  .badge {
+    position: fixed !important;
+    bottom: 4rem;
+    right: 4rem;
+    height: 200px;
+    width: 200px;
+  }
 }

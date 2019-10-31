@@ -8,6 +8,7 @@
     "@rmwc/dialog": "^5.7.0",
     "@rmwc/fab": "^5.7.0",
     "@rmwc/icon": "^5.7.0",
+    "@rmwc/top-app-bar": "^5.7.0",
     "classnames": "^2.2.6",
     "font-awesome": "^4.7.0",
     "front-matter": "^3.0.2",

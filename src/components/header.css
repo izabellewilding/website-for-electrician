@@ -15,6 +15,13 @@
   z-index: 2;
 }
 
+.header-logo {
+  display: none;
+}
+
+.header-main-logo {
+  display: none;
+}
 .header-logo-wrapper {
   display: flex;
   justify-content: left;
@@ -191,6 +198,7 @@
   text-justify: center;
   text-align: center;
 }
+
 .light-bulb-wrapper {
   display: flex;
   flex-direction: column;
@@ -266,4 +274,66 @@
 
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 850px) {
+  .header {
+    background: linear-gradient(rgba(23, 104, 158, 0), rgb(4, 19, 32));
+    height: 275px;
+    border-bottom-left-radius: -30%;
+    border-bottom-right-radius: 30%;
+  }
+  /* .header-svg {
+    display: flex !important;
+    height: 500px !important;
+  } */
+
+  .header-logo {
+    display: flex;
+    height: 125px;
+    width: auto;
+  }
+
+  .header-logo-wrapper {
+    display: flex;
+    margin: 2rem;
+  }
+
+  .header-main-logo {
+    display: flex;
+  }
+
+  .ECA-logo-header {
+    display: none;
+  }
+
+  .elesca-logo-header {
+    display: none;
+  }
+
+  .header-buttons {
+    display: none !important;
+  }
+
+  .header-dropdown {
+    top: 70px;
+    height: auto;
+  }
+
+  .service-items-wrapper {
+    grid-column: 1/2;
+
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+    width: 100vw;
+  }
+
+  .service-svg {
+    width: 100px;
+  }
+  .service-icon-text {
+    font-size: 1rem;
+  }
 }

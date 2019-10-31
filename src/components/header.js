@@ -7,6 +7,8 @@ import "@rmwc/icon/icon.css"
 import { Icon } from "@rmwc/icon"
 import "@material/fab/dist/mdc.fab.css"
 import { Fab } from "@rmwc/fab"
+// import "@material/top-app-bar/dist/mdc.top-app-bar.css"
+// import { SimpleTopAppBar } from "@rmwc/top-app-bar"
 
 import Appliance from "../assets/applicance.svg"
 import Bulb from "../assets/light-bulb.svg"
@@ -15,6 +17,8 @@ import Bolt from "../assets/bolt.svg"
 import Fuse from "../assets/fuse-box.svg"
 import Fault from "../assets/fault.svg"
 import EICR from "../assets/EICR.svg"
+import Logo from "../assets/alex-wilding-logo.svg"
+// import HeaderSvg from "../assets/special.svg"
 
 const Header = props => {
   const [open, setOpen] = useState(false)
@@ -34,6 +38,7 @@ const Header = props => {
         {/* <div className="quote-button">
           <p>GET A QUOTE</p>
         </div> */}
+        {/* <HeaderSvg className="header-svg" /> */}
         <div className="header-logo-wrapper">
           <Img
             src="../images/eca-registered-member-logo.jpg"
@@ -43,6 +48,7 @@ const Header = props => {
             src="../images/new-elecsa-logo.jpg"
             className="elesca-logo-header"
           />
+          <Logo className="header-logo" />
         </div>
 
         <nav className="nav">
