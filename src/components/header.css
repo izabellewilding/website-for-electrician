@@ -57,6 +57,10 @@
 .arrow-down-off {
   display: none !important;
 }
+
+.mobile-menu-button {
+  display: none !important;
+}
 /* 
 .arrow-up {
   padding: 0.25rem !important;
