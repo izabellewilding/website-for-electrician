@@ -22,11 +22,18 @@ const IndexPage = () => {
         />
         <div className="homepage-wrapper">
           <div className="website-logo">
-            <h1 className="main-heading">Alex Wilding</h1>
-            <h2 className="sub-heading">Electrical Services</h2>
+            <p className="main-heading">Alex Wilding</p>
+            <p className="sub-heading">Electrical Services</p>{" "}
+          </div>
+          <div className="website-description">
+            <h1>
+              Commercial and domestic electrician with over 10 years experience.
+              No job too big or small.
+            </h1>
+            <br />
+            <h2>Get in contact for a quote.</h2>
           </div>
         </div>
-
         {/* <div className="contact-details">
           <p>alex@alexwildingelectricalservices.com</p>
           <p>Tel: 01437 532307</p>
