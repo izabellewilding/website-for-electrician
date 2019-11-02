@@ -28,9 +28,9 @@ const Header = props => {
   let arrowIcon
 
   if (open) {
-    arrowIcon = "keyboard_arrow_up"
+    arrowIcon = "keyboard_arrow_right"
   } else {
-    arrowIcon = "keyboard_arrow_down"
+    arrowIcon = "keyboard_arrow_left"
   }
 
   return (
