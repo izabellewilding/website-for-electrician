@@ -160,7 +160,7 @@
 }
 
 .service-svg {
-  width: 75px;
+  width: 85px;
   height: auto;
 
   background-color: rgba(2, 25, 48, 0.959);
@@ -174,7 +174,7 @@
 .service-icon-text {
   color: rgba(35, 45, 66, 0.972);
   font-family: "Ubuntu Bold";
-  font-size: 1.39rem;
+  font-size: 1rem;
   padding: 0.75rem;
 
   text-justify: center;
