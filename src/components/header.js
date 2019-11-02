@@ -40,30 +40,20 @@ const Header = props => {
           <p>GET A QUOTE</p>
         </div> */}
         {/* <HeaderSvg className="header-svg" /> */}
-        <div className="header-logo-wrapper">
-          <Img
-            src="../images/eca-registered-member-logo.jpg"
-            className="ECA-logo-header"
-          />
-          <Img
-            src="../images/new-elecsa-logo.jpg"
-            className="elesca-logo-header"
-          />
-        </div>
 
         <nav className="nav">
           <Button
             icon={arrowIcon}
-            label="MENU"
+            label="Menu"
             outlined
             onClick={() => {
               setOpen(!open)
             }}
-            className="mobile-menu-button"
+            className="mobile-menu-button header-buttons"
           />
           <Button
             icon={arrowIcon}
-            label="GET QUOTE"
+            label="Get Quote"
             onClick={() => {
               setOpen(!open)
             }}
@@ -75,7 +65,7 @@ const Header = props => {
             onClick={() => {
               setOpen(!open)
             }}
-            label="SERVICES"
+            label="Services"
           />
           {/* <Icon
             icon={"arrowIcon"}

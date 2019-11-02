@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
 
-  height: 100vh;
+  height: 80vh;
 }
 
 .index-img {
@@ -30,12 +30,15 @@
 
   /* border-radius: 15px; */
 
-  background: linear-gradient(rgb(46, 128, 179), rgb(2, 18, 32));
+  background: linear-gradient(rgba(0, 13, 43, 0.959), rgba(5, 115, 211, 0.753));
 
   z-index: 0;
 }
 
 .website-logo {
+  position: fixed;
+  top: 18%;
+  left: 5%;
   text-justify: center;
   text-align: center;
 }

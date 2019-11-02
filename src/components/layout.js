@@ -11,6 +11,7 @@ import classNames from "classnames"
 import "./layout.css"
 
 import Header from "./header"
+import Footer from "./footer"
 
 import "../../node_modules/font-awesome/css/font-awesome.css"
 
@@ -28,6 +29,7 @@ const Layout = ({ children }) => {
       <Header />
 
       {children}
+      <Footer />
     </>
   )
 }
