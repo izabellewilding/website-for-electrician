@@ -18,8 +18,10 @@ const Footer = () => {
           className="elesca-logo-footer"
         />
       </div>
-      <div class="footer-info">
-        <br />
+      <div class="footer-contact-details">
+        <p>alex@alexwildingelectricalservices.com</p>
+        <p>Tel: 01437 532307</p>
+        <p>Mob: 07527 929222</p>
       </div>
     </footer>
   )

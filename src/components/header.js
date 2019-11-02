@@ -53,7 +53,7 @@ const Header = props => {
           />
           <Button
             icon={arrowIcon}
-            label="Get Quote"
+            label="Contact"
             dense
             onClick={() => {
               setOpen(!open)
