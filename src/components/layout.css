@@ -25,14 +25,13 @@
 h1 {
   font-family: "Britannic Bold";
   font-size: 2.25rem;
+  text-transform: uppercase;
 }
 
 h2 {
   font-family: "Teko-Bold";
-  font-size: 1.75rem;
-  transform: scale(1, 1.5);
-  -webkit-transform: scale(1, 1.5); /* Safari and Chrome */
-  -moz-transform: scale(1, 1.5); /* Firefox */
-  -ms-transform: scale(1, 1.5); /* IE 9+ */
-  -o-transform: scale(1, 1.5); /* Opera */
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  letter-spacing: 0.25rem;
+  font-stretch: ultra-expanded;
 }

@@ -18,30 +18,40 @@
   width: 100%;
 }
 
-.header-wrapper {
+.homepage-wrapper {
   width: 100vw;
   height: 100vh;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: flex-start;
   flex-direction: column;
+  text-justify: center;
 
   /* border-radius: 15px; */
 
-  background: linear-gradient(rgba(23, 104, 158, 0.726), rgb(4, 19, 32));
+  background: linear-gradient(rgb(46, 128, 179), rgb(2, 18, 32));
 
   z-index: 0;
 }
 
+.website-logo {
+  text-justify: center;
+  text-align: center;
+}
+
 .main-heading {
-  color: white;
+  color: #fff;
+}
+
+.sub-heading {
+  color: #fff;
 }
 
 .contact-details {
   font-size: 1rem;
   font-weight: bold;
-  color: white;
+  color: #fff;
   font-family: "Ubuntu";
   letter-spacing: 0.15rem;
   line-height: 2.25rem;
@@ -73,10 +83,6 @@
     display: none;
   }
 
-  .website-logo {
-    display: none;
-  }
-
   .contact-details {
     font-size: 1rem;
     font-weight: bold;
@@ -96,5 +102,10 @@
     right: 4rem;
     height: 200px;
     width: 200px;
+  }
+
+  .website-logo {
+    margin: 2rem;
+    margin-top: 4rem;
   }
 }

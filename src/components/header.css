@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
 
-  background-color: white;
+  background-color: #fff;
 
   /* box-shadow: 0 5px 10px -2px rgba(3, 1, 37, 0.671); */
 
@@ -62,11 +62,11 @@
   padding: 1rem;
   color: white !important;
   font-size: 1rem !important;
-  background-color: rgb(9, 39, 64) !important;
+  background-color: rgb(20, 59, 90) !important;
 
   margin: 1rem;
 
-  width: 180px !important;
+  width: 150px !important;
   height: auto;
   max-height: 40px;
   display: flex;
@@ -75,6 +75,11 @@
   justify-content: center;
 
   font-family: "Ubuntu Bold" !important;
+}
+
+.mdc-button::before,
+.mdc-button::after {
+  background-color: #eeeeee !important;
 }
 
 .arrow-down-off {
@@ -276,6 +281,24 @@
   align-items: center;
 }
 
+.mobile-menu-button {
+  padding: 1rem;
+  /* color: white !important; */
+  font-size: 1rem !important;
+
+  margin: 1rem;
+
+  width: 150px !important;
+  height: auto;
+  max-height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Ubuntu Bold" !important;
+}
+
 @media (max-width: 850px) {
   .header {
     background: transparent;
@@ -288,7 +311,7 @@
     height: 500px !important;
   } */
 
-  .header-logo {
+  /* .header-logo {
     display: flex;
     height: 125px;
     width: auto;
@@ -297,11 +320,11 @@
   .header-logo-wrapper {
     display: flex;
     margin: 2rem;
-  }
-
+  } */
+  /* 
   .header-main-logo {
     display: flex;
-  }
+  } */
 
   .ECA-logo-header {
     display: none;
@@ -335,5 +358,23 @@
   }
   .service-icon-text {
     font-size: 1rem;
+  }
+
+  .mobile-menu-button {
+    padding: 1rem;
+    color: white !important;
+    font-size: 1rem !important;
+    border: #fff solid 0.5px !important;
+    margin: 1rem;
+
+    width: 100px !important;
+    height: auto;
+    max-height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Ubuntu Bold" !important;
   }
 }

@@ -7,6 +7,8 @@ import "@rmwc/icon/icon.css"
 import { Icon } from "@rmwc/icon"
 import "@material/fab/dist/mdc.fab.css"
 import { Fab } from "@rmwc/fab"
+import "@material/button/dist/mdc.button.css"
+import { Button } from "@rmwc/button"
 // import "@material/top-app-bar/dist/mdc.top-app-bar.css"
 // import { SimpleTopAppBar } from "@rmwc/top-app-bar"
 
@@ -50,7 +52,16 @@ const Header = props => {
         </div>
 
         <nav className="nav">
-          <Fab
+          <Button
+            icon={arrowIcon}
+            label="MENU"
+            outlined
+            onClick={() => {
+              setOpen(!open)
+            }}
+            className="mobile-menu-button"
+          />
+          <Button
             icon={arrowIcon}
             label="GET QUOTE"
             onClick={() => {
@@ -58,7 +69,7 @@ const Header = props => {
             }}
             className="quote-button header-buttons"
           />
-          <Fab
+          <Button
             icon={arrowIcon}
             className="services-button header-buttons"
             onClick={() => {
