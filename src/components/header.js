@@ -45,7 +45,7 @@ const Header = props => {
           <Button
             icon={arrowIcon}
             label="Menu"
-            outlined
+            dense
             onClick={() => {
               setOpen(!open)
             }}
@@ -54,6 +54,7 @@ const Header = props => {
           <Button
             icon={arrowIcon}
             label="Get Quote"
+            dense
             onClick={() => {
               setOpen(!open)
             }}
@@ -61,6 +62,7 @@ const Header = props => {
           />
           <Button
             icon={arrowIcon}
+            dense
             className="services-button header-buttons"
             onClick={() => {
               setOpen(!open)
