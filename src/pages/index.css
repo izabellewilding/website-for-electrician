@@ -45,7 +45,7 @@
 
 .website-description {
   position: fixed;
-  top: 55%;
+  bottom: 25%;
   left: 5%;
   display: flex;
   flex-direction: column;
@@ -58,14 +58,14 @@
 .main-heading {
   color: #fff;
   font-family: "Britannic Bold";
-  font-size: 3.5rem;
+  font-size: 3.75rem;
   text-transform: uppercase;
 }
 
 .sub-heading {
   font-family: "Teko-Bold";
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 2.25rem;
   letter-spacing: 0.25rem;
   font-stretch: ultra-expanded;
   color: #fff;
