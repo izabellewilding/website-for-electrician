@@ -150,15 +150,6 @@
   max-width: 300px;
 } */
 
-.appliance-svg-wrapper {
-  display: flex;
-  flex-direction: column;
-  grid-row: 2/3;
-  padding: 1rem;
-  justify-content: center;
-  align-items: center;
-}
-
 .service-svg {
   width: 85px;
   height: auto;
@@ -169,6 +160,15 @@
   fill: rgb(255, 255, 255);
 
   box-shadow: 0 5px 10px -2px rgba(36, 62, 119, 0.671);
+}
+
+.appliance-svg-wrapper {
+  display: flex;
+  flex-direction: column;
+  grid-row: 2/3;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .service-icon-text {
@@ -229,10 +229,6 @@
 
   justify-content: center;
   align-items: center;
-}
-
-.fuse-box-text {
-  font-size: 1.39rem;
 }
 
 .fault-wrapper {
