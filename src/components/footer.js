@@ -19,7 +19,6 @@ const Footer = () => {
         />
       </div>
       <div class="footer-info">
-        <p>Website by Izabelle Wilding</p>
         <br />
       </div>
     </footer>
