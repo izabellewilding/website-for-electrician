@@ -18,7 +18,7 @@
   width: 100%;
 }
 
-.logo-section {
+.header-wrapper {
   width: 100vw;
   height: 100vh;
 
@@ -34,8 +34,8 @@
   z-index: 0;
 }
 
-.website-logo {
-  width: 400px;
+.main-heading {
+  color: white;
 }
 
 .contact-details {

@@ -17,7 +17,6 @@ import Bolt from "../assets/bolt.svg"
 import Fuse from "../assets/fuse-box.svg"
 import Fault from "../assets/fault.svg"
 import EICR from "../assets/EICR.svg"
-import Logo from "../assets/alex-wilding-logo.svg"
 // import HeaderSvg from "../assets/special.svg"
 
 const Header = props => {
@@ -48,7 +47,6 @@ const Header = props => {
             src="../images/new-elecsa-logo.jpg"
             className="elesca-logo-header"
           />
-          <Logo className="header-logo" />
         </div>
 
         <nav className="nav">

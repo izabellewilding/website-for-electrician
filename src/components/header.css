@@ -278,8 +278,8 @@
 
 @media (max-width: 850px) {
   .header {
-    background: linear-gradient(rgba(23, 104, 158, 0), rgb(4, 19, 32));
-    height: 275px;
+    background: transparent;
+    height: 150px;
     border-bottom-left-radius: -30%;
     border-bottom-right-radius: 30%;
   }
@@ -316,7 +316,7 @@
   }
 
   .header-dropdown {
-    top: 70px;
+    top: 0px;
     height: auto;
   }
 

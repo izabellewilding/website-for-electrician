@@ -20,14 +20,16 @@ const IndexPage = () => {
           src="../images/electrician-3087536_1920.jpg"
           className="index-img"
         />
-        <div className="logo-section">
-          <Logo className="website-logo" />
-          <div className="contact-details">
-            <p>alex@alexwildingelectricalservices.com</p>
-            <p>Tel: 01437 532307</p>
-            <p>Mob: 07527 929222</p>
-          </div>
+        <div className="header-wrapper">
+          <h1 className="main-heading">ALEX WILDING</h1>
+          <h2 className="sub-heading">ELECTRICAL SERVIES</h2>
         </div>
+
+        {/* <div className="contact-details">
+          <p>alex@alexwildingelectricalservices.com</p>
+          <p>Tel: 01437 532307</p>
+          <p>Mob: 07527 929222</p>
+        </div> */}
       </div>
 
       {/* </body> */}
