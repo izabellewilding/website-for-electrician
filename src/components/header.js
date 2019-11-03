@@ -10,15 +10,7 @@ import { Fab } from "@rmwc/fab"
 import "@material/button/dist/mdc.button.css"
 import { Button } from "@rmwc/button"
 import "@material/drawer/dist/mdc.drawer.css"
-import {
-  Drawer,
-  DrawerHeader,
-  DrawerTitle,
-  ListItem,
-  DrawerSubtitle,
-  DrawerContent,
-  List,
-} from "@rmwc/drawer"
+import { Drawer } from "@rmwc/drawer"
 // import "@material/top-app-bar/dist/mdc.top-app-bar.css"
 // import { SimpleTopAppBar } from "@rmwc/top-app-bar"
 
@@ -44,6 +36,14 @@ const Header = props => {
     arrowIcon = "keyboard_arrow_left"
   }
 
+  let contactArrowIcon
+
+  if (contactOpen) {
+    contactArrowIcon = "keyboard_arrow_right"
+  } else {
+    contactArrowIcon = "keyboard_arrow_left"
+  }
+
   return (
     <>
       <header className="header">
@@ -58,7 +58,7 @@ const Header = props => {
             className="mobile-menu-button header-buttons"
           />
           <Button
-            icon={arrowIcon}
+            icon={contactArrowIcon}
             label="Contact"
             dense
             onClick={() => setContactOpen(!contactOpen)}
@@ -83,9 +83,12 @@ const Header = props => {
         onClose={() => setContactOpen(false)}
       ></Drawer>
 
-      <div
-        className={classNames("header-dropdown", {
-          "header-dropdown-active": open,
+      <Drawer
+        dir="rtl"
+        modal
+        open={open}
+        className={classNames("service-drawer", {
+          "service-drawer-active": open,
         })}
       >
         <div className="service-items-wrapper">
@@ -119,7 +122,7 @@ const Header = props => {
             <p className="service-icon-text">PAT TESTING </p>
           </div>
         </div>
-      </div>
+      </Drawer>
     </>
   )
 }
