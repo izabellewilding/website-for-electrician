@@ -111,7 +111,7 @@
 }
 
 .service-svg {
-  width: 175px;
+  width: 145px;
   height: auto;
 
   background-color: rgba(0, 4, 8, 0.959);
@@ -124,8 +124,8 @@
 }
 
 .service-svg:hover {
-  background-color: rgba(2, 58, 90, 0.959);
-  width: 185px;
+  background-color: rgb(242, 109, 32);
+  width: 170px;
 }
 
 .appliance-svg-wrapper {

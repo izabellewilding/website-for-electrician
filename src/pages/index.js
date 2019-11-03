@@ -40,7 +40,7 @@ const IndexPage = () => {
                   experience. No job too big or small.
                 </h1>
                 <br />
-                <h2>Get in contact for a quote.</h2>
+                <h2>Get in touch for a quote.</h2>
               </div>
             </div>
             {/* end homepage text wrapper */}
