@@ -14,27 +14,27 @@ import { Drawer } from "@rmwc/drawer"
 // import "@material/top-app-bar/dist/mdc.top-app-bar.css"
 // import { SimpleTopAppBar } from "@rmwc/top-app-bar"
 
-import Appliance from "../assets/applicance.svg"
-import Bulb from "../assets/light-bulb.svg"
-import Rewire from "../assets/plugs.svg"
-import Bolt from "../assets/bolt.svg"
-import Fuse from "../assets/fuse-box.svg"
-import Fault from "../assets/fault.svg"
-import EICR from "../assets/EICR.svg"
+// import Appliance from "../assets/applicance.svg"
+// import Bulb from "../assets/light-bulb.svg"
+// import Rewire from "../assets/plugs.svg"
+// import Bolt from "../assets/bolt.svg"
+// import Fuse from "../assets/fuse-box.svg"
+// import Fault from "../assets/fault.svg"
+// import EICR from "../assets/EICR.svg"
 // import HeaderSvg from "../assets/special.svg"
 
 const Header = props => {
-  const [open, setOpen] = useState(false)
+  // const [open, setOpen] = useState(false)
   const [contactOpen, setContactOpen] = useState(false)
 
   console.warn(props.className)
-  let arrowIcon
+  // let arrowIcon
 
-  if (open) {
-    arrowIcon = "keyboard_arrow_right"
-  } else {
-    arrowIcon = "keyboard_arrow_left"
-  }
+  // if (open) {
+  //   arrowIcon = "keyboard_arrow_right"
+  // } else {
+  //   arrowIcon = "keyboard_arrow_left"
+  // }
 
   let contactArrowIcon
 
@@ -48,7 +48,7 @@ const Header = props => {
     <>
       <header className="header">
         <nav className="nav">
-          <Button
+          {/* <Button
             icon={arrowIcon}
             label="Menu"
             dense
@@ -56,7 +56,7 @@ const Header = props => {
               setOpen(!open)
             }}
             className="mobile-menu-button header-buttons"
-          />
+          /> */}
           <Button
             icon={contactArrowIcon}
             label="Contact"
@@ -64,7 +64,7 @@ const Header = props => {
             onClick={() => setContactOpen(!contactOpen)}
             className="contact-button header-buttons"
           />
-          <Button
+          {/* <Button
             icon={arrowIcon}
             dense
             className="services-button header-buttons"
@@ -72,7 +72,7 @@ const Header = props => {
               setOpen(!open)
             }}
             label="Services"
-          />
+          /> */}
         </nav>
       </header>
       <Drawer
@@ -83,15 +83,15 @@ const Header = props => {
         onClose={() => setContactOpen(false)}
       ></Drawer>
 
-      <Drawer
+      {/* <Drawer
         dir="rtl"
         modal
         open={open}
         className={classNames("service-drawer", {
           "service-drawer-active": open,
         })}
-      >
-        <div className="service-items-wrapper">
+      > */}
+      {/* <div className="service-items-wrapper">
           <div className="rewire-wrapper">
             <Rewire className="service-svg" />
             <p className="service-icon-text">DOMESTIC REWIRES </p>
@@ -121,8 +121,8 @@ const Header = props => {
             <Appliance className="service-svg" />
             <p className="service-icon-text">PAT TESTING </p>
           </div>
-        </div>
-      </Drawer>
+        </div> */}
+      {/* </Drawer> */}
     </>
   )
 }

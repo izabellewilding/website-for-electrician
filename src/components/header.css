@@ -61,169 +61,10 @@
 .mobile-menu-button {
   display: none !important;
 }
-/* 
-.arrow-up {
-  padding: 0.25rem !important;
-  margin: 1rem !important;
-  font-size: 2.25rem !important;
-  color: black !important;
-
-  display: block;
-
-  position: fixed;
-  right: 3%;
-  top: 3%;
-} */
-/* 
-.arrow-up:hover {
-  background-color: rgba(135, 152, 182, 0.698) !important;
-  border-radius: 50% !important;
-} */
 
 .arrow-up-off {
   display: none;
   color: transparent;
-}
-
-.service-drawer {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-
-  align-items: center;
-  position: fixed;
-
-  background-color: rgba(255, 255, 255, 0);
-
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 45%;
-  transform: translateX(100%);
-  height: auto;
-  overflow: auto;
-  transition: all 0.5s;
-  z-index: 1;
-}
-
-.service-items-wrapper {
-  grid-column: 1/2;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  justify-self: center;
-
-  padding-top: 0px;
-  padding: 1rem;
-}
-
-.service-drawer-active {
-  transform: translateY(0%);
-}
-
-.mdc-drawer {
-  width: 650px !important;
-  height: 80vh !important;
-}
-
-.mdc-drawer--modal[dir="rtl"] {
-  top: 10% !important;
-  right: 5% !important;
-}
-
-.service-svg {
-  width: 150px;
-  height: auto;
-
-  background-color: rgba(0, 4, 8, 0.959);
-  border-radius: 50%;
-
-  fill: rgb(255, 255, 255);
-
-  box-shadow: 0 5px 10px -2px rgba(36, 62, 119, 0.671);
-}
-
-.appliance-svg-wrapper {
-  display: flex;
-  flex-direction: column;
-  grid-row: 2/3;
-  padding: 1rem;
-  justify-content: center;
-  align-items: center;
-}
-
-.service-icon-text {
-  color: rgba(35, 45, 66, 0.972);
-  font-family: "Ubuntu Bold";
-  font-size: 1rem;
-  padding: 0.75rem;
-
-  text-justify: center;
-  text-align: center;
-}
-
-.light-bulb-wrapper {
-  display: flex;
-  flex-direction: column;
-
-  /* grid-column: 2/3; */
-  grid-row: 2/3;
-
-  justify-content: center;
-  align-items: center;
-}
-
-.rewire-wrapper {
-  display: flex;
-  flex-direction: column;
-
-  /* grid-column: 1/2; */
-  grid-row: 1/2;
-
-  /* padding: 2rem; */
-
-  justify-content: center;
-  align-items: center;
-}
-
-.bolt-wrapper {
-  display: flex;
-  flex-direction: column;
-
-  /* grid-column: 1/2; */
-  grid-row: 2/3;
-
-  /* padding: 2rem; */
-
-  justify-content: center;
-  align-items: center;
-}
-
-.fuse-box-wrapper {
-  display: flex;
-  flex-direction: column;
-
-  /* grid-column: 2/3; */
-  grid-row: 1/2;
-
-  /* padding: 2rem; */
-
-  justify-content: center;
-  align-items: center;
-}
-
-.fault-wrapper {
-  display: flex;
-  flex-direction: column;
-
-  /* grid-column: 3/4; */
-  grid-row: 1/2;
-
-  /* padding: 2rem; */
-
-  justify-content: center;
-  align-items: center;
 }
 
 .mobile-menu-button {
@@ -242,6 +83,16 @@
   justify-content: center;
 
   font-family: "Ubuntu Bold" !important;
+}
+
+.mdc-drawer {
+  width: 650px !important;
+  height: 80vh !important;
+}
+
+.mdc-drawer--modal[dir="rtl"] {
+  top: 10% !important;
+  right: 5% !important;
 }
 
 @media (max-width: 850px) {
