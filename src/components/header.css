@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(9, 24, 55, 0.897);
   border-bottom: solid 1px rgb(54, 124, 188);
   /* box-shadow: 0 5px 8px -2px rgba(232, 231, 252, 0.315); */
 
@@ -31,7 +32,7 @@
 
 .header-buttons {
   /* border: solid white 1px !important; */
-  color: rgb(211, 235, 255) !important;
+  color: rgb(255, 255, 255) !important;
   font-size: 1rem !important;
 
   margin: 1rem;

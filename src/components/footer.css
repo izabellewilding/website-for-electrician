@@ -1,7 +1,8 @@
 .footer {
-  position: fixed;
+  grid-column: 1/2;
+  grid-row: auto;
+
   display: flex;
-  bottom: 0;
   width: 100%;
 
   justify-content: left;

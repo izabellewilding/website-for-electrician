@@ -27,23 +27,25 @@ const IndexPage = () => {
             src="../images/electrician-3087536_1920.jpg"
             className="section1-img"
           />
+          <div className="section1-content">
+            <div className="section1-text-wrapper">
+              <div className="website-logo">
+                <p className="main-heading">Alex Wilding</p>
+                <p className="sub-heading">Electrical Services</p>{" "}
+              </div>
 
-          <div className="section1-text-wrapper">
-            <div className="website-logo">
-              <p className="main-heading">Alex Wilding</p>
-              <p className="sub-heading">Electrical Services</p>{" "}
+              <div className="website-description">
+                <h1>
+                  Commercial and domestic electrician with over 10 years
+                  experience. No job too big or small.
+                </h1>
+                <br />
+                <h2>Get in contact for a quote.</h2>
+              </div>
             </div>
-
-            <div className="website-description">
-              <h1>
-                Commercial and domestic electrician with over 10 years
-                experience. No job too big or small.
-              </h1>
-              <br />
-              <h2>Get in contact for a quote.</h2>
-            </div>
+            {/* end homepage text wrapper */}
           </div>
-          {/* end homepage text wrapper */}
+          {/* end section1 content */}
           <WhiteCurve className="white-curve" />
         </div>
         {/* end homepage section 1 */}
