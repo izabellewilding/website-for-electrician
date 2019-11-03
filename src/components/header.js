@@ -9,6 +9,16 @@ import "@material/fab/dist/mdc.fab.css"
 import { Fab } from "@rmwc/fab"
 import "@material/button/dist/mdc.button.css"
 import { Button } from "@rmwc/button"
+import "@material/drawer/dist/mdc.drawer.css"
+import {
+  Drawer,
+  DrawerHeader,
+  DrawerTitle,
+  ListItem,
+  DrawerSubtitle,
+  DrawerContent,
+  List,
+} from "@rmwc/drawer"
 // import "@material/top-app-bar/dist/mdc.top-app-bar.css"
 // import { SimpleTopAppBar } from "@rmwc/top-app-bar"
 
@@ -23,6 +33,7 @@ import EICR from "../assets/EICR.svg"
 
 const Header = props => {
   const [open, setOpen] = useState(false)
+  const [contactOpen, setContactOpen] = useState(false)
 
   console.warn(props.className)
   let arrowIcon
@@ -36,11 +47,6 @@ const Header = props => {
   return (
     <>
       <header className="header">
-        {/* <div className="quote-button">
-          <p>GET A QUOTE</p>
-        </div> */}
-        {/* <HeaderSvg className="header-svg" /> */}
-
         <nav className="nav">
           <Button
             icon={arrowIcon}
@@ -55,10 +61,8 @@ const Header = props => {
             icon={arrowIcon}
             label="Contact"
             dense
-            onClick={() => {
-              setOpen(!open)
-            }}
-            className="quote-button header-buttons"
+            onClick={() => setContactOpen(!contactOpen)}
+            className="contact-button header-buttons"
           />
           <Button
             icon={arrowIcon}
@@ -69,28 +73,21 @@ const Header = props => {
             }}
             label="Services"
           />
-          {/* <Icon
-            icon={"arrowIcon"}
-            className={"arrow-down"}
-            onClick={() => {
-              setOpen(!open)
-            }}
-          /> */}
         </nav>
-        {/* <Icon
-          icon="keyboard_arrow_up"
-          className={classNames("arrow-up-off", { "arrow-up": open })}
-          onClick={() => setOpen(false)}
-        /> */}
-        {/* end header dropdown */}
       </header>
+      <Drawer
+        dir="rtl"
+        className="contact-form"
+        modal
+        open={contactOpen}
+        onClose={() => setContactOpen(false)}
+      ></Drawer>
 
       <div
         className={classNames("header-dropdown", {
           "header-dropdown-active": open,
         })}
       >
-        {/* <h1 className="services-title">SERVICES</h1> */}
         <div className="service-items-wrapper">
           <div className="rewire-wrapper">
             <Rewire className="service-svg" />

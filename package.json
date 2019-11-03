@@ -7,6 +7,7 @@
   "dependencies": {
     "@rmwc/button": "^5.7.0",
     "@rmwc/dialog": "^5.7.0",
+    "@rmwc/drawer": "^5.7.0",
     "@rmwc/fab": "^5.7.0",
     "@rmwc/icon": "^5.7.0",
     "@rmwc/top-app-bar": "^5.7.0",

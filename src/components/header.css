@@ -130,6 +130,15 @@
   transform: translateY(0%);
 }
 
+.mdc-drawer {
+  width: 650px !important;
+  height: 80vh !important;
+}
+
+.mdc-drawer--modal[dir="rtl"] {
+  top: 10% !important;
+  right: 5% !important;
+}
 /* .services-title {
   grid-column: 1/2;
   text-justify: center;
@@ -238,16 +247,6 @@
   grid-row: 1/2;
 
   /* padding: 2rem; */
-
-  justify-content: center;
-  align-items: center;
-}
-
-.EICR-wrapper {
-  display: flex;
-  flex-direction: column;
-
-  grid-row: 2/3;
 
   justify-content: center;
   align-items: center;
