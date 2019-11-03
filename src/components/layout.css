@@ -29,12 +29,12 @@
 
 h1 {
   font-family: "Ubuntu";
-  font-style: 4.5rem !important;
-  color: rgb(255, 255, 255);
+  font-style: 3.75rem !important;
+  color: rgb(211, 235, 253);
 }
 
 h2 {
   font-family: "Ubuntu";
-  font-style: 1.5rem;
-  color: rgb(255, 205, 169);
+  font-style: 2rem;
+  color: #f4a779;
 }

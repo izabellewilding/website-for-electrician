@@ -35,18 +35,21 @@
   z-index: 0;
 }
 
-.website-logo {
+.text-wrapper {
   position: fixed;
   top: 18%;
   left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.website-logo {
   text-justify: center;
-  text-align: center;
+  margin-bottom: 3rem;
 }
 
 .website-description {
-  position: fixed;
-  bottom: 30%;
-  left: 5%;
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -58,14 +61,14 @@
 .main-heading {
   color: #fff;
   font-family: "Britannic Bold";
-  font-size: 4rem;
+  font-size: 5rem;
   text-transform: uppercase;
 }
 
 .sub-heading {
   font-family: "Teko-Bold";
   text-transform: uppercase;
-  font-size: 2.38rem;
+  font-size: 3rem;
   letter-spacing: 0.25rem;
   font-stretch: ultra-expanded;
   color: #fff;
