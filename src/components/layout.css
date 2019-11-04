@@ -41,7 +41,7 @@
 
 h1 {
   font-family: "Ubuntu";
-  font-size: 2.75rem !important;
+  font-size: 2.75rem;
   color: #fff;
 }
 
@@ -53,4 +53,9 @@ h2 {
 
 html {
   font-size: 75%;
+}
+@media (max-width: 850px) {
+  h1 {
+    font-size: 1.75rem;
+  }
 }

@@ -65,3 +65,9 @@
   justify-self: right;
   align-self: center;
 }
+
+@media (max-width: 850px) {
+  .footer-info {
+    width: 100%;
+  }
+}
