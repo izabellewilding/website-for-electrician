@@ -32,15 +32,26 @@ const IndexPage = () => {
               <div className="website-logo">
                 <p className="main-heading">Alex Wilding</p>
                 <p className="sub-heading">Electrical Services</p>{" "}
+                <p className="sub-heading2">
+                  {" "}
+                  alex@alexwildingelectricalservices.com
+                </p>
               </div>
 
               <div className="website-description">
                 <h1>
                   Commercial and domestic electrician with over 10 years
-                  experience. No job too big or small.
+                  experience. All jobs considered.
                 </h1>
+
                 <br />
-                <h2>Get in touch for a quote.</h2>
+
+                <a
+                  href="mailto:alex@alexwildingelectricalservices.com"
+                  className="mailto-link"
+                >
+                  Get a free quote
+                </a>
               </div>
             </div>
             {/* end homepage text wrapper */}
