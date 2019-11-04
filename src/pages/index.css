@@ -246,17 +246,18 @@
     text-align: center;
     justify-self: flex-start;
     margin-bottom: 3rem;
+    margin-top: 2.5rem;
   }
 
   .main-heading {
-    font-size: 3.1rem;
+    font-size: 3.78rem;
   }
 
   .sub-heading {
-    font-size: 1.35rem;
+    font-size: 1.75rem;
   }
   .sub-heading2 {
-    font-size: 0.85rem;
+    font-size: 1.15rem;
   }
 
   .website-description {
@@ -321,7 +322,8 @@
   .white-curve {
     position: absolute;
     bottom: 0;
-    width: 300%;
+    left: -50%;
+    width: 250%;
     overflow: hidden;
   }
 

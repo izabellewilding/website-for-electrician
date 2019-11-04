@@ -34,7 +34,7 @@ const IndexPage = () => {
                 <p className="sub-heading">Electrical Services</p>{" "}
                 <p className="sub-heading2">
                   {" "}
-                  alex@alexwildingelectricalservices.com
+                  {/* alex@alexwildingelectricalservices.com */}
                 </p>
               </div>
 
