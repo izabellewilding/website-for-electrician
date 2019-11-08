@@ -8,7 +8,7 @@
   justify-content: left;
   align-items: center;
 
-  height: 6rem;
+  height: 18.75rem;
   background-color: #ffffff;
 }
 
@@ -18,6 +18,7 @@
   align-self: center;
 
   font-family: "ubuntu";
+  font-size: 2rem;
   text-transform: uppercase;
   color: rgba(27, 35, 58, 0.959);
 }
@@ -52,17 +53,18 @@
 
 .footer-contact-details {
   font-size: 1rem;
-  width: 50%;
+  width: 100%;
   font-weight: bold;
   color: rgb(136, 136, 136);
   font-family: "Ubuntu";
+  font-size: 1.75rem;
 
-  line-height: 1.2rem;
+  line-height: 2.75rem;
   margin: 2rem;
 
-  text-justify: right;
-  text-align: right;
-  justify-self: right;
+  text-justify: center;
+  text-align: center;
+  justify-self: center;
   align-self: center;
 }
 

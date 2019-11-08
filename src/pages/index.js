@@ -14,6 +14,7 @@ import Fuse from "../assets/fuse-box.svg"
 import Fault from "../assets/fault.svg"
 import EICR from "../assets/EICR.svg"
 import WhiteCurve from "../assets/white-curve.svg"
+import WhiteCurveInvert from "../assets/white-curve-invert.svg"
 
 const IndexPage = () => {
   const [viewMore, setViewMore] = useState(false)
@@ -96,6 +97,24 @@ const IndexPage = () => {
         </div>
       </div>
       {/* end homepage section 2 */}
+      <div className="homepage-section3">
+        <WhiteCurveInvert className="white-curve-invert" />
+
+        <div className="homepage-imgs">
+          <Img
+            src="../images/shirish-suwal-ctmuaOO-JJI-unsplash.jpg"
+            className="homepage-img1"
+          />
+          <Img
+            src="../images/patrick-tomasso-1NTFSnV-KLs-unsplash.jpg"
+            className="homepage-img2"
+          />
+          <Img
+            src="../images/markus-spiske-kK7uPfb2YWU-unsplash.jpg"
+            className="homepage-img3"
+          />
+        </div>
+      </div>
     </Layout>
   )
 }

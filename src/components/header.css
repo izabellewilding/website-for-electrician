@@ -103,10 +103,6 @@
     min-width: 100vw;
   }
 
-  .header-buttons {
-    display: none !important;
-  }
-
   .mobile-menu-button {
     display: flex !important;
   }
