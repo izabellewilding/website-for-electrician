@@ -103,15 +103,15 @@ const IndexPage = () => {
         <div className="homepage-imgs">
           <Img
             src="../images/shirish-suwal-ctmuaOO-JJI-unsplash.jpg"
-            className="homepage-img1"
+            className="homepage-img1 homepage-img"
           />
           <Img
             src="../images/patrick-tomasso-1NTFSnV-KLs-unsplash.jpg"
-            className="homepage-img2"
+            className="homepage-img2 homepage-img"
           />
           <Img
             src="../images/markus-spiske-kK7uPfb2YWU-unsplash.jpg"
-            className="homepage-img3"
+            className="homepage-img3 homepage-img"
           />
         </div>
       </div>

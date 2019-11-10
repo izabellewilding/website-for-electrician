@@ -11,6 +11,9 @@ import "@material/button/dist/mdc.button.css"
 import { Button } from "@rmwc/button"
 import "@material/drawer/dist/mdc.drawer.css"
 import { Drawer } from "@rmwc/drawer"
+import Email from "../assets/email.svg"
+import Mobile from "../assets/smartphone-call.svg"
+import Telephone from "../assets/old-telephone-ringing.svg"
 
 const Header = props => {
   // const [open, setOpen] = useState(false)
@@ -28,9 +31,9 @@ const Header = props => {
   let contactArrowIcon
 
   if (contactOpen) {
-    contactArrowIcon = "keyboard_arrow_right"
+    contactArrowIcon = "keyboard_arrow_up"
   } else {
-    contactArrowIcon = "keyboard_arrow_left"
+    contactArrowIcon = "keyboard_arrow_down"
   }
 
   return (
@@ -46,13 +49,21 @@ const Header = props => {
           />
         </nav>
       </header>
-      {/* <Drawer
-        dir="rtl"
-        className="contact-form"
-        modal
-        open={contactOpen}
-        onClose={() => setContactOpen(false)}
-      ></Drawer> */}
+
+      <div
+        className={classNames("header-contact-details", {
+          "header-contact-details-open": contactOpen,
+        })}
+      >
+        <div className="contact-details">
+          <Email className="contact-svg" />
+          <p>alex@alexwildingelectricalservices.com</p>
+          <Mobile className="contact-svg" />
+          <p>07527 929222</p>
+          <Telephone className="contact-svg" />
+          <p>01437 532307</p>
+        </div>
+      </div>
     </>
   )
 }

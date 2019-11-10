@@ -103,13 +103,14 @@
 
 .mailto-link {
   font-family: "Ubuntu";
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #040011fa;
   text-decoration: none;
   margin-top: 2rem;
-  background-color: #e0eb83;
+  padding: 2rem;
+  background-color: rgb(240, 255, 35);
   border-radius: 10px;
-  max-width: 175px;
+  max-width: 230px;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -119,6 +120,7 @@
 .homepage-section2 {
   height: 250px;
   max-width: 1650px;
+  min-width: 850px;
   grid-column: 1/2;
   grid-row: 2/3;
   justify-self: center;
@@ -139,21 +141,22 @@
 }
 
 .service-svg {
-  width: 145px;
+  width: 150px;
   height: auto;
 
-  background-color: rgba(0, 4, 8, 0.959);
+  background: linear-gradient(rgba(0, 44, 46, 0.959), rgba(0, 0, 0, 0.925));
   border-radius: 50%;
 
   fill: rgb(255, 255, 255);
 
   transition: all 0.2s;
-  box-shadow: 0 5px 10px -2px rgba(36, 62, 119, 0.671);
+  box-shadow: 4px 4px 15px -2px rgba(1, 12, 37, 0.842);
 }
 
 .service-svg:hover {
-  background-color: rgba(0, 210, 238, 0.856);
+  fill: rgb(240, 255, 35);
   width: 150px;
+  transform: translateY(-1rem);
 }
 
 .appliance-svg-wrapper {
@@ -218,14 +221,26 @@
 }
 
 .homepage-section3 {
+  grid-row: 3/4;
+  grid-column: 1/2;
   position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
 }
 
 .homepage-imgs {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  justify-self: center;
+  align-self: center;
+  max-width: 1600px;
+  min-width: 1500px;
 }
+
 .homepage-img1 {
   grid-column: 2/3;
   grid-row: 1/2;
@@ -246,6 +261,10 @@
   z-index: 1;
   top: -15px;
   width: 100vw;
+}
+
+.homepage-img {
+  margin: 1rem;
 }
 
 @media (max-width: 1000px) {

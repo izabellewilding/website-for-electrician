@@ -1,20 +1,14 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1921 222">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1921 222">
   <defs>
     <style>
       .cls-1 {
         fill: #fff;
       }
-
-      .cls-2 {
-        isolation: isolate;
-      }
     </style>
   </defs>
   <title>white-curve</title>
-  <path class="cls-1" d="M1738,103c-40.2,11-451.5,119.5-896.2,39.5C841.8,142.5,94.5,8,31.8,8H1V228.3c1.4.2,2.9.5,4.3.8,3.8-.2,7.5-.2,11.1-.2,5.1,0,10.2.2,15.4.4H34c9.5-.9,19-.9,28.4-.9,5.5-.5,11-1,16.6-1.3V226H1921V49.4C1844.9,70.3,1797.6,86.7,1738,103Z" transform="translate(0 -8)"/>
+  <path class="cls-1" d="M1738,95c-40.2,11-451.5,119.5-896.2,39.5C841.8,134.5,94.5,0,31.8,0H1V220.3c1.4.2,2.9.5,4.3.8,3.8-.2,7.5-.2,11.1-.2,5.1,0,10.2.2,15.4.4H34c9.5-.9,19-.9,28.4-.9,5.5-.5,11-1,16.6-1.3V218H1921V41.4C1844.9,62.3,1797.6,78.7,1738,95Z"/>
   <rect class="cls-1" y="188.7" width="1919" height="33.3"/>
-  <path class="cls-1" d="M1816,27.7" transform="translate(0 -8)"/>
-  <path class="cls-1" d="M2048,458.7" transform="translate(0 -8)"/>
-  <image class="cls-2" width="458" height="217" transform="translate(274 74) scale(0.35 0.32)" xlink:href="1D3A158D.jpg"/>
-  <image class="cls-2" width="3150" height="1000" transform="translate(39.9 73) scale(0.07)" xlink:href="1D3A158F.jpg"/>
+  <path class="cls-1" d="M1816,19.7"/>
+  <path class="cls-1" d="M2048,450.7"/>
 </svg>

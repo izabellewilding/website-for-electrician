@@ -5,17 +5,18 @@
   display: flex;
   width: 100%;
 
-  justify-content: left;
+  justify-content: center;
   align-items: center;
 
   height: 18.75rem;
   background-color: #ffffff;
 }
 
-.footer-info {
+.footer-section2 {
   width: 50%;
-  justify-self: right;
-  align-self: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 
   font-family: "ubuntu";
   font-size: 2rem;
@@ -25,7 +26,7 @@
 
 .footer-logo-wrapper {
   display: flex;
-  justify-content: left;
+  justify-content: right;
   flex-direction: row;
   align-items: center;
   width: 50%;
@@ -36,36 +37,21 @@
 
 .ECA-logo-footer {
   width: 50%;
-  max-height: 60px;
-  max-width: 120px;
+  max-height: 140px;
+  max-width: 200px;
 
   float: left;
   margin: 0.5rem;
 }
 
 .elesca-logo-footer {
-  width: 50%;
-  max-height: 60px;
-  max-width: 120px;
-  float: left;
+  width: 75%;
+
   margin: 0.5rem;
 }
 
 .footer-contact-details {
-  font-size: 1rem;
-  width: 100%;
-  font-weight: bold;
-  color: rgb(136, 136, 136);
-  font-family: "Ubuntu";
-  font-size: 1.75rem;
-
-  line-height: 2.75rem;
-  margin: 2rem;
-
-  text-justify: center;
-  text-align: center;
-  justify-self: center;
-  align-self: center;
+  color: rgb(0, 7, 26);
 }
 
 @media (max-width: 850px) {
