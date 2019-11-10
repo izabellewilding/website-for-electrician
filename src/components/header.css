@@ -7,7 +7,7 @@
   /* box-shadow: 0 5px 8px -2px rgba(232, 231, 252, 0.315); */
 
   width: 100vw;
-  height: 7.25rem;
+  height: 6.75rem;
 
   z-index: 6;
 }
@@ -21,9 +21,10 @@
 
 .header-buttons {
   color: rgb(255, 255, 255) !important;
-  font-size: 2rem !important;
+  border: rgb(255, 255, 255) solid 1.25px !important;
+  font-size: 1.75rem !important;
   margin: 1rem;
-  margin-right: 3rem;
+  margin-right: 5rem;
   text-transform: none !important;
   width: auto;
   height: auto;
@@ -37,11 +38,12 @@
   text-align: center;
 
   font-family: "Ubuntu Bold" !important;
+  text-transform: uppercase;
 }
 
 .mdc-button::before,
 .mdc-button::after {
-  background-color: #e7fc2e !important;
+  background-color: #ffffff91 !important;
 }
 
 .header-contact-details {
@@ -54,8 +56,8 @@
   align-items: center;
   position: absolute;
   z-index: 4;
-  top: 14.5rem;
-  right: 3rem;
+  top: 10rem;
+  right: 3.75rem;
 
   height: 15rem;
   border: solid white 1px;

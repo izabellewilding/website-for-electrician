@@ -43,7 +43,7 @@ const Header = props => {
           <Button
             icon={contactArrowIcon}
             label="Contact"
-            dense
+            outlined
             onClick={() => setContactOpen(!contactOpen)}
             className="contact-button header-buttons"
           />
