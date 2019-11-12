@@ -39,6 +39,11 @@ const Header = props => {
   return (
     <>
       <header className="header">
+        <div className="website-logo-mobile">
+          <p className="main-heading2">Alex Wilding</p>
+          <p className="sub-heading2">Electrical Services</p>{" "}
+        </div>
+
         <nav className="nav">
           <Button
             icon={contactArrowIcon}

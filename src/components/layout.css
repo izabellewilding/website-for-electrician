@@ -61,5 +61,8 @@ html {
 @media (max-width: 850px) {
   h1 {
     font-size: 1.75rem;
+    font-family: "Ubuntu";
+
+    font-weight: lighter !important;
   }
 }

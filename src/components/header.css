@@ -48,6 +48,9 @@
 
 .header-contact-details {
   display: none;
+  opacity: 0;
+
+  transition: all 2s;
 }
 
 .header-contact-details-open {
@@ -57,7 +60,9 @@
   position: absolute;
   z-index: 4;
   top: 10rem;
+  box-shadow: 5px 5px 15px -5px rgb(0, 20, 37);
   right: 3.75rem;
+  opacity: 1;
 
   height: 15rem;
   border: solid white 1px;
@@ -108,26 +113,70 @@
   font-family: "Ubuntu Bold" !important;
 }
 
+.website-logo-mobile {
+  display: none;
+}
+
 @media (max-width: 900px) {
   .header {
-    background: transparent;
+    position: fixed;
+    background: linear-gradient(rgba(0, 16, 31, 0.657), (#fff));
 
-    width: 100%;
-    border-bottom: none;
+    width: 100vw;
+    height: 120px;
+
+    justify-content: left;
+  }
+
+  /* logo start */
+
+  .website-logo-mobile {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    text-align: center;
+
+    margin: 2rem;
+    margin-top: 3rem;
+  }
+
+  .main-heading2 {
+    font-size: 2.5rem;
+
+    color: #fff;
+    font-family: "Britannic Bold";
+    text-transform: uppercase;
+  }
+
+  .sub-heading2 {
+    font-size: 1.3rem !important;
+
+    font-family: "Electro-Reg";
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  /* logo end */
+
+  /* .header-buttons {
+    color: rgb(255, 255, 255) !important;
+    border: rgb(255, 255, 255) solid 1.25px !important;
+    font-size: 1.25rem !important;
+    margin: 0.2rem;
+    margin-right: 1rem;
+    height: 4rem !important;
+
+  } */
+
+  .header-buttons {
+    display: none !important;
   }
 
   .nav {
     max-width: 100vw;
-    min-width: 100vw;
-  }
-
-  .mobile-menu-button {
-    display: flex !important;
-  }
-
-  .service-drawer {
-    top: 0px;
-    height: auto;
+    padding: 1rem;
   }
 
   .service-items-wrapper {
@@ -147,21 +196,7 @@
     font-size: 1rem;
   }
 
-  .mobile-menu-button {
-    padding: 1rem;
-    color: white !important;
-    font-size: 1rem !important;
-    border: #fff solid 0.5px !important;
-    margin: 1rem;
-
-    width: 100px !important;
-    height: auto;
-    max-height: 40px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-    font-family: "Ubuntu Bold" !important;
+  .section1-text-wrapper {
+    margin-top: 8rem;
   }
 }

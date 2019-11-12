@@ -24,25 +24,27 @@ const IndexPage = () => {
       <SEO title="Homepage" />
       <div className="homepage">
         <div className="homepage-section1">
-          <Img
-            src="../images/electrician-3087536_1920.jpg"
-            className="section1-img"
-          />
+          <div className="section1-logos">
+            <Img src="../images/new-elecsa-logo.jpg" className="elesca-logo" />
+            <Img
+              src="../images/eca-registered-member-logo.jpg"
+              className="ECA-logo"
+            />
+          </div>
+
           <div className="section1-content">
             <div className="section1-text-wrapper">
               <div className="website-logo">
                 <p className="main-heading">Alex Wilding</p>
                 <p className="sub-heading">Electrical Services</p>{" "}
-                <p className="sub-heading2">
-                  {" "}
-                  {/* alex@alexwildingelectricalservices.com */}
-                </p>
               </div>
 
               <div className="website-description">
                 <h1>
-                  Commercial and domestic electrician with over 10 years
-                  experience. All jobs considered.
+                  As a fully qualified electrician with over 10 years
+                  experience, Alex Wilding electricial services provide domestic
+                  and commerical electrical solutions across South West Wales
+                  and beyond. Get in contact to discuss services and prices.
                 </h1>
 
                 <br />
