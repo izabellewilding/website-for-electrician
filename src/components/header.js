@@ -39,33 +39,32 @@ const Header = props => {
   return (
     <>
       <header className="header">
-        <div className="website-logo-mobile">
-          <p className="main-heading2">Alex Wilding</p>
-          <p className="sub-heading2">Electrical Services</p>{" "}
-        </div>
-        <div className="header-contact-details">
-          <div className="contact-details">
-            <Email className="contact-svg" />
-            <p>alex@alexwildingelectricalservices.com</p>
-            <Mobile className="contact-svg" />
-            <p>07527 929222</p>
-            <Telephone className="contact-svg" />
-            <p>01437 532307</p>
+        <div className="header-content">
+          <div className="website-logo-mobile">
+            <p className="main-heading2">Alex Wilding</p>
+            <p className="sub-heading2">Electrical Services</p>{" "}
           </div>
-        </div>
-        <div className="header-section2">
           <div className="header-logo-wrapper">
-            <Img
-              src="../images/new-elecsa-logo.jpg"
-              className="elesca-logo-footer"
-            />
             <Img
               src="../images/eca-registered-member-logo.jpg"
               className="ECA-logo-footer"
             />
+            <Img
+              src="../images/new-elecsa-logo.jpg"
+              className="elesca-logo-footer"
+            />
+          </div>
+          <div className="header-section2">
+            <div className="header-contact-details">
+              <div className="contact-details">
+                <p>alex@alexwildingelectricalservices.com</p>{" "}
+                <Email className="contact-svg" />
+                <p>07527 929222</p> <Mobile className="contact-svg" />
+                <p>01437 532307</p> <Telephone className="contact-svg" />
+              </div>
+            </div>
           </div>
         </div>
-
         {/* <nav className="nav">
           <Button
             icon={contactArrowIcon}

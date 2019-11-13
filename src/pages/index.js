@@ -77,10 +77,10 @@ const IndexPage = () => {
         <div className="homepage-section2">
           <div className="service-items-wrapper">
             <div className="rewire-wrapper">
-              <div className="svg-wrapper">
+              <Link to="./service-article" className="svg-wrapper">
                 <Rewire className="gradient-svg" />
                 <Rewire2 className="filled-svg" />
-              </div>
+              </Link>
               <div className="svg-text">
                 <p className="service-icon-text">DOMESTIC REWIRES </p>
               </div>

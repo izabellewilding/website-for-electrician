@@ -45,13 +45,13 @@ body {
 }
 h1 {
   font-family: "Ubuntu";
-  font-size: 2.15rem;
-  color: #fff;
+  font-size: 5rem;
+  color: #80b7e0;
 }
 
 h2 {
   font-family: "Ubuntu";
-  font-size: 2.25rem;
+  font-size: 3rem;
   color: #f4a779;
 }
 
@@ -67,7 +67,6 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background: linear-gradient(rgba(0, 13, 43, 0.959), rgba(5, 115, 211, 0.753));
   border-radius: 5px;
-  height: 5rem;
 }
 
 @media (max-width: 850px) {
