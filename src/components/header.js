@@ -43,19 +43,30 @@ const Header = props => {
           <p className="main-heading2">Alex Wilding</p>
           <p className="sub-heading2">Electrical Services</p>{" "}
         </div>
-
-        <div className="header-logo-wrapper">
-          <Img
-            src="../images/new-elecsa-logo.jpg"
-            className="elesca-logo-footer"
-          />
-          <Img
-            src="../images/eca-registered-member-logo.jpg"
-            className="ECA-logo-footer"
-          />
+        <div className="header-contact-details">
+          <div className="contact-details">
+            <Email className="contact-svg" />
+            <p>alex@alexwildingelectricalservices.com</p>
+            <Mobile className="contact-svg" />
+            <p>07527 929222</p>
+            <Telephone className="contact-svg" />
+            <p>01437 532307</p>
+          </div>
+        </div>
+        <div className="header-section2">
+          <div className="header-logo-wrapper">
+            <Img
+              src="../images/new-elecsa-logo.jpg"
+              className="elesca-logo-footer"
+            />
+            <Img
+              src="../images/eca-registered-member-logo.jpg"
+              className="ECA-logo-footer"
+            />
+          </div>
         </div>
 
-        <nav className="nav">
+        {/* <nav className="nav">
           <Button
             icon={contactArrowIcon}
             label="Contact"
@@ -63,23 +74,8 @@ const Header = props => {
             onClick={() => setContactOpen(!contactOpen)}
             className="contact-button header-buttons"
           />
-        </nav>
+        </nav> */}
       </header>
-
-      <div
-        className={classNames("header-contact-details", {
-          "header-contact-details-open": contactOpen,
-        })}
-      >
-        <div className="contact-details">
-          <Email className="contact-svg" />
-          <p>alex@alexwildingelectricalservices.com</p>
-          <Mobile className="contact-svg" />
-          <p>07527 929222</p>
-          <Telephone className="contact-svg" />
-          <p>01437 532307</p>
-        </div>
-      </div>
     </>
   )
 }

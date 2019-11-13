@@ -59,6 +59,17 @@ html {
   font-size: 75%;
 }
 
+body::-webkit-scrollbar {
+  background-color: rgb(245, 245, 245);
+  width: 2rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(rgba(0, 13, 43, 0.959), rgba(5, 115, 211, 0.753));
+  border-radius: 5px;
+  height: 5rem;
+}
+
 @media (max-width: 850px) {
   h1 {
     font-size: 1.75rem;
