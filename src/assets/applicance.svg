@@ -7,10 +7,11 @@
       }
     </style>
 
-    <linearGradient id="grad2" x1="100%" x2="0%" y1="0%" y2="100%">
-    <stop offset="0%" style="stop-color:#26C8FF;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#FFC466;stop-opacity:1" />
+    <linearGradient id="grad2" x1="0%" x2="0%" y1="0%" y2="100%">
+    <stop offset="0%" style="stop-color:000EB3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4BB4FF;stop-opacity:1" />
     </linearGradient>
+
   </defs>
   <title>applicance</title>
   <ellipse class="svg-fill" cx="246.53" cy="248" rx="241.53" ry="243"/>

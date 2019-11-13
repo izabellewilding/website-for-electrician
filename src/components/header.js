@@ -44,6 +44,17 @@ const Header = props => {
           <p className="sub-heading2">Electrical Services</p>{" "}
         </div>
 
+        <div className="header-logo-wrapper">
+          <Img
+            src="../images/new-elecsa-logo.jpg"
+            className="elesca-logo-footer"
+          />
+          <Img
+            src="../images/eca-registered-member-logo.jpg"
+            className="ECA-logo-footer"
+          />
+        </div>
+
         <nav className="nav">
           <Button
             icon={contactArrowIcon}

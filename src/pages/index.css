@@ -8,7 +8,7 @@
   grid-column: 1/2;
   position: relative;
   width: 100%;
-  height: 759px;
+  height: 700px;
   /* position: fixed;
   top: 0; */
 
@@ -26,7 +26,7 @@
 .section1-img {
   grid-column: 1/3;
   grid-row: 1/2;
-  max-height: 680px;
+  height: 759px;
   height: auto;
   width: auto;
   object-fit: cover;
@@ -111,12 +111,12 @@
 .mailto-link {
   font-family: "Ubuntu";
   font-size: 2rem;
-  color: #04001194;
+  color: #0b1937;
   text-decoration: none;
   margin-top: 2.75rem;
   padding: 2rem;
-  background-color: #ffd38c;
-  border: white 0.5px solid;
+  background-color: #ffb319;
+  border: #805500 0.5px solid;
   border-radius: 10px;
   max-width: 230px;
   justify-content: center;
@@ -128,9 +128,9 @@
 /* home section 2 - svgs */
 
 .homepage-section2 {
-  height: 250px;
+  height: 300px;
   max-width: 1650px;
-  min-width: 850px;
+  min-width: 791px;
   grid-column: 1/2;
   grid-row: 2/3;
   justify-self: center;
@@ -155,7 +155,13 @@
   position: relative;
 }
 
+.svg-wrapper {
+  margin: 1rem;
+  transition: all 0.5s;
+}
+
 .appliance-svg-wrapper {
+  vertical-align: top;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -223,19 +229,23 @@
   background: rgb(255, 255, 255);
 }
 
-.service-items-wrapper:hover .gradient-svg {
-  opacity: 1;
-}
-
 .service-icon-text {
   color: rgba(35, 45, 66, 0.972);
   font-family: "Ubuntu Bold";
   font-size: 1.75rem;
-  margin: 2rem;
 
   text-justify: center;
-  text-align: end;
+  text-align: center;
 }
+
+.svg-wrapper:hover .gradient-svg {
+  opacity: 1;
+}
+
+.svg-wrapper:hover {
+  transform: translateY(-1rem);
+}
+
 /* end home section 2 - svgs  */
 
 .homepage-section3 {
@@ -354,14 +364,6 @@
     width: 100%;
     padding: 5rem;
     margin-top: 15rem;
-  }
-
-  .mailto-link {
-    font-size: 1.5rem;
-    margin-top: 0;
-    max-width: none;
-
-    color: rgb(0, 44, 38);
   }
 
   .website-logo {
