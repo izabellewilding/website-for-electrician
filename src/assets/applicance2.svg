@@ -1,16 +1,13 @@
-<svg stroke="url(#grad2) " id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 493.06 496">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 493.06 496">
   <defs>
     <style >
+    
       .svg-fill {
         stroke-miterlimit: 10;
         stroke-width: 22px;
       }
     </style>
 
-    <linearGradient id="grad2" x1="100%" x2="0%" y1="0%" y2="100%">
-    <stop offset="0%" style="stop-color:#26C8FF;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#FFC466;stop-opacity:1" />
-    </linearGradient>
   </defs>
   <title>applicance</title>
   <ellipse class="svg-fill" cx="246.53" cy="248" rx="241.53" ry="243"/>

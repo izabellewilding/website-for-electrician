@@ -1,8 +1,12 @@
-<svg stroke="url(#grad2) " id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 493.06 496">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 493.06 496">
   <defs>
-  
     <style>
+      .svg-fill {
       
+        <!-- stroke: #000; -->
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
     </style>
   </defs>
   <title>bolt</title>

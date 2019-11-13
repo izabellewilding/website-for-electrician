@@ -7,9 +7,11 @@ import Img from "../components/image.js"
 import Curve from "../assets/corner-curve.svg"
 
 import Appliance from "../assets/applicance.svg"
+import Appliance2 from "../assets/applicance2.svg"
 import Bulb from "../assets/light-bulb.svg"
 import Rewire from "../assets/plugs.svg"
 import Bolt from "../assets/bolt.svg"
+import Bolt2 from "../assets/bolt2.svg"
 import Fuse from "../assets/fuse-box.svg"
 import Fault from "../assets/fault.svg"
 import EICR from "../assets/EICR.svg"
@@ -40,12 +42,12 @@ const IndexPage = () => {
               </div>
 
               <div className="website-description">
-                <h1>
+                <p>
                   As a fully qualified electrician with over 10 years
                   experience, Alex Wilding electricial services provide domestic
                   and commerical electrical solutions across South West Wales
                   and beyond. Get in contact to discuss services and prices.
-                </h1>
+                </p>
 
                 <br />
 
@@ -67,37 +69,64 @@ const IndexPage = () => {
         <div className="homepage-section2">
           <div className="service-items-wrapper">
             <div className="rewire-wrapper">
-              <Rewire className="service-svg" />
-              <p className="service-icon-text">DOMESTIC REWIRES </p>
+              <div className="svg-wrapper">
+                <Rewire className="service-svg" />
+              </div>
+              <div className="svg-text">
+                <p className="service-icon-text">DOMESTIC REWIRES </p>
+              </div>
             </div>
+
             <div className="fuse-box-wrapper">
-              <Fuse className="service-svg" />
-              <p className="service-icon-text fuse-box-text">
-                CONSUMER UNIT UPGRADES{" "}
-              </p>
+              <div className="svg-wrapper">
+                <Fuse className="service-svg" />
+              </div>
+              <div className="svg-text">
+                <p className="service-icon-text fuse-box-text">
+                  CONSUMER UNIT UPGRADES{" "}
+                </p>
+              </div>
             </div>
+
             <div className="fault-wrapper">
-              <Fault className="service-svg" />
-              <p className="service-icon-text ">FAULT FINDING </p>
+              <div className="svg-wrapper">
+                <Fault className="service-svg" />
+              </div>
+              <div className="svg-text">
+                <p className="service-icon-text ">FAULT FINDING </p>
+              </div>
             </div>
 
             <div className="EICR-wrapper">
-              <EICR className="service-svg" />
-              <p className="service-icon-text">EICRs </p>
+              <div className="svg-wrapper">
+                <EICR className="service-svg" />
+              </div>
+              <div className="svg-text">
+                <p className="service-icon-text">EICRs </p>
+              </div>
             </div>
 
             <div className="bolt-wrapper">
-              <Bolt className="service-svg" />
+              <div className="svg-wrapper">
+                <Bolt className="gradient-svg" />
+                <Bolt2 className="filled-svg" />
+              </div>
               <p className="service-icon-text">COMMERCIAL </p>
             </div>
 
             <div className="appliance-svg-wrapper">
-              <Appliance className="service-svg" />
-              <p className="service-icon-text">PAT TESTING </p>
+              <div className="svg-wrapper">
+                <Appliance className="gradient-svg" />
+                <Appliance2 className="filled-svg" />
+              </div>
+              <div className="svg-text">
+                <p className="service-icon-text">PAT TESTING </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
       {/* end homepage section 2 */}
       <div className="homepage-section3">
         <WhiteCurveInvert className="white-curve-invert" />
