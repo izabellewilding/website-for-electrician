@@ -16,8 +16,9 @@ const ServiceArticle = () => (
         <div className="intro-text">
           {" "}
           <h1 className="article-subheading">
-            These blackberry ice pops are a fusion of fresh blackberries and
-            lemonade that creates a fun and flavorful summer treat.
+            REWIRING YOUR HOME
+            <br />
+            WHEN DO I NEED A REWIRE?
           </h1>
           <p>
             {" "}
