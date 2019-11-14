@@ -11,12 +11,14 @@ const ServiceArticle = () => (
       {/* <div className="article-title">
         <h1>DOMESTIC REWIRES</h1>
       </div> */}
-      <h2 className="article-subheading">
-        These blackberry ice pops are a fusion of fresh blackberries and
-        lemonade that creates a fun and flavorful summer treat.
-      </h2>
+
       <div className="article-intro">
         <div className="intro-text">
+          {" "}
+          <h1 className="article-subheading">
+            These blackberry ice pops are a fusion of fresh blackberries and
+            lemonade that creates a fun and flavorful summer treat.
+          </h1>
           <p>
             {" "}
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
