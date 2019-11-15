@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="footer-logo-wrapper">
           <Img
             src="../images/eca-registered-member-logo.jpg"
-            className="ECA-logo-footer"
+            className="ECA-logo"
           />
           <Img
             src="../images/new-elecsa-logo.jpg"

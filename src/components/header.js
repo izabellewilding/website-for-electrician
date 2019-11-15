@@ -92,12 +92,9 @@ const Header = props => {
             {homeLink}
             <Img
               src="../images/eca-registered-member-logo.jpg"
-              className="ECA-logo-footer"
+              className="ECA-logo"
             />
-            <Img
-              src="../images/new-elecsa-logo.jpg"
-              className="elesca-logo-footer"
-            />
+            <Img src="../images/new-elecsa-logo.jpg" className="elesca-logo" />
           </div>
           <div className="header-section2">
             <div className="header-contact-details">
