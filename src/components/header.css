@@ -105,18 +105,22 @@
     left: 0;
     right: 0;
     height: auto;
-
-    display: grid;
   }
 
   .header-content {
-    grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr;
     max-width: 100vw;
   }
 
   .mobile-nav-drawer {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/3;
   }
+
   .menu-button {
     padding: 1rem;
     color: white !important;
@@ -130,11 +134,14 @@
 
     font-family: "Ubuntu Bold" !important;
   }
+
   .header-logo-wrapper {
     display: none;
   }
 
   .website-logo-mobile {
+    grid-column: 1/2;
+    grid-row: 1/2;
     display: flex;
     flex-direction: column;
 
