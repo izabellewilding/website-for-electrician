@@ -10,7 +10,15 @@ import { Fab } from "@rmwc/fab"
 import "@material/button/dist/mdc.button.css"
 import { Button } from "@rmwc/button"
 import "@material/drawer/dist/mdc.drawer.css"
-import { Drawer } from "@rmwc/drawer"
+import {
+  Drawer,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerSubtitle,
+  DrawerContent,
+  List,
+  ListItem,
+} from "@rmwc/drawer"
 import Email from "../assets/email.svg"
 import Mobile from "../assets/smartphone-call.svg"
 import Telephone from "../assets/old-telephone-ringing.svg"
@@ -18,6 +26,7 @@ import Telephone from "../assets/old-telephone-ringing.svg"
 const Header = props => {
   // const [open, setOpen] = useState(false)
   const [contactOpen, setContactOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = React.useState(false)
 
   console.warn(props.className)
   // let arrowIcon
@@ -29,11 +38,20 @@ const Header = props => {
   // }
 
   let contactArrowIcon
+  let homeLink
 
   if (contactOpen) {
     contactArrowIcon = "keyboard_arrow_up"
   } else {
     contactArrowIcon = "keyboard_arrow_down"
+  }
+
+  if (props.showLinkToHome) {
+    homeLink = (
+      <Link to="/" className="back-button">
+        <Icon icon="keyboard_arrow_left" className="back-button-arrow" />
+      </Link>
+    )
   }
 
   return (
@@ -42,9 +60,32 @@ const Header = props => {
         <div className="header-content">
           <div className="website-logo-mobile">
             <p className="main-heading2">Alex Wilding</p>
-            <p className="sub-heading2">Electrical Services</p>{" "}
+            <p className="sub-heading2">Electrical Services</p>
           </div>
+
+          <div className="mobile-nav-drawer">
+            <Drawer
+              dir="rtl"
+              modal
+              open={menuOpen}
+              onClose={() => setMenuOpen(false)}
+            >
+              {/** Set the content back to left-to-right */}
+              <DrawerHeader dir="ltr">
+                <DrawerTitle>Right Drawer</DrawerTitle>
+                <DrawerSubtitle>Subtitle</DrawerSubtitle>
+              </DrawerHeader>
+
+              <DrawerContent dir="ltr"></DrawerContent>
+            </Drawer>
+
+            <Button onClick={() => setMenuOpen(!menuOpen)} raised>
+              Toggle Right Drawer
+            </Button>
+          </div>
+
           <div className="header-logo-wrapper">
+            {homeLink}
             <Img
               src="../images/eca-registered-member-logo.jpg"
               className="ECA-logo-footer"

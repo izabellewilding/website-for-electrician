@@ -313,24 +313,9 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    height: 510px;
+    height: 600px;
     position: relative;
   }
-
-  .section1-logos {
-    grid-column: 1/2;
-    grid-row: 1/2;
-
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-
-    background-color: white;
-  }
-
-  /* .elesca-logo {
-    height: auto;
-  } */
 
   .ECA-logo {
     width: 150px;
@@ -348,26 +333,11 @@
     height: 600px;
   }
 
-  .section1-text-wrapper {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: flex-start;
-
-    width: 100%;
-    padding: 5rem;
-    margin-top: 15rem;
-  }
-
   .website-logo {
     display: none;
   }
 
   .website-description {
-    font-size: 1rem;
-    line-height: 2.2rem;
     width: 100%;
   }
 

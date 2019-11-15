@@ -4,16 +4,96 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./service-article.css"
 import Img from "../components/image"
+import "@rmwc/icon/icon.css"
+import { Icon } from "@rmwc/icon"
+
+import Appliance from "../assets/applicance.svg"
+import Appliance2 from "../assets/applicance2.svg"
+import Bulb from "../assets/light-bulb.svg"
+import Rewire from "../assets/plugs.svg"
+import Rewire2 from "../assets/plugs2.svg"
+import Bolt from "../assets/bolt.svg"
+import Bolt2 from "../assets/bolt2.svg"
+import Fuse from "../assets/fuse-box.svg"
+import Fuse2 from "../assets/fuse-box2.svg"
+import Fault from "../assets/fault.svg"
+import Fault2 from "../assets/fault2.svg"
+import EICR from "../assets/EICR.svg"
+import EICR2 from "../assets/EICR2.svg"
+import WhiteCurve from "../assets/white-curve.svg"
+import WhiteCurveInvert from "../assets/white-curve-invert.svg"
 
 const ServiceArticle = () => (
-  <Layout>
+  <Layout showLinkToHome>
     <div className="article-layout1">
       {/* <div className="article-title">
         <h1>DOMESTIC REWIRES</h1>
       </div> */}
 
-      <div className="article-intro">
-        <div className="intro-text">
+      <div className="service-items-wrapper service-nav-buttons">
+        <div className="rewire-wrapper">
+          <Link to="./service-article" className="svg-wrapper">
+            <Rewire className="gradient-svg gradient-svg-article" />
+            <Rewire2 className="filled-svg filled-svg-article" />
+          </Link>
+          <div className="svg-text ">
+            <p className="service-icon-text">DOMESTIC REWIRES </p>
+          </div>
+        </div>
+
+        <div className="fuse-box-wrapper">
+          <div className="svg-wrapper">
+            <Fuse className="gradient-svg gradient-svg-article" />
+            <Fuse2 className="filled-svg filled-svg-article" />
+          </div>
+          <div className="svg-text">
+            <p className="service-icon-text fuse-box-text">
+              CONSUMER UNIT UPGRADES{" "}
+            </p>
+          </div>
+        </div>
+
+        <div className="fault-wrapper">
+          <div className="svg-wrapper">
+            <Fault className="gradient-svg gradient-svg-article" />
+            <Fault2 className="filled-svg filled-svg-article" />
+          </div>
+          <div className="svg-text">
+            <p className="service-icon-text ">FAULT FINDING </p>
+          </div>
+        </div>
+
+        <div className="EICR-wrapper">
+          <div className="svg-wrapper">
+            <EICR className="gradient-svg gradient-svg-article" />
+            <EICR2 className="filled-svg filled-svg-article" />
+          </div>
+          <div className="svg-text">
+            <p className="service-icon-text">EICRs </p>
+          </div>
+        </div>
+
+        <div className="bolt-wrapper">
+          <div className="svg-wrapper">
+            <Bolt className="gradient-svg gradient-svg-article" />
+            <Bolt2 className="filled-svg filled-svg-article" />
+          </div>
+          <p className="service-icon-text">COMMERCIAL </p>
+        </div>
+
+        <div className="appliance-svg-wrapper">
+          <div className="svg-wrapper">
+            <Appliance className="gradient-svg gradient-svg-article" />
+            <Appliance2 className="filled-svg filled-svg-article" />
+          </div>
+          <div className="svg-text">
+            <p className="service-icon-text">PAT TESTING </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="article-content">
+        <div className="article-text">
           {" "}
           <h1 className="article-subheading">
             REWIRING YOUR HOME

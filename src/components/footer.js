@@ -11,7 +11,7 @@ import "../../node_modules/font-awesome/css/font-awesome.css"
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer-section1"></div>
+      {/* <div className="footer-section1"></div>
       <div className="footer-section2">
         <div className="footer-logo-wrapper">
           <Img
@@ -23,7 +23,7 @@ const Footer = () => {
             className="elesca-logo-footer"
           />
         </div>
-      </div>
+      </div> */}
     </footer>
   )
 }
