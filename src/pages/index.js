@@ -29,6 +29,7 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Homepage" />
       <div className="homepage">
+        <div className="mobile-header-padding"></div>
         <div className="homepage-section1">
           <Img
             className="section1-img"
