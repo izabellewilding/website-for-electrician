@@ -79,11 +79,15 @@ const Header = props => {
               <DrawerContent dir="ltr"></DrawerContent>
             </Drawer>
 
-            <Button onClick={() => setMenuOpen(!menuOpen)} raised>
-              Toggle Right Drawer
+            <Button
+              className="menu-button"
+              onClick={() => setMenuOpen(!menuOpen)}
+              outlined
+            >
+              MENU
             </Button>
           </div>
-
+          {/* end mobile nav drawer */}
           <div className="header-logo-wrapper">
             {homeLink}
             <Img
