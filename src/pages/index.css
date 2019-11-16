@@ -155,54 +155,13 @@
   transition: all 0.5s;
 }
 
-.appliance-svg-wrapper {
+.service-item-wrapper {
   vertical-align: top;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.light-bulb-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.rewire-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.bolt-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.fuse-box-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.fault-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.EICR-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-decoration: none;
 }
 
 .gradient-svg {
@@ -228,6 +187,7 @@
   color: rgba(35, 45, 66, 0.972);
   font-family: "Ubuntu Bold";
   font-size: 1.75rem;
+  text-decoration: none;
 
   text-justify: center;
   text-align: center;

@@ -30,66 +30,66 @@ const ServiceArticle = () => (
         <h1>DOMESTIC REWIRES</h1>
       </div> */}
 
-      <div className="service-items-wrapper service-nav-buttons">
-        <div className="rewire-wrapper">
-          <Link to="./service-article" className="svg-wrapper">
-            <Rewire className="gradient-svg gradient-svg-article" />
-            <Rewire2 className="filled-svg filled-svg-article" />
-          </Link>
-          <div className="svg-text ">
+      <div className="service-items-wrapper">
+        <Link to="/domestic-rewires" className="rewire-wrapper">
+          <div className="svg-wrapper">
+            <Rewire className="gradient-svg" />
+            <Rewire2 className="filled-svg" />
+          </div>
+          <div className="svg-text">
             <p className="service-icon-text">DOMESTIC REWIRES </p>
           </div>
-        </div>
+        </Link>
 
-        <div className="fuse-box-wrapper">
+        <Link to="/consumer-unit" className="fuse-box-wrapper">
           <div className="svg-wrapper">
-            <Fuse className="gradient-svg gradient-svg-article" />
-            <Fuse2 className="filled-svg filled-svg-article" />
+            <Fuse className="gradient-svg" />
+            <Fuse2 className="filled-svg" />
           </div>
           <div className="svg-text">
             <p className="service-icon-text fuse-box-text">
               CONSUMER UNIT UPGRADES{" "}
             </p>
           </div>
-        </div>
+        </Link>
 
-        <div className="fault-wrapper">
+        <Link to="/fault-finding" className="fault-wrapper">
           <div className="svg-wrapper">
-            <Fault className="gradient-svg gradient-svg-article" />
-            <Fault2 className="filled-svg filled-svg-article" />
+            <Fault className="gradient-svg" />
+            <Fault2 className="filled-svg" />
           </div>
           <div className="svg-text">
             <p className="service-icon-text ">FAULT FINDING </p>
           </div>
-        </div>
+        </Link>
 
-        <div className="EICR-wrapper">
+        <Link to="/EICRs" className="EICR-wrapper">
           <div className="svg-wrapper">
-            <EICR className="gradient-svg gradient-svg-article" />
-            <EICR2 className="filled-svg filled-svg-article" />
+            <EICR className="gradient-svg" />
+            <EICR2 className="filled-svg" />
           </div>
           <div className="svg-text">
             <p className="service-icon-text">EICRs </p>
           </div>
-        </div>
+        </Link>
 
-        <div className="bolt-wrapper">
+        <Link to="/commercial" className="bolt-wrapper">
           <div className="svg-wrapper">
-            <Bolt className="gradient-svg gradient-svg-article" />
-            <Bolt2 className="filled-svg filled-svg-article" />
+            <Bolt className="gradient-svg" />
+            <Bolt2 className="filled-svg" />
           </div>
           <p className="service-icon-text">COMMERCIAL </p>
-        </div>
+        </Link>
 
-        <div className="appliance-svg-wrapper">
+        <Link to="/appliances" className="appliance-svg-wrapper">
           <div className="svg-wrapper">
-            <Appliance className="gradient-svg gradient-svg-article" />
-            <Appliance2 className="filled-svg filled-svg-article" />
+            <Appliance className="gradient-svg" />
+            <Appliance2 className="filled-svg" />
           </div>
           <div className="svg-text">
             <p className="service-icon-text">PAT TESTING </p>
           </div>
-        </div>
+        </Link>
       </div>
 
       <div className="article-content">

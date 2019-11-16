@@ -54,6 +54,15 @@
 .svg-wrapper:hover {
   transform: translateY(-1rem);
 }
+
+.bolt-wrapper:hover {
+  background-color: rgba(0, 0, 0, 0.103);
+}
+
+.appliance-svg-wrapper:hover {
+  background-color: rgba(0, 0, 0, 0.103);
+}
+
 /* end service nav buttons */
 
 .article-subheading {

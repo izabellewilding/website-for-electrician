@@ -77,17 +77,17 @@ const IndexPage = () => {
 
         <div className="homepage-section2">
           <div className="service-items-wrapper">
-            <div className="rewire-wrapper">
-              <Link to="./service-article" className="svg-wrapper">
+            <Link to="/domestic-rewires" className="service-item-wrapper">
+              <div className="svg-wrapper">
                 <Rewire className="gradient-svg" />
                 <Rewire2 className="filled-svg" />
-              </Link>
+              </div>
               <div className="svg-text">
                 <p className="service-icon-text">DOMESTIC REWIRES </p>
               </div>
-            </div>
+            </Link>
 
-            <div className="fuse-box-wrapper">
+            <Link to="/consumer-unit" className="service-item-wrapper">
               <div className="svg-wrapper">
                 <Fuse className="gradient-svg" />
                 <Fuse2 className="filled-svg" />
@@ -97,9 +97,9 @@ const IndexPage = () => {
                   CONSUMER UNIT UPGRADES{" "}
                 </p>
               </div>
-            </div>
+            </Link>
 
-            <div className="fault-wrapper">
+            <Link to="/fault-finding" className="service-item-wrapper">
               <div className="svg-wrapper">
                 <Fault className="gradient-svg" />
                 <Fault2 className="filled-svg" />
@@ -107,9 +107,9 @@ const IndexPage = () => {
               <div className="svg-text">
                 <p className="service-icon-text ">FAULT FINDING </p>
               </div>
-            </div>
+            </Link>
 
-            <div className="EICR-wrapper">
+            <Link to="/EICRs" className="service-item-wrapper">
               <div className="svg-wrapper">
                 <EICR className="gradient-svg" />
                 <EICR2 className="filled-svg" />
@@ -117,17 +117,17 @@ const IndexPage = () => {
               <div className="svg-text">
                 <p className="service-icon-text">EICRs </p>
               </div>
-            </div>
+            </Link>
 
-            <div className="bolt-wrapper">
+            <Link to="/commercial" className="service-item-wrapper">
               <div className="svg-wrapper">
                 <Bolt className="gradient-svg" />
                 <Bolt2 className="filled-svg" />
               </div>
               <p className="service-icon-text">COMMERCIAL </p>
-            </div>
+            </Link>
 
-            <div className="appliance-svg-wrapper">
+            <Link to="/appliances" className="service-item-wrapper">
               <div className="svg-wrapper">
                 <Appliance className="gradient-svg" />
                 <Appliance2 className="filled-svg" />
@@ -135,7 +135,7 @@ const IndexPage = () => {
               <div className="svg-text">
                 <p className="service-icon-text">PAT TESTING </p>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
