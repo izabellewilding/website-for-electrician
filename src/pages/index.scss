@@ -423,6 +423,11 @@ $mobile-breakpoint: 1150px;
   }
 
   .white-curve {
+    width: 100%;
+  }
+
+  .white-curve-invert {
+    display: none;
   }
 
   .service-svg {

@@ -3,6 +3,9 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import "./header.css"
 import Img from "../components/image"
 import classNames from "classnames"
+import { List, ListItem } from "@rmwc/list"
+import "@material/list/dist/mdc.list.css"
+
 import "@rmwc/icon/icon.css"
 import { Icon } from "@rmwc/icon"
 import "@material/fab/dist/mdc.fab.css"
@@ -16,8 +19,6 @@ import {
   DrawerTitle,
   DrawerSubtitle,
   DrawerContent,
-  List,
-  ListItem,
 } from "@rmwc/drawer"
 import Email from "../assets/email.svg"
 import Mobile from "../assets/smartphone-call.svg"
@@ -72,11 +73,35 @@ const Header = props => {
             >
               {/** Set the content back to left-to-right */}
               <DrawerHeader dir="ltr">
-                <DrawerTitle>Right Drawer</DrawerTitle>
-                <DrawerSubtitle>Subtitle</DrawerSubtitle>
+                <DrawerTitle>Menu</DrawerTitle>
               </DrawerHeader>
 
-              <DrawerContent dir="ltr"></DrawerContent>
+              <DrawerContent dir="ltr">
+                {" "}
+                <List>
+                  <Link to="/" className="menu-link">
+                    <ListItem>Home</ListItem>
+                  </Link>
+                  <Link to="/EICRs" className="menu-link">
+                    <ListItem>EICRs</ListItem>
+                  </Link>
+                  <Link to="/domestic-rewires" className="menu-link">
+                    <ListItem>Domestic Rewires</ListItem>
+                  </Link>
+                  <Link to="/fault-finding" className="menu-link">
+                    <ListItem>Fault Finding</ListItem>
+                  </Link>
+                  <Link to="/commercial" className="menu-link">
+                    <ListItem>Commercial</ListItem>
+                  </Link>
+                  <Link to="/appliances" className="menu-link">
+                    <ListItem>PAT Testing</ListItem>
+                  </Link>
+                  <Link to="/consumer-unit" className="menu-link">
+                    <ListItem>Consumer Unit Upgrades</ListItem>
+                  </Link>
+                </List>
+              </DrawerContent>
             </Drawer>
 
             <Button
@@ -93,8 +118,13 @@ const Header = props => {
             <Img
               src="../images/eca-registered-member-logo.jpg"
               className="ECA-logo"
+              alt="Electrical Contractors Association logo"
             />
-            <Img src="../images/new-elecsa-logo.jpg" className="elesca-logo" />
+            <Img
+              src="../images/new-elecsa-logo.jpg"
+              className="elesca-logo"
+              alt="Elecsa logo"
+            />
           </div>
           <div className="header-section2">
             <div className="header-contact-details">

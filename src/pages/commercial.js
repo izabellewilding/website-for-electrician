@@ -29,67 +29,7 @@ const ServiceArticle = () => (
       {/* <div className="article-title">
         <h1>DOMESTIC REWIRES</h1>
       </div> */}
-      <div className="service-items-wrapper">
-        <Link to="/domestic-rewires" className="service-item-wrapper">
-          <div className="svg-wrapper">
-            <Rewire className="gradient-svg" />
-            <Rewire2 className="filled-svg" />
-          </div>
-          <div className="svg-text">
-            <p className="service-icon-text">DOMESTIC REWIRES </p>
-          </div>
-        </Link>
-
-        <Link to="/consumer-unit" className="service-item-wrapper">
-          <div className="svg-wrapper">
-            <Fuse className="gradient-svg" />
-            <Fuse2 className="filled-svg" />
-          </div>
-          <div className="svg-text">
-            <p className="service-icon-text fuse-box-text">
-              CONSUMER UNIT UPGRADES{" "}
-            </p>
-          </div>
-        </Link>
-
-        <Link to="/fault-finding" className="service-item-wrapper">
-          <div className="svg-wrapper">
-            <Fault className="gradient-svg" />
-            <Fault2 className="filled-svg" />
-          </div>
-          <div className="svg-text">
-            <p className="service-icon-text ">FAULT FINDING </p>
-          </div>
-        </Link>
-
-        <Link to="/EICRs" className="service-item-wrapper">
-          <div className="svg-wrapper">
-            <EICR className="gradient-svg" />
-            <EICR2 className="filled-svg" />
-          </div>
-          <div className="svg-text">
-            <p className="service-icon-text">EICRs </p>
-          </div>
-        </Link>
-
-        <Link to="/commercial" className="service-item-wrapper">
-          <div className="svg-wrapper">
-            <Bolt className="gradient-svg" />
-            <Bolt2 className="filled-svg" />
-          </div>
-          <p className="service-icon-text">COMMERCIAL </p>
-        </Link>
-
-        <Link to="/appliances" className="service-item-wrapper">
-          <div className="svg-wrapper">
-            <Appliance className="gradient-svg" />
-            <Appliance2 className="filled-svg" />
-          </div>
-          <div className="svg-text">
-            <p className="service-icon-text">PAT TESTING </p>
-          </div>
-        </Link>
-      </div>
+      <ServiceIcons />
 
       <div className="article-content">
         <div className="article-text">
@@ -123,7 +63,7 @@ const ServiceArticle = () => (
           <Img
             className="main-image"
             src="../images/nicolas-thomas-3GZi6OpSDcY-unsplash.jpg"
-            alt="finished dish"
+            alt="image of the service"
           />
         </div>
         {/* <!--end main image container--> */}

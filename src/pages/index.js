@@ -8,87 +8,9 @@ import Curve from "../assets/corner-curve.svg"
 
 import Tick from "../assets/check-symbol.svg"
 import LivelyTick from "../assets/check-mark.svg"
-import Appliance from "../assets/applicance.svg"
-import Appliance2 from "../assets/applicance2.svg"
-import Bulb from "../assets/light-bulb.svg"
-import Rewire from "../assets/plugs.svg"
-import Rewire2 from "../assets/plugs2.svg"
-import Bolt from "../assets/bolt.svg"
-import Bolt2 from "../assets/bolt2.svg"
-import Fuse from "../assets/fuse-box.svg"
-import Fuse2 from "../assets/fuse-box2.svg"
-import Fault from "../assets/fault.svg"
-import Fault2 from "../assets/fault2.svg"
-import EICR from "../assets/EICR.svg"
-import EICR2 from "../assets/EICR2.svg"
+
 import WhiteCurve from "../assets/white-curve.svg"
 import WhiteCurveInvert from "../assets/white-curve-invert.svg"
-
-function ServiceIcons(props) {
-  return (
-    <div className="service-items-wrapper">
-      <Link to="/domestic-rewires" className="service-item-wrapper ">
-        <div className="svg-wrapper">
-          <Rewire className="gradient-svg" />
-          <Rewire2 className="filled-svg" />
-        </div>
-        <div className="svg-text">
-          <p className="service-icon-text">DOMESTIC REWIRES </p>
-        </div>
-      </Link>
-
-      <Link to="/consumer-unit" className="service-item-wrapper">
-        <div className="svg-wrapper">
-          <Fuse className="gradient-svg" />
-          <Fuse2 className="filled-svg" />
-        </div>
-        <div className="svg-text">
-          <p className="service-icon-text fuse-box-text">
-            CONSUMER UNIT UPGRADES{" "}
-          </p>
-        </div>
-      </Link>
-
-      <Link to="/fault-finding" className="service-item-wrapper">
-        <div className="svg-wrapper">
-          <Fault className="gradient-svg" />
-          <Fault2 className="filled-svg" />
-        </div>
-        <div className="svg-text">
-          <p className="service-icon-text ">FAULT FINDING </p>
-        </div>
-      </Link>
-
-      <Link to="/EICRs" className="service-item-wrapper">
-        <div className="svg-wrapper">
-          <EICR className="gradient-svg" />
-          <EICR2 className="filled-svg" />
-        </div>
-        <div className="svg-text">
-          <p className="service-icon-text">EICRs </p>
-        </div>
-      </Link>
-
-      <Link to="/commercial" className="service-item-wrapper">
-        <div className="svg-wrapper">
-          <Bolt className="gradient-svg" />
-          <Bolt2 className="filled-svg" />
-        </div>
-        <p className="service-icon-text">COMMERCIAL </p>
-      </Link>
-
-      <Link to="/appliances" className="service-item-wrapper">
-        <div className="svg-wrapper">
-          <Appliance className="gradient-svg" />
-          <Appliance2 className="filled-svg" />
-        </div>
-        <div className="svg-text">
-          <p className="service-icon-text">PAT TESTING </p>
-        </div>
-      </Link>
-    </div>
-  )
-}
 
 const IndexPage = () => {
   const [viewMore, setViewMore] = useState(false)
@@ -120,10 +42,11 @@ const IndexPage = () => {
 
               <div className="website-description">
                 <p>
-                  Based in Maenclochog, Pembrokeshire, we provide affordable and
-                  professional electrical services across South West Wales. All
-                  jobs considered, so get in touch if you'd like to discuss
-                  services and prices.
+                  Fully qualified electrician based in Maenclochog,
+                  Pembrokeshire. From a broken socket to domestic rewires, I
+                  provide a full range of professional electrical services
+                  across South West Wales and beyond. All jobs considered, so
+                  get in touch to discuss services and prices.
                 </p>
 
                 <br />
@@ -132,7 +55,7 @@ const IndexPage = () => {
                   href="mailto:alex@alexwildingelectricalservices.com"
                   className="mailto-link"
                 >
-                  Get a free quote
+                  Get in Contact
                 </a>
               </div>
             </div>
@@ -147,7 +70,7 @@ const IndexPage = () => {
                 <p className="certification-text">No job too small</p>
                 <LivelyTick className="tick-svg" />
                 <p className="certification-text">
-                  Registered member of the ECA and Elesca
+                  Fully qualified to the 18th edition
                 </p>
               </div>
             </div>
