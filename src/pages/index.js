@@ -27,7 +27,7 @@ import WhiteCurveInvert from "../assets/white-curve-invert.svg"
 function ServiceIcons(props) {
   return (
     <div className="service-items-wrapper">
-      <Link to="/domestic-rewires" className="service-item-wrapper ripple">
+      <Link to="/domestic-rewires" className="service-item-wrapper ">
         <div className="svg-wrapper">
           <Rewire className="gradient-svg" />
           <Rewire2 className="filled-svg" />
@@ -144,9 +144,7 @@ const IndexPage = () => {
                   Registered member of the ECA and Elesca
                 </p>
                 <LivelyTick className="tick-svg" />
-                <p className="certification-text">
-                  Registered member of the ECA and Elesca
-                </p>
+                <p className="certification-text">No job too small</p>
                 <LivelyTick className="tick-svg" />
                 <p className="certification-text">
                   Registered member of the ECA and Elesca
