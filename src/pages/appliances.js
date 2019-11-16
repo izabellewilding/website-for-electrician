@@ -31,7 +31,7 @@ const ServiceArticle = () => (
       </div> */}
 
       <div className="service-items-wrapper">
-        <Link to="/domestic-rewires" className="rewire-wrapper">
+        <Link to="/domestic-rewires" className="service-item-wrapper">
           <div className="svg-wrapper">
             <Rewire className="gradient-svg" />
             <Rewire2 className="filled-svg" />
@@ -41,7 +41,7 @@ const ServiceArticle = () => (
           </div>
         </Link>
 
-        <Link to="/consumer-unit" className="fuse-box-wrapper">
+        <Link to="/consumer-unit" className="service-item-wrapper">
           <div className="svg-wrapper">
             <Fuse className="gradient-svg" />
             <Fuse2 className="filled-svg" />
@@ -53,7 +53,7 @@ const ServiceArticle = () => (
           </div>
         </Link>
 
-        <Link to="/fault-finding" className="fault-wrapper">
+        <Link to="/fault-finding" className="service-item-wrapper">
           <div className="svg-wrapper">
             <Fault className="gradient-svg" />
             <Fault2 className="filled-svg" />
@@ -63,7 +63,7 @@ const ServiceArticle = () => (
           </div>
         </Link>
 
-        <Link to="/EICRs" className="EICR-wrapper">
+        <Link to="/EICRs" className="service-item-wrapper">
           <div className="svg-wrapper">
             <EICR className="gradient-svg" />
             <EICR2 className="filled-svg" />
@@ -73,7 +73,7 @@ const ServiceArticle = () => (
           </div>
         </Link>
 
-        <Link to="/commercial" className="bolt-wrapper">
+        <Link to="/commercial" className="service-item-wrapper">
           <div className="svg-wrapper">
             <Bolt className="gradient-svg" />
             <Bolt2 className="filled-svg" />
@@ -81,7 +81,7 @@ const ServiceArticle = () => (
           <p className="service-icon-text">COMMERCIAL </p>
         </Link>
 
-        <Link to="/appliances" className="appliance-svg-wrapper">
+        <Link to="/appliances" className="service-item-wrapper">
           <div className="svg-wrapper">
             <Appliance className="gradient-svg" />
             <Appliance2 className="filled-svg" />

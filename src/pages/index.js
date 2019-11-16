@@ -6,6 +6,8 @@ import "./index.css"
 import Img from "../components/image.js"
 import Curve from "../assets/corner-curve.svg"
 
+import Tick from "../assets/check-symbol.svg"
+import LivelyTick from "../assets/check-mark.svg"
 import Appliance from "../assets/applicance.svg"
 import Appliance2 from "../assets/applicance2.svg"
 import Bulb from "../assets/light-bulb.svg"
@@ -69,6 +71,22 @@ const IndexPage = () => {
               </div>
             </div>
             {/* end homepage text wrapper */}
+            <div className="certification-wrapper">
+              <div className="certification-items">
+                <LivelyTick className="tick-svg" />
+                <p className="certification-text">
+                  Registered member of the ECA and Elesca
+                </p>
+                <LivelyTick className="tick-svg" />
+                <p className="certification-text">
+                  Registered member of the ECA and Elesca
+                </p>
+                <LivelyTick className="tick-svg" />
+                <p className="certification-text">
+                  Registered member of the ECA and Elesca
+                </p>
+              </div>
+            </div>
           </div>
           {/* end section1 content */}
           <WhiteCurve className="white-curve" />

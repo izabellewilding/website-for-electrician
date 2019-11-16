@@ -49,7 +49,7 @@ const Header = props => {
   if (props.showLinkToHome) {
     homeLink = (
       <Link to="/" className="back-button">
-        <Icon icon="keyboard_arrow_left" className="back-button-arrow" />
+        <Icon icon="arrow_back" className="back-button-arrow" />
       </Link>
     )
   }
