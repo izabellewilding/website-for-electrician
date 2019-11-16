@@ -188,6 +188,7 @@ $mobile-breakpoint: 1150px;
 
 .service-items-wrapper {
   width: 100%;
+  max-width: 100vw;
   grid-column: 1/2;
   grid-row: 1/2;
 

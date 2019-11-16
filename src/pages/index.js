@@ -27,7 +27,7 @@ import WhiteCurveInvert from "../assets/white-curve-invert.svg"
 function ServiceIcons(props) {
   return (
     <div className="service-items-wrapper">
-      <Link to="/domestic-rewires" className="service-item-wrapper">
+      <Link to="/domestic-rewires" className="service-item-wrapper ripple">
         <div className="svg-wrapper">
           <Rewire className="gradient-svg" />
           <Rewire2 className="filled-svg" />
