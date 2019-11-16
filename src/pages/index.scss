@@ -1,7 +1,19 @@
+$mobile-breakpoint: 1150px;
+
 .homepage {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
+
+  @media (max-width: $mobile-breakpoint) {
+    width: 100vw;
+    max-width: 100vw;
+    height: auto;
+
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 .homepage-section1 {
@@ -48,7 +60,7 @@
   justify-self: center;
 
   display: grid;
-  grid-template-columns: 1fr 0.75fr;
+  grid-template-columns: 1fr 0.85fr;
   grid-template-rows: auto;
 }
 
@@ -95,7 +107,7 @@
   margin-top: 5rem;
   margin: 2rem;
   margin-bottom: 5rem;
-  width: 65%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -129,7 +141,6 @@
   display: flex;
   justify-content: left;
   align-items: center;
-  padding-bottom: 5rem;
 }
 
 .certification-items {
@@ -147,6 +158,7 @@
   color: white;
   font-size: 2rem;
   margin: 1rem;
+  padding-top: 18rem;
 }
 
 .tick-svg {
@@ -163,7 +175,7 @@
 
 .homepage-section2 {
   height: 300px;
-  max-width: 1800px;
+  max-width: 1650px;
   min-width: 791px;
   grid-column: 1/2;
   grid-row: 2/3;
@@ -175,6 +187,7 @@
 }
 
 .service-items-wrapper {
+  width: 100%;
   grid-column: 1/2;
   grid-row: 1/2;
 
