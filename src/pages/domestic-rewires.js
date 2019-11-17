@@ -6,6 +6,7 @@ import "./service-article.css"
 import Img from "../components/image"
 import "@rmwc/icon/icon.css"
 import { Icon } from "@rmwc/icon"
+import ServiceIcons from "../components/service-icons"
 
 import Appliance from "../assets/applicance.svg"
 import Appliance2 from "../assets/applicance2.svg"
@@ -22,7 +23,6 @@ import EICR from "../assets/EICR.svg"
 import EICR2 from "../assets/EICR2.svg"
 import WhiteCurve from "../assets/white-curve.svg"
 import WhiteCurveInvert from "../assets/white-curve-invert.svg"
-import ServiceIcons from "../components/service-icons"
 
 const ServiceArticle = () => (
   <Layout showLinkToHome>
@@ -36,28 +36,36 @@ const ServiceArticle = () => (
         <div className="article-text">
           {" "}
           <h1 className="article-subheading">
-            REWIRING YOUR HOME
+            DOMESITC REWIRES
             <br />
-            WHEN DO I NEED A REWIRE?
+            WHEN DO I NEED MY HOME REWIRING?
           </h1>
           <p>
-            {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+            There are no set rules for when a domestic property needs a full
+            rewire. The age and condition of the installation determine whether
+            the property is in need of an upgrade. As all electrical
+            installations deteriorate with age, it is recommended that a
+            periodic inspection test is carried out every 10 years for an
+            occupied domestic property, and every 5 years for an occupied rented
+            property or when the tenancy changes to determine if the electrical
+            wiring is safe. If your property still has it's original wiring and
+            is over 30 years old, it is likely that the wiring will need
+            upgrading, at least in part, to the modern standard.
           </p>
           <br />
           <p>
             {" "}
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
+            As a registered electrician I am fully qualified to carry out
+            Periodic Inspection Reports and domestic rewires.
           </p>
+          <a
+            href="mailto:alex@alexwildingelectricalservices.com"
+            className="mailto-link"
+          >
+            Get in Contact
+          </a>
         </div>
+
         {/* <!--end into text--> */}
 
         <div className="article-img-container">

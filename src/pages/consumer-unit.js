@@ -6,6 +6,7 @@ import "./service-article.css"
 import Img from "../components/image"
 import "@rmwc/icon/icon.css"
 import { Icon } from "@rmwc/icon"
+import ServiceIcons from "../components/service-icons"
 
 import Appliance from "../assets/applicance.svg"
 import Appliance2 from "../assets/applicance2.svg"

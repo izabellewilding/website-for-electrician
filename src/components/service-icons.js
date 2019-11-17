@@ -24,8 +24,8 @@ function ServiceIcons(props) {
         aria-label="see domestic rewires"
       >
         <div className="svg-wrapper">
-          <Rewire className="gradient-svg" />
-          <Rewire2 className="filled-svg" />
+          <Rewire className="gradient-svg" aria-hidden="true" />
+          <Rewire2 className="filled-svg" aria-hidden="true" />
         </div>
         <div className="svg-text">
           <p className="service-icon-text">DOMESTIC REWIRES </p>
@@ -38,8 +38,8 @@ function ServiceIcons(props) {
         aria-label="see consumer unit upgrades"
       >
         <div className="svg-wrapper">
-          <Fuse className="gradient-svg" />
-          <Fuse2 className="filled-svg" />
+          <Fuse className="gradient-svg" aria-hidden="true" />
+          <Fuse2 className="filled-svg" aria-hidden="true" />
         </div>
         <div className="svg-text">
           <p className="service-icon-text fuse-box-text">
@@ -54,8 +54,8 @@ function ServiceIcons(props) {
         aria-label="see fault finding"
       >
         <div className="svg-wrapper">
-          <Fault className="gradient-svg" />
-          <Fault2 className="filled-svg" />
+          <Fault className="gradient-svg" aria-hidden="true" />
+          <Fault2 className="filled-svg" aria-hidden="true" />
         </div>
         <div className="svg-text">
           <p className="service-icon-text ">FAULT FINDING </p>
@@ -68,8 +68,8 @@ function ServiceIcons(props) {
         aria-label="see electrical installation certificates"
       >
         <div className="svg-wrapper">
-          <EICR className="gradient-svg" />
-          <EICR2 className="filled-svg" />
+          <EICR className="gradient-svg" aria-hidden="true" />
+          <EICR2 className="filled-svg" aria-hidden="true" />
         </div>
         <div className="svg-text">
           <p className="service-icon-text">EICRs </p>
@@ -82,8 +82,8 @@ function ServiceIcons(props) {
         aria-label="see commercial services"
       >
         <div className="svg-wrapper">
-          <Bolt className="gradient-svg" />
-          <Bolt2 className="filled-svg" />
+          <Bolt className="gradient-svg" aria-hidden="true" />
+          <Bolt2 className="filled-svg" aria-hidden="true" />
         </div>
         <p className="service-icon-text">COMMERCIAL </p>
       </Link>
@@ -94,8 +94,8 @@ function ServiceIcons(props) {
         aria-label="see portable appliance testing"
       >
         <div className="svg-wrapper">
-          <Appliance className="gradient-svg" />
-          <Appliance2 className="filled-svg" />
+          <Appliance className="gradient-svg" aria-hidden="true" />
+          <Appliance2 className="filled-svg" aria-hidden="true" />
         </div>
         <div className="svg-text">
           <p className="service-icon-text">PAT TESTING </p>
