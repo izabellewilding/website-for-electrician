@@ -1,8 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    author: `@izabellewilding`,
+    title: "Alex Wilding Electrical Services",
+    titleTemplate: "%s ",
+    description:
+      "Fully qualified electrician offering electrical services across Pembrokeshire and South West",
+    url: "https://www.alexwildingelectricalservices.com", // No trailing slash allowed!
   },
 
   plugins: [
@@ -30,6 +33,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
+
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
