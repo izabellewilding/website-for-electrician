@@ -71,13 +71,7 @@
 
 @media (max-width: 900px) {
   .article-layout1 {
-    display: grid;
-
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-column-gap: 0;
-    grid-row-gap: 0;
-
+    display: block;
     width: 100%;
   }
 
@@ -113,7 +107,8 @@
 
   .article-text {
     grid-row: 4/5;
-    padding: 2rem;
+    padding: 1rem;
+    font-size: 1rem;
   }
 
   .info-box {
