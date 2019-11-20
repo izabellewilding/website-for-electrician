@@ -6,6 +6,7 @@ import "./index.scss"
 import Img from "../components/image.js"
 import Curve from "../assets/corner-curve.svg"
 import ServiceIcons from "../components/service-icons"
+import "../components/service-icons.scss"
 
 import Tick from "../assets/check-symbol.svg"
 import LivelyTick from "../assets/check-mark.svg"

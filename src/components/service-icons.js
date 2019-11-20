@@ -21,7 +21,7 @@ function ServiceIcons(props) {
       <Link
         to="/domestic-rewires"
         className="service-item-wrapper"
-        aria-label="see domestic rewires"
+        aria-label="domestic rewires"
       >
         <div className="svg-wrapper">
           <Rewire className="gradient-svg" aria-hidden="true" />
@@ -35,7 +35,7 @@ function ServiceIcons(props) {
       <Link
         to="/consumer-unit"
         className="service-item-wrapper"
-        aria-label="see consumer unit upgrades"
+        aria-label="consumer unit upgrades"
       >
         <div className="svg-wrapper">
           <Fuse className="gradient-svg" aria-hidden="true" />
@@ -51,7 +51,7 @@ function ServiceIcons(props) {
       <Link
         to="/fault-finding"
         className="service-item-wrapper"
-        aria-label="see fault finding"
+        aria-label=" fault finding"
       >
         <div className="svg-wrapper">
           <Fault className="gradient-svg" aria-hidden="true" />
@@ -65,7 +65,7 @@ function ServiceIcons(props) {
       <Link
         to="/EICRs"
         className="service-item-wrapper"
-        aria-label="see electrical installation certificates"
+        aria-label=" electrical installation certificates"
       >
         <div className="svg-wrapper">
           <EICR className="gradient-svg" aria-hidden="true" />
@@ -79,7 +79,7 @@ function ServiceIcons(props) {
       <Link
         to="/commercial"
         className="service-item-wrapper"
-        aria-label="see commercial services"
+        aria-label=" commercial services"
       >
         <div className="svg-wrapper">
           <Bolt className="gradient-svg" aria-hidden="true" />
@@ -91,7 +91,7 @@ function ServiceIcons(props) {
       <Link
         to="/appliances"
         className="service-item-wrapper"
-        aria-label="see portable appliance testing"
+        aria-label=" portable appliance testing"
       >
         <div className="svg-wrapper">
           <Appliance className="gradient-svg" aria-hidden="true" />
