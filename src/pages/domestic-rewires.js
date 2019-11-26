@@ -60,7 +60,7 @@ const ServiceArticle = () => (
           </p>
           <a
             href="mailto:alex@alexwildingelectricalservices.com"
-            className="mailto-link"
+            className="mailto-link mailto-services"
           >
             Get in Contact
           </a>

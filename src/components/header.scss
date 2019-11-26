@@ -1,3 +1,5 @@
+$mobile-breakpoint: 850px;
+
 .header {
   display: flex;
   justify-content: center;
@@ -13,7 +15,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  max-width: 2000px;
+  max-width: 1650px;
   width: 100%;
 }
 
@@ -26,15 +28,15 @@
 }
 
 .header-logo-wrapper {
-  grid-column: 1/2;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
-  height: auto;
+  grid-row: 1/2;
 
-  padding: 2rem;
-  max-height: 125px;
+  grid-column: 1/3;
+  width: 100%;
+  padding: 1rem;
+  background-color: white;
+  height: 129px;
+  overflow: hidden;
 }
 
 .back-button {
@@ -69,29 +71,36 @@
 }
 
 .ECA-logo {
-  width: 24%;
-  max-height: 140px;
-  max-width: 200px;
-
+  height: 84px;
+  width: 171px;
+  margin: 1rem;
   float: left;
-  margin: 0.5rem;
+  @media (max-width: $mobile-breakpoint) {
+    height: 60px;
+    width: 127px;
+  }
 }
 
-.elesca-logo {
-  width: 45%;
-
+.elecsa-logo {
   margin: 0.5rem;
+  height: 46px;
+  width: 105px;
+
+  @media (max-width: $mobile-breakpoint) {
+    height: 59px;
+    width: 243px;
+  }
 }
 
 .header-section2 {
   width: 100%;
   display: flex;
-
+  grid-column: 2/3;
+  grid-row: 1/2;
   align-items: center;
 }
 
 .header-contact-details {
-  grid-column: 2/3;
   margin-right: 2rem;
 
   width: 100%;
@@ -466,7 +475,7 @@
 
 /*# sourceMappingURL=mdc.drawer.css.map*/
 
-@media (max-width: 1150px) {
+@media (max-width: 850px) {
   .header {
     position: fixed;
     background: linear-gradient(
@@ -488,10 +497,12 @@
   }
 
   .mobile-nav-drawer {
+    grid-column: 2/3;
+    grid-row: 1/2;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    /* grid-column: 2/3; */
+    justify-content: flex-end;
+    float: right;
+    padding: 1rem;
   }
 
   .menu-button {
@@ -510,8 +521,8 @@
 
   .header-logo-wrapper {
     display: flex;
-    grid-row: 2/3;
     grid-column: 1/3;
+    grid-row: 2/3;
     width: 100%;
 
     padding: 1rem;
@@ -530,7 +541,7 @@
   }
 
   .main-heading2 {
-    font-size: 3rem;
+    font-size: 2rem;
 
     color: #fff;
     font-family: "Britannic Bold";
@@ -538,7 +549,7 @@
   }
 
   .sub-heading2 {
-    font-size: 1.3rem !important;
+    font-size: 0.75rem !important;
 
     font-family: "Electro-Reg";
     text-transform: uppercase;

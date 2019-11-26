@@ -1,4 +1,4 @@
-$mobile-breakpoint: 1150px;
+$mobile-breakpoint: 850px;
 
 .services-title {
   padding-left: 10rem;
@@ -9,9 +9,6 @@ $mobile-breakpoint: 1150px;
   max-width: 100vw;
   grid-column: 1/2;
   grid-row: 1/2;
-
-  margin-right: 4rem;
-  margin-left: 4rem;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;

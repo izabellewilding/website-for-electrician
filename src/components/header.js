@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
-import "./header.css"
+import "./header.scss"
 import Img from "../components/image"
 import classNames from "classnames"
 import { List, ListItem } from "@rmwc/list"
@@ -122,7 +122,7 @@ const Header = props => {
             />
             <Img
               src="../images/new-elecsa-logo.jpg"
-              className="elesca-logo"
+              className="elecsa-logo"
               alt="Elecsa logo"
             />
           </div>

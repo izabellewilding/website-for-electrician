@@ -36,29 +36,25 @@ const ServiceArticle = () => (
       <div className="article-content">
         <div className="article-text">
           {" "}
-          <h1 className="article-subheading">
-            REWIRING YOUR HOME
-            <br />
-            WHEN DO I NEED A REWIRE?
-          </h1>
+          <h1 className="article-subheading">CONSUMER UNIT UPGRADES</h1>
           <p>
             {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+            Commonly referred to as fuse boxes, consumer units play an important
+            role in keeping your electrics safe. Consumer units should be kept
+            in good condition as they play a vital role in detecting serious
+            problems. All new consumer units are fitted with RCD protection -
+            these are clever enough to detect faulty appliances before you
+            notice them yourself. It is advised that any consumer unit that does
+            not meet the modern standards should be upgraded.
           </p>
-          <br />
-          <p>
-            {" "}
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-          </p>
+          <a
+            href="mailto:alex@alexwildingelectricalservices.com"
+            className="mailto-link mailto-services"
+          >
+            Get in Contact
+          </a>
         </div>
+
         {/* <!--end into text--> */}
 
         <div className="article-img-container">

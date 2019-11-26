@@ -1,4 +1,4 @@
-$mobile-breakpoint: 1150px;
+$mobile-breakpoint: 850px;
 
 #___gatsby {
   max-width: 1600px;
@@ -271,7 +271,7 @@ $mobile-breakpoint: 1150px;
   display: none;
 }
 
-@media (max-width: 1150px) {
+@media (max-width: $mobile-breakpoint) {
   body {
     margin: 0;
   }
@@ -334,7 +334,12 @@ $mobile-breakpoint: 1150px;
     height: 600px;
   } */
   .section1-text-wrapper {
-    padding: 1rem;
+    padding: 2rem;
+    padding-top: 3rem;
+
+    @media (max-width: $mobile-breakpoint) and (min-width: 500px) {
+      padding-top: 6rem;
+    }
   }
 
   .services-title {
