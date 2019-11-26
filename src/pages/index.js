@@ -76,7 +76,7 @@ const IndexPage = () => {
                 </p>
                 <LivelyTick className="tick-svg" />
                 <p className="certification-text">
-                  Registered member of the Electrical Contractos' Association
+                  Registered member of the Electrical Contractors' Association
                   (ECA) and Elesca for part P
                 </p>
                 <LivelyTick className="tick-svg" />
