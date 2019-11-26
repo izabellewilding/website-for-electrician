@@ -39,6 +39,11 @@
   src: url(../fonts/Electrolize-Regular.ttf);
 }
 
+#___gatsby {
+  max-width: 1600px;
+  margin: auto;
+}
+
 body {
   overflow-x: hidden;
   margin: 0;
