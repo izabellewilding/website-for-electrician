@@ -11,25 +11,30 @@
 
 @font-face {
   font-family: "Ubuntu Bold";
+  font-display: auto;
   src: url(../fonts/Ubuntu/Ubuntu-Bold.ttf);
 }
 
 @font-face {
   font-family: "Britannic Bold";
+  font-display: auto;
   src: url(../fonts/Britannic-Bold-Regular.ttf);
 }
 @font-face {
   font-family: "Teko-Bold";
+  font-display: auto;
   src: url(../fonts/Teko-Bold.ttf);
 }
 @font-face {
   font-family: "Teko-Medium";
+  font-display: auto;
   src: url(../fonts/Teko-Medium.ttf);
   font-stretch: ultra-expanded;
 }
 
 @font-face {
   font-family: "Teko-Regular";
+  font-display: auto;
   src: url(../fonts/Teko-Regular.ttf);
   font-stretch: ultra-expanded;
 }

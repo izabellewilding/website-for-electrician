@@ -103,7 +103,7 @@ const IndexPage = () => {
         <WhiteCurveInvert className="white-curve-invert" />
 
         <div className="homepage-imgs">
-          <Img
+          {/* <Img
             src="../images/shirish-suwal-ctmuaOO-JJI-unsplash.jpg"
             className="homepage-img1 homepage-img"
           />
@@ -114,7 +114,7 @@ const IndexPage = () => {
           <Img
             src="../images/markus-spiske-kK7uPfb2YWU-unsplash.jpg"
             className="homepage-img3 homepage-img"
-          />
+          /> */}
         </div>
       </div>
     </Layout>
