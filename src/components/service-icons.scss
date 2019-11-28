@@ -21,7 +21,7 @@ $mobile-breakpoint: 850px;
   overflow-y: hidden;
 
   @media (max-width: $mobile-breakpoint) {
-    padding-top: 200px;
+    padding-top: 165px;
   }
 }
 
@@ -39,6 +39,10 @@ $mobile-breakpoint: 850px;
   text-decoration: none;
 
   padding: 2rem;
+
+  @media (max-width: $mobile-breakpoint) {
+    padding: 1rem;
+  }
 }
 
 .gradient-svg {

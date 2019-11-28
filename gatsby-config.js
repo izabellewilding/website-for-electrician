@@ -2,9 +2,9 @@ module.exports = {
   siteMetadata: {
     author: `@izabellewilding`,
     title: "Alex Wilding Electrical Services",
-    titleTemplate: "%s ",
+    titleTemplate: "%s · Alex Wilding Electrical Services ",
     description:
-      "Fully qualified electrician offering electrical services across Pembrokeshire and South West",
+      "Fully qualified electrician in Pembrokeshire, Wales. I carry out electrical services accross Pembrokeshire and South West Wales. Examples of the service I provide accross Pembrokeshire are Domestic Rewires, Fuse Box (Consumer Unit Upgrades), new build rewires, electrical installations, and EICR tests.",
     url: "https://www.alexwildingelectricalservices.com", // No trailing slash allowed!
   },
 

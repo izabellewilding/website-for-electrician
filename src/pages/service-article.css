@@ -90,7 +90,9 @@
   }
 
   .article-subheading {
-    margin-top: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
   }
 
   .article-content {
@@ -115,8 +117,8 @@
 
   .article-text {
     grid-row: 4/5;
-    padding: 1rem;
-    font-size: 1rem;
+    padding: 2rem;
+    font-size: 1.25rem;
   }
 
   .info-box {
@@ -139,6 +141,8 @@
     grid-column: 1/2;
     grid-row: 4/5;
     width: 100%;
+
+    padding: 0rem;
   }
 
   .article-content {
