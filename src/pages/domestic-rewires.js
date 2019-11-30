@@ -8,22 +8,6 @@ import "@rmwc/icon/icon.css"
 import { Icon } from "@rmwc/icon"
 import ServiceIcons from "../components/service-icons"
 
-import Appliance from "../assets/applicance.svg"
-import Appliance2 from "../assets/applicance2.svg"
-import Bulb from "../assets/light-bulb.svg"
-import Rewire from "../assets/plugs.svg"
-import Rewire2 from "../assets/plugs2.svg"
-import Bolt from "../assets/bolt.svg"
-import Bolt2 from "../assets/bolt2.svg"
-import Fuse from "../assets/fuse-box.svg"
-import Fuse2 from "../assets/fuse-box2.svg"
-import Fault from "../assets/fault.svg"
-import Fault2 from "../assets/fault2.svg"
-import EICR from "../assets/EICR.svg"
-import EICR2 from "../assets/EICR2.svg"
-import WhiteCurve from "../assets/white-curve.svg"
-import WhiteCurveInvert from "../assets/white-curve-invert.svg"
-
 const ServiceArticle = () => (
   <Layout showLinkToHome>
     <div className="article-layout1">
