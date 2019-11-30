@@ -9,7 +9,7 @@ $mobile-breakpoint: 850px;
   max-width: 100vw;
   grid-column: 1/2;
   grid-row: 1/2;
-
+  -webkit-overflow-scrolling: touch;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;

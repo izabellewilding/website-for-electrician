@@ -6,7 +6,6 @@ import "./service-article.css"
 import Img from "../components/image"
 import "@rmwc/icon/icon.css"
 import { Icon } from "@rmwc/icon"
-import ServiceIcons from "../components/service-icons"
 
 import Appliance from "../assets/applicance.svg"
 import Appliance2 from "../assets/applicance2.svg"
@@ -23,6 +22,7 @@ import EICR from "../assets/EICR.svg"
 import EICR2 from "../assets/EICR2.svg"
 import WhiteCurve from "../assets/white-curve.svg"
 import WhiteCurveInvert from "../assets/white-curve-invert.svg"
+import ServiceIcons from "../components/service-icons"
 
 const ServiceArticle = () => (
   <Layout showLinkToHome>
@@ -30,12 +30,13 @@ const ServiceArticle = () => (
       {/* <div className="article-title">
         <h1>DOMESTIC REWIRES</h1>
       </div> */}
+
       <ServiceIcons />
 
       <div className="article-content">
         <div className="article-text">
           {" "}
-          <h1 className="article-subheading">COMMERCIAL</h1>
+          <h1 className="article-subheading">New Builds</h1>
           <p>
             {" "}
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -44,14 +45,6 @@ const ServiceArticle = () => (
             aliquip ex ea commodo consequat. Duis aute irure dolor in
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur.
-          </p>
-          <br />
-          <p>
-            {" "}
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
           </p>
           <a
             href="mailto:alex@alexwildingelectricalservices.com"
@@ -66,7 +59,7 @@ const ServiceArticle = () => (
           <Img
             className="main-image"
             src="../images/nicolas-thomas-3GZi6OpSDcY-unsplash.jpg"
-            alt="image of the service"
+            alt="finished dish"
           />
         </div>
         {/* <!--end main image container--> */}

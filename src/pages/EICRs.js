@@ -38,20 +38,18 @@ const ServiceArticle = () => (
           <h1 className="article-subheading">EICRs</h1>
           <p>
             {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+            An Electrical Installation Condition Report (EICR) is a formal
+            document produced by a fully qualified electrician after the
+            electrical installation of a property has been assessed.
           </p>
           <br />
           <p>
-            {" "}
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
+            EICRs are regularly required by Landloards, as they are the most
+            simple way to prove that the electrical installation of a property
+            is safe. An EICR is also recommended in all domestic properties
+            every 10 years. This ensures that the electrical installation has
+            not deteriorated. If you feel that you're due an EICR or a landlord
+            who needs certification, get in touch to discuss the process.
           </p>
           <a
             href="mailto:alex@alexwildingelectricalservices.com"

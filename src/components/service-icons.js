@@ -98,7 +98,7 @@ function ServiceIcons(props) {
           <Appliance2 className="filled-svg" aria-hidden="true" />
         </div>
         <div className="svg-text">
-          <p className="service-icon-text">PAT TESTING </p>
+          <p className="service-icon-text">NEW BUILDS</p>
         </div>
       </Link>
     </div>
