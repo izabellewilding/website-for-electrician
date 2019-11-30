@@ -11,19 +11,10 @@ import "../../node_modules/font-awesome/css/font-awesome.css"
 const Footer = () => {
   return (
     <footer className="footer">
-      {/* <div className="footer-section1"></div>
-      <div className="footer-section2">
-        <div className="footer-logo-wrapper">
-          <Img
-            src="../images/eca-registered-member-logo.jpg"
-            className="ECA-logo"
-          />
-          <Img
-            src="../images/new-elecsa-logo.jpg"
-            className="elesca-logo-footer"
-          />
-        </div>
-      </div> */}
+      <div className="footer-section1">
+        {/* <p>Get in touch for a quote</p>
+        <p> Website by Izabelle Wilding </p> */}
+      </div>
     </footer>
   )
 }

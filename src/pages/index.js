@@ -77,7 +77,7 @@ const IndexPage = () => {
                 <LivelyTick className="tick-svg" />
                 <p className="certification-text">
                   Registered member of the Electrical Contractors' Association
-                  (ECA) and Elesca for part P
+                  (ECA) and Elecsa for part P
                 </p>
                 <LivelyTick className="tick-svg" />
                 <p className="certification-text">
@@ -101,21 +101,10 @@ const IndexPage = () => {
       {/* end homepage section 2 */}
       <div className="homepage-section3">
         <WhiteCurveInvert className="white-curve-invert" />
-
+        {/* 
         <div className="homepage-imgs">
-          {/* <Img
-            src="../images/shirish-suwal-ctmuaOO-JJI-unsplash.jpg"
-            className="homepage-img1 homepage-img"
-          />
-          <Img
-            src="../images/patrick-tomasso-1NTFSnV-KLs-unsplash.jpg"
-            className="homepage-img2 homepage-img"
-          />
-          <Img
-            src="../images/markus-spiske-kK7uPfb2YWU-unsplash.jpg"
-            className="homepage-img3 homepage-img"
-          /> */}
-        </div>
+        
+        </div> */}
       </div>
     </Layout>
   )
