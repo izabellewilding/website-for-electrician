@@ -59,74 +59,12 @@ const Header = props => {
     <>
       <header className="header">
         <div className="header-content">
-          <div className="website-logo-mobile">
-            <p className="main-heading2">Alex Wilding</p>
-            <p className="sub-heading2">Electrical Services</p>
-          </div>
+          <div className="header-row1">
+            <div className="website-logo">
+              <p className="main-heading">Alex Wilding</p>
+              <p className="sub-heading">Electrical Services</p>
+            </div>
 
-          <div className="mobile-nav-drawer">
-            <Drawer
-              dir="rtl"
-              modal
-              open={menuOpen}
-              onClose={() => setMenuOpen(false)}
-            >
-              {/** Set the content back to left-to-right */}
-              <DrawerHeader dir="ltr">
-                <DrawerTitle>Menu</DrawerTitle>
-              </DrawerHeader>
-
-              <DrawerContent dir="ltr">
-                {" "}
-                <List>
-                  <Link to="/" className="menu-link">
-                    <ListItem>Home</ListItem>
-                  </Link>
-                  <Link to="/EICRs" className="menu-link">
-                    <ListItem>EICRs</ListItem>
-                  </Link>
-                  <Link to="/domestic-rewires" className="menu-link">
-                    <ListItem>Domestic Rewires</ListItem>
-                  </Link>
-                  <Link to="/fault-finding" className="menu-link">
-                    <ListItem>Fault Finding</ListItem>
-                  </Link>
-                  <Link to="/commercial" className="menu-link">
-                    <ListItem>Commercial</ListItem>
-                  </Link>
-                  <Link to="/new-builds" className="menu-link">
-                    <ListItem>PAT Testing</ListItem>
-                  </Link>
-                  <Link to="/consumer-unit" className="menu-link">
-                    <ListItem>Consumer Unit Upgrades</ListItem>
-                  </Link>
-                </List>
-              </DrawerContent>
-            </Drawer>
-
-            <Button
-              className="menu-button"
-              onClick={() => setMenuOpen(!menuOpen)}
-              outlined
-            >
-              MENU
-            </Button>
-          </div>
-          {/* end mobile nav drawer */}
-          <div className="header-logo-wrapper">
-            {homeLink}
-            <Img
-              src="../images/eca-registered-member-logo.jpg"
-              className="ECA-logo"
-              alt="Electrical Contractors Association logo"
-            />
-            <Img
-              src="../images/new-elecsa-logo.jpg"
-              className="elecsa-logo"
-              alt="Elecsa logo"
-            />
-          </div>
-          <div className="header-section2">
             <div className="header-contact-details">
               <div className="contact-details">
                 <p>alex@alexwildingelectricalservices.com</p>{" "}
@@ -134,6 +72,70 @@ const Header = props => {
                 <p>07527 929222</p> <Mobile className="contact-svg" />
                 <p>01437 532307</p> <Telephone className="contact-svg" />
               </div>
+            </div>
+          </div>
+          {/* end mobile nav drawer */}
+          <div className="header-row2">
+            <div className="header-logo-wrapper">
+              {homeLink}
+              <Img
+                src="../images/eca-registered-member-logo.jpg"
+                className="ECA-logo"
+                alt="Electrical Contractors Association logo"
+              />
+              <Img
+                src="../images/new-elecsa-logo.jpg"
+                className="elecsa-logo"
+                alt="Elecsa logo"
+              />
+            </div>
+            <div className="mobile-nav-drawer">
+              {" "}
+              <Button
+                className="menu-button"
+                onClick={() => setMenuOpen(!menuOpen)}
+                outlined
+              >
+                MENU
+              </Button>
+              <Drawer
+                dir="rtl"
+                modal
+                open={menuOpen}
+                onClose={() => setMenuOpen(false)}
+              >
+                {/** Set the content back to left-to-right */}
+                <DrawerHeader dir="ltr">
+                  <DrawerTitle>Menu</DrawerTitle>
+                </DrawerHeader>
+
+                <DrawerContent dir="ltr">
+                  {" "}
+                  <List>
+                    <Link to="/" className="menu-link">
+                      <ListItem>Home</ListItem>
+                    </Link>
+                    <Link to="/EICRs" className="menu-link">
+                      <ListItem>EICRs</ListItem>
+                    </Link>
+                    <Link to="/domestic-rewires" className="menu-link">
+                      <ListItem>Domestic Rewires</ListItem>
+                    </Link>
+                    <Link to="/fault-finding" className="menu-link">
+                      <ListItem>Fault Finding</ListItem>
+                    </Link>
+                    <Link to="/commercial" className="menu-link">
+                      <ListItem>Commercial</ListItem>
+                    </Link>
+                    <Link to="/new-builds" className="menu-link">
+                      <ListItem>PAT Testing</ListItem>
+                    </Link>
+                    <Link to="/consumer-unit" className="menu-link">
+                      <ListItem>Consumer Unit Upgrades</ListItem>
+                    </Link>
+                  </List>
+                </DrawerContent>
+              </Drawer>
             </div>
           </div>
         </div>

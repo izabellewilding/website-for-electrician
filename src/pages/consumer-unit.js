@@ -8,9 +8,10 @@ import "@rmwc/icon/icon.css"
 import { Icon } from "@rmwc/icon"
 import ServiceIcons from "../components/service-icons"
 
-
 const ServiceArticle = () => (
   <Layout showLinkToHome>
+    <div className="mobile-header-padding"></div>
+
     <div className="article-layout1">
       {/* <div className="article-title">
         <h1>DOMESTIC REWIRES</h1>

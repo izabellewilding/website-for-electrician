@@ -17,12 +17,23 @@
   /* background-color: rgb(255, 255, 255); */
 }
 
+.article-layout1 {
+  padding-top: 5rem;
+}
+
+@media (max-width: 850px) {
+  .article-layout1 {
+    padding-top: 3rem;
+  }
+}
+
 .article-content {
   line-height: 2rem;
   letter-spacing: 0.1rem;
   padding: 2rem;
   font-family: "Ubuntu";
-  background-color: white;
+  width: 100vw;
+  max-height: 2000px;
 }
 
 .article-content {

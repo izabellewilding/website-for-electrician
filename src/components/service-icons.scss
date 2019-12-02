@@ -19,10 +19,6 @@ $mobile-breakpoint: 850px;
   position: relative;
   overflow-x: auto;
   overflow-y: hidden;
-
-  @media (max-width: $mobile-breakpoint) {
-    padding-top: 165px;
-  }
 }
 
 .svg-wrapper {
@@ -47,7 +43,7 @@ $mobile-breakpoint: 850px;
 
 .gradient-svg {
   position: absolute;
-  width: 145px;
+  width: 115px;
   height: auto;
   border-radius: 50%;
   background: rgb(255, 255, 255);
@@ -61,7 +57,7 @@ $mobile-breakpoint: 850px;
 }
 
 .filled-svg {
-  width: 145px;
+  width: 115px;
   z-index: 0;
   height: auto;
   border-radius: 50%;
@@ -75,7 +71,7 @@ $mobile-breakpoint: 850px;
 .service-icon-text {
   color: rgba(35, 45, 66, 0.972);
   font-family: "Ubuntu Bold";
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   text-decoration: none;
 
   text-justify: center;

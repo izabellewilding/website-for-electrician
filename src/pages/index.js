@@ -7,7 +7,6 @@ import Img from "../components/image.js"
 import Curve from "../assets/corner-curve.svg"
 import ServiceIcons from "../components/service-icons"
 import "../components/service-icons.scss"
-
 import Tick from "../assets/check-symbol.svg"
 import LivelyTick from "../assets/check-mark.svg"
 
@@ -20,6 +19,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Homepage" />
+
       <div className="homepage">
         <div className="mobile-header-padding"></div>
         <div className="homepage-section1">
@@ -37,18 +37,13 @@ const IndexPage = () => {
 
           <div className="section1-content">
             <div className="section1-text-wrapper">
-              <div className="website-logo">
-                <p className="main-heading">Alex Wilding</p>
-                <p className="sub-heading">Electrical Services</p>{" "}
-              </div>
-
               <div className="website-description">
                 <p>
                   Fully qualified electrician based in Maenclochog,
-                  Pembrokeshire. From a broken socket to domestic rewires, I
-                  provide a full range of professional electrical services
-                  across South West Wales and beyond. All jobs considered, so
-                  get in touch to discuss services and prices.
+                  Pembrokeshire. From a broken socket to a full domestic rewire,
+                  I offer a range of professional electrical services across
+                  South West Wales. All jobs are considered, so get in touch via
+                  email or phone to discuss services and prices.
                 </p>
 
                 <br />
@@ -101,10 +96,7 @@ const IndexPage = () => {
       {/* end homepage section 2 */}
       <div className="homepage-section3">
         <WhiteCurveInvert className="white-curve-invert" />
-        {/* 
-        <div className="homepage-imgs">
-        
-        </div> */}
+        {/* <Slider className="img-slider" /> */}
       </div>
     </Layout>
   )

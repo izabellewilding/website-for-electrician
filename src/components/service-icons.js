@@ -85,7 +85,7 @@ function ServiceIcons(props) {
       </Link>
 
       <Link
-        to="/appliances"
+        to="/new-builds"
         className="service-item-wrapper"
         aria-label=" portable appliance testing"
       >

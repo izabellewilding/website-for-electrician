@@ -10,6 +10,8 @@ import ServiceIcons from "../components/service-icons"
 
 const ServiceArticle = () => (
   <Layout showLinkToHome>
+    <div className="mobile-header-padding"></div>
+
     <div className="article-layout1">
       {/* <div className="article-title">
         <h1>DOMESTIC REWIRES</h1>
@@ -55,7 +57,7 @@ const ServiceArticle = () => (
         <div className="article-img-container">
           <Img
             className="main-image"
-            src="../images/nicolas-thomas-3GZi6OpSDcY-unsplash.jpg"
+            src="../images/lines-2147464_1920.jpg"
             alt="finished dish"
           />
         </div>

@@ -3,40 +3,123 @@ $mobile-breakpoint: 850px;
 .header {
   display: flex;
   justify-content: center;
-  background: white;
-  border-bottom: solid 2px #00b4cc;
   /* box-shadow: 0 5px 8px -2px rgba(232, 231, 252, 0.315); */
 
   margin: auto;
   z-index: 6;
+
+  position: fixed;
+  background: linear-gradient(rgba(0, 13, 43, 0.959), rgb(0, 76, 142));
+
+  width: 100vw;
+  left: 0;
+  right: 0;
+  height: 154.33px;
 }
 
 .header-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto;
   grid-template-rows: 1fr;
-  max-width: 1650px;
+  max-width: 100vw;
   width: 100%;
 }
 
+.header-row1 {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+.header-row2 {
+  display: grid;
+  grid-template-rows: 1fr;
+  background-color: white;
+  box-shadow: -2px 1px 4px rgb(0, 23, 53);
+}
+
+.main-heading {
+  color: #fff;
+  font-family: "Britannic Bold";
+  font-size: 4.3rem;
+  text-transform: uppercase;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.16);
+}
+
+.sub-heading {
+  font-family: "Electro-Reg";
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 0.25rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.16);
+}
+
+.header-contact-details {
+  grid-row: 1/2;
+  margin-right: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 4;
+  transition: all 0.2s;
+}
+
+.contact-details {
+  display: grid;
+  grid-template-columns: auto 3rem;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  font-family: "Ubuntu";
+  letter-spacing: 0.15rem;
+  font-weight: bold;
+
+  text-align: end;
+
+  color: white;
+  font-size: 1.25rem;
+  margin: 1rem;
+  padding-right: 3rem;
+  line-height: 0.1rem;
+
+  @media (max-width: $mobile-breakpoint) {
+    display: none;
+  }
+}
+.header-buttons {
+  display: none !important;
+}
+
+.nav {
+  max-width: 100vw;
+  padding: 1rem;
+}
+
 .mobile-nav-drawer {
-  display: none;
+  display: flex;
+  justify-content: flex-end;
+  grid-row: 1/2;
+
+  padding: 1rem;
+  padding-right: 3rem;
 }
 
 .menu-button {
   display: none;
 }
 
-.header-logo-wrapper {
-  display: flex;
+.website-logo {
+  grid-column: 1/2;
   grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
 
-  grid-column: 1/3;
-  width: 100%;
-  padding: 1rem;
-  background-color: white;
-  height: 129px;
-  overflow: hidden;
+  justify-content: center;
+
+  padding: 2rem;
+
+  transition: ease-in-out 0.3s;
 }
 
 .back-button {
@@ -61,6 +144,22 @@ $mobile-breakpoint: 850px;
   }
 }
 
+.menu-button {
+  padding: 1rem;
+  color: #0d54a1 !important;
+  border: #0d54a1 solid !important;
+  margin: 1rem;
+  height: auto;
+  max-height: 40px;
+
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Ubuntu Bold" !important;
+}
+
+// start back button css
+
 .back-button:hover {
   background-color: rgba(213, 233, 250, 0.753);
 }
@@ -69,26 +168,32 @@ $mobile-breakpoint: 850px;
   font-size: 3rem !important;
   color: black;
 }
+.mdc-button::before,
+.mdc-button::after {
+  background-color: #7decff91 !important;
+}
+
+// end back button css
 
 .ECA-logo {
-  height: 84px;
-  width: 171px;
+  height: 54px;
+  width: 115px;
   margin: 1rem;
   float: left;
   @media (max-width: $mobile-breakpoint) {
-    height: 52px;
-    width: 127px;
+    height: 42px;
+    width: 85px;
   }
 }
 
 .elecsa-logo {
   margin: 1rem;
-  height: 72px;
+  height: 60px;
   width: 186px;
 
   @media (max-width: $mobile-breakpoint) {
     height: 42px;
-    width: 184px;
+    width: 120px;
   }
 }
 
@@ -100,40 +205,10 @@ $mobile-breakpoint: 850px;
   align-items: center;
 }
 
-.header-contact-details {
-  margin-right: 2rem;
-
-  width: 100%;
+.header-logo-wrapper {
+  grid-row: 1/2;
+  padding-left: 2rem;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  z-index: 4;
-
-  border: solid white 1px;
-
-  transition: all 0.2s;
-}
-
-.mdc-button::before,
-.mdc-button::after {
-  background-color: #7decff91 !important;
-}
-
-.contact-details {
-  display: grid;
-  grid-template-columns: auto 3rem;
-  grid-template-rows: 1fr 1fr 1fr;
-  align-items: center;
-  font-family: "Ubuntu";
-  letter-spacing: 0.15rem;
-  font-weight: bold;
-
-  text-align: end;
-
-  color: #003380;
-  font-size: 1.5rem;
-  margin: 1rem;
-  line-height: 0.15rem;
 }
 
 .contact-details p {
@@ -141,15 +216,13 @@ $mobile-breakpoint: 850px;
 }
 
 .contact-svg {
-  fill: #cc8800;
+  fill: #ebc902;
   width: 2rem;
   height: 2rem;
   margin: 0.75rem;
 }
 
-.website-logo-mobile {
-  display: none;
-}
+// start of drawer css
 
 .mdc-drawer {
   top: 0;
@@ -474,103 +547,3 @@ $mobile-breakpoint: 850px;
 }
 
 /*# sourceMappingURL=mdc.drawer.css.map*/
-
-@media (max-width: 850px) {
-  .header {
-    position: fixed;
-    background: linear-gradient(
-      rgba(0, 13, 43, 0.959),
-      rgba(5, 115, 211, 0.753)
-    );
-
-    width: 100vw;
-    left: 0;
-    right: 0;
-    height: 117.33px;
-  }
-
-  .header-content {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 1fr;
-    max-width: 100vw;
-  }
-
-  .mobile-nav-drawer {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    display: flex;
-    justify-content: flex-end;
-    float: right;
-    padding: 1rem;
-  }
-
-  .menu-button {
-    padding: 1rem;
-    color: white !important;
-    border: white solid !important;
-    margin: 1rem;
-    height: auto;
-    max-height: 40px;
-
-    align-items: center;
-    justify-content: center;
-
-    font-family: "Ubuntu Bold" !important;
-  }
-
-  .header-logo-wrapper {
-    display: flex;
-    grid-column: 1/3;
-    grid-row: 2/3;
-    width: 100%;
-    height: 95px;
-    padding: 1rem;
-    background-color: white;
-  }
-
-  .website-logo-mobile {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-
-    margin: 2rem;
-  }
-
-  .main-heading2 {
-    font-size: 2.25rem;
-
-    color: #fff;
-    font-family: "Britannic Bold";
-    text-transform: uppercase;
-  }
-
-  .sub-heading2 {
-    font-size: 0.85rem !important;
-
-    font-family: "Electro-Reg";
-    text-transform: uppercase;
-    letter-spacing: 0.25rem;
-    font-weight: bold;
-    color: #fff;
-  }
-
-  .header-contact-details {
-    display: none;
-  }
-
-  .header-buttons {
-    display: none !important;
-  }
-
-  .nav {
-    max-width: 100vw;
-    padding: 1rem;
-  }
-}
-
-@media (max-width: 1150px) {
-}
