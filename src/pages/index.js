@@ -52,7 +52,7 @@ const IndexPage = () => {
                   href="mailto:alex@alexwildingelectricalservices.com"
                   className="mailto-link"
                 >
-                  Get in Contact
+                  Contact
                 </a>
                 <Link to="/domestic-rewires" className="services-button">
                   <div className="services-button-content">

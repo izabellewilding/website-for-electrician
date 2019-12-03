@@ -98,6 +98,7 @@ $mobile-breakpoint: 850px;
 
 .mobile-nav-drawer {
   display: flex;
+  align-items: center;
   justify-content: flex-end;
   grid-row: 1/2;
 
@@ -118,8 +119,13 @@ $mobile-breakpoint: 850px;
   justify-content: center;
 
   padding: 2rem;
+  padding-left: 3rem;
 
   transition: ease-in-out 0.3s;
+
+  @media (max-width: $mobile-breakpoint) {
+    padding-left: 2rem;
+  }
 }
 
 .back-button {
@@ -127,7 +133,7 @@ $mobile-breakpoint: 850px;
   text-decoration: none;
   height: 5rem;
   width: 5rem;
-  margin: 2rem;
+  margin: 1rem;
   border-radius: 50%;
 
   background-color: rgba(209, 228, 252, 0);
@@ -146,8 +152,8 @@ $mobile-breakpoint: 850px;
 
 .menu-button {
   padding: 1rem;
-  color: #0d54a1 !important;
-  border: #0d54a1 solid !important;
+  color: #0592cb !important;
+  border: #0592cb solid !important;
   margin: 1rem;
   height: auto;
   max-height: 40px;
@@ -209,6 +215,11 @@ $mobile-breakpoint: 850px;
   grid-row: 1/2;
   padding-left: 2rem;
   display: flex;
+
+  align-items: center;
+  @media (max-width: $mobile-breakpoint) {
+    padding-left: 1rem;
+  }
 }
 
 .contact-details p {
