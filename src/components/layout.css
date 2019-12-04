@@ -81,7 +81,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 850px) {
   h1 {
-    font-size: 1.75rem;
+    font-size: 3rem;
     font-family: "Ubuntu";
     font-weight: lighter !important;
   }

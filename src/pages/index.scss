@@ -55,6 +55,13 @@ $mobile-breakpoint: 850px;
   bottom: 0;
   width: 100%;
 }
+.white-curve-invert {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: -15px;
+  width: 100vw;
+}
 
 .section1-content {
   grid-column: 1/3;
@@ -197,6 +204,16 @@ $mobile-breakpoint: 850px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
+
+  @media (max-width: $mobile-breakpoint) {
+    .homepage-section2 {
+      display: none;
+      height: 800px;
+      width: 100vw;
+      max-width: 100vw;
+      min-width: 100vw;
+    }
+  }
 }
 
 /* end home section 2 - svgs  */
@@ -226,14 +243,6 @@ $mobile-breakpoint: 850px;
 .homepage-img3 {
   grid-column: 1/2;
   grid-row: 1/3;
-}
-
-.white-curve-invert {
-  display: none;
-  position: absolute;
-  z-index: 1;
-  top: -15px;
-  width: 100vw;
 }
 
 .homepage-img {
@@ -317,10 +326,8 @@ $mobile-breakpoint: 850px;
   }
 
   .website-description {
-    margin-top: 3rem;
-    margin: 1rem;
     width: 100%;
-    font-size: 1.75rem;
+    font-size: 1.65rem;
   }
 
   /* 
@@ -332,22 +339,6 @@ $mobile-breakpoint: 850px;
     line-height: 2.25rem;
     padding: 3rem;
   } */
-
-  .homepage-section2 {
-    display: none;
-    height: 800px;
-    width: 100vw;
-    max-width: 100vw;
-    min-width: 100vw;
-  }
-
-  .white-curve {
-    width: 100%;
-  }
-
-  .white-curve-invert {
-    display: none;
-  }
 
   .service-svg {
     width: 75px;
