@@ -10,6 +10,10 @@ import "../components/service-icons.scss"
 import Tick from "../assets/check-symbol.svg"
 import LivelyTick from "../assets/check-mark.svg"
 
+import Email from "../assets/email.svg"
+import Mobile from "../assets/smartphone-call.svg"
+import Telephone from "../assets/old-telephone-ringing.svg"
+
 import WhiteCurve from "../assets/white-curve.svg"
 import WhiteCurveInvert from "../assets/white-curve-invert.svg"
 
@@ -37,6 +41,16 @@ const IndexPage = () => {
 
           <div className="section1-content">
             <div className="section1-text-wrapper">
+              <div className="header-contact-details">
+                <div className="contact-details-mob ">
+                  {" "}
+                  <Email className="contact-svg" />
+                  <p>alex@alexwildingelectricalservices.com</p>{" "}
+                  <Mobile className="contact-svg" />
+                  <p>07527 929222</p> <Telephone className="contact-svg" />
+                  <p>01437 532307</p>
+                </div>
+              </div>
               <div className="website-description">
                 <p>
                   Fully qualified electrician based in Maenclochog,
