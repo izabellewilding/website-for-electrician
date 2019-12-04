@@ -63,16 +63,24 @@ $mobile-breakpoint: 850px;
     align-items: center;
     row-gap: -0.5rem;
     column-gap: 1rem;
+    overflow: auto;
 
     font-family: "Ubuntu";
     letter-spacing: 0.15rem;
     font-weight: bold;
     text-align: start;
+    text-decoration: none !important;
+
     color: white;
     font-size: 1rem;
     line-height: 0.1rem;
   }
 }
+
+.contact-details-mob:visited {
+  text-decoration: none !important;
+}
+
 .white-curve {
   position: absolute;
   bottom: 0;
