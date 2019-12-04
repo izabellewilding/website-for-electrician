@@ -41,7 +41,7 @@ const ServiceArticle = () => (
             href="mailto:alex@alexwildingelectricalservices.com"
             className="mailto-link mailto-services"
           >
-            Get in Contact
+            Contact
           </a>
         </div>
         {/* <!--end into text--> */}

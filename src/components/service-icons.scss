@@ -1,7 +1,14 @@
 $mobile-breakpoint: 850px;
 
 .services-title {
-  padding-left: 10rem;
+  padding-left: 4rem;
+  font-family: "Ubuntu";
+  text-transform: uppercase;
+}
+
+.services-title-wrapper {
+  display: flex;
+  font-size: 1.75rem;
 }
 
 .service-items-wrapper {
