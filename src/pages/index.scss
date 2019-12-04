@@ -114,6 +114,10 @@ $mobile-breakpoint: 850px;
   vertical-align: middle;
 }
 
+.mailto-link:hover {
+  background-color: rgba(255, 255, 255, 0.199);
+}
+
 .services-button {
   padding: 0.5rem;
   color: #ebc902;
@@ -131,6 +135,12 @@ $mobile-breakpoint: 850px;
   text-decoration: none !important;
   text-transform: uppercase;
   vertical-align: middle;
+
+  transition: all 0.2s;
+}
+
+.services-button:hover {
+  background-color: rgba(255, 255, 255, 0.199);
 }
 
 .certification-wrapper {
