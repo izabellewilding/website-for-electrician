@@ -51,7 +51,7 @@ const ServiceArticle = () => (
         <div className="article-img-container">
           <Img
             className="main-image"
-            src="../images/nicolas-thomas-3GZi6OpSDcY-unsplash.jpg"
+            src="../images/shirish-suwal-ctmuaOO-JJI-unsplash.jpg"
             alt="finished dish"
           />
         </div>

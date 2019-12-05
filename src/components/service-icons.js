@@ -49,7 +49,7 @@ function ServiceIcons(props) {
       </Link>
 
       <Link
-        to="/domestic-rewires"
+        to="/fault-finding"
         className="service-item-wrapper"
         aria-label=" fault finding"
       >
@@ -89,9 +89,9 @@ function ServiceIcons(props) {
       </Link>
 
       <Link
-        to="/domestic-rewires"
+        to="/new-builds"
         className="service-item-wrapper"
-        aria-label=" portable appliance testing"
+        aria-label="new builds"
       >
         <div className="svg-wrapper">
           <Appliance className="gradient-svg" aria-hidden="true" />
