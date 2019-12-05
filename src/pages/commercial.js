@@ -21,7 +21,7 @@ const ServiceArticle = () => (
       <div className="article-content">
         <div className="article-text">
           {" "}
-          <h1 className="article-subheading">COMMERCIAL</h1>
+          <h1 className="article-subheading">Commercial</h1>
           <a
             href="mailto:alex@alexwildingelectricalservices.com"
             className="mailto-link mailto-services"

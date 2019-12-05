@@ -22,7 +22,7 @@ const ServiceArticle = () => (
       <div className="article-content">
         <div className="article-text">
           {" "}
-          <h1 className="article-subheading">CONSUMER UNIT UPGRADES</h1>
+          <h1 className="article-subheading">Consumer Unit Upgrades</h1>
           <p>
             {" "}
             Commonly referred to as fuse boxes, consumer units play an important

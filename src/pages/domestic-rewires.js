@@ -22,9 +22,9 @@ const ServiceArticle = () => (
         <div className="article-text">
           {" "}
           <h1 className="article-subheading">
-            DOMESITC REWIRES:
+            Domestic Rewires:
             <br />
-            WHEN DO I NEED MY HOME REWIRING?
+            When do I need my home rewiring?
           </h1>
           <p>
             There are no set rules for when a domestic property needs a full
