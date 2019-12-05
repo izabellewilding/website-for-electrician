@@ -51,6 +51,11 @@ $mobile-breakpoint: 850px;
   z-index: -1;
 }
 
+.phone-numb {
+  text-decoration: none !important;
+  color: white !important;
+}
+
 .contact-details-mob {
   display: none;
 

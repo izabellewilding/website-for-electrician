@@ -69,8 +69,10 @@ const Header = props => {
               <div className="contact-details">
                 <p>alex@alexwildingelectricalservices.com</p>{" "}
                 <Email className="contact-svg" />
-                <p>07527 929222</p> <Mobile className="contact-svg" />
-                <p>01437 532307</p> <Telephone className="contact-svg" />
+                <p className="phone-numb">07527 929222</p>{" "}
+                <Mobile className="contact-svg" />
+                <p className="phone-numb">01437 532307</p>{" "}
+                <Telephone className="contact-svg" />
               </div>
             </div>
           </div>
