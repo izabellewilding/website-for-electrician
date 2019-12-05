@@ -104,4 +104,8 @@ $mobile-breakpoint: 850px;
 
 .svg-wrapper:hover {
   transform: translateY(-1rem);
+
+  @media (max-width: $mobile-breakpoint) {
+    transform: unset;
+  }
 }
