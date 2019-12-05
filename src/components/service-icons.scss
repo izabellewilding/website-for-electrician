@@ -68,7 +68,7 @@ $mobile-breakpoint: 850px;
   opacity: 0;
 
   @media (max-width: $mobile-breakpoint) {
-    width: 60px;
+    display: none;
   }
 }
 
