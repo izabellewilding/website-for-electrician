@@ -22,7 +22,7 @@ const ServiceArticle = () => (
         <div className="article-text">
           {" "}
           <h1 className="article-subheading">
-            DOMESITC REWIRES
+            DOMESITC REWIRES:
             <br />
             WHEN DO I NEED MY HOME REWIRING?
           </h1>
