@@ -60,10 +60,10 @@ const Header = props => {
       <header className="header">
         <div className="header-content">
           <div className="header-row1">
-            <div className="website-logo">
+            <Link to="/" className="website-logo">
               <p className="main-heading">Alex Wilding</p>
               <p className="sub-heading">Electrical Services</p>
-            </div>
+            </Link>
 
             <div className="header-contact-details">
               <div className="contact-details">
