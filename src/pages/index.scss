@@ -51,11 +51,6 @@ $mobile-breakpoint: 850px;
   z-index: -1;
 }
 
-.phone-numb {
-  text-decoration: none !important;
-  color: white !important;
-}
-
 .contact-details-mob {
   display: none;
 
@@ -82,12 +77,9 @@ $mobile-breakpoint: 850px;
   }
 }
 
-.contact-details-mob:visited {
+.contact-details-mob a {
   text-decoration: none !important;
-}
-
-.contact-details-mob p {
-  text-decoration: none;
+  color: white;
 }
 
 .white-curve {
