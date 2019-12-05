@@ -128,7 +128,7 @@ const Header = props => {
                       <ListItem>Commercial</ListItem>
                     </Link>
                     <Link to="/new-builds" className="menu-link">
-                      <ListItem>PAT Testing</ListItem>
+                      <ListItem>New Builds/ListItem>
                     </Link>
                     <Link to="/consumer-unit" className="menu-link">
                       <ListItem>Consumer Unit Upgrades</ListItem>
