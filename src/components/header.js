@@ -3,7 +3,7 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import "./header.scss"
 import Img from "../components/image"
 import classNames from "classnames"
-import { List, ListItem } from "@rmwc/list"
+import { List, ListItem, SimpleListItem } from "@rmwc/list"
 import "@material/list/dist/mdc.list.css"
 
 import "@rmwc/icon/icon.css"
