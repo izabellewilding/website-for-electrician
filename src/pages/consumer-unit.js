@@ -26,12 +26,12 @@ const ServiceArticle = () => (
           <p>
             {" "}
             Commonly referred to as fuse boxes, consumer units play an important
-            role in keeping your electrics safe. Consumer units should be kept
-            in good condition as they play a vital role in detecting serious
-            problems. All new consumer units are fitted with RCD protection -
-            these are clever enough to detect faulty appliances before you
-            notice them yourself. It is advised that any consumer unit that does
-            not meet the modern standards should be upgraded.
+            role in keeping our electrics safe. Consumer units should be kept in
+            good condition as they play a vital role in detecting serious
+            problems. All new consumer units are installed with RCD protection,
+            which provides a defence against electric shocks and can help
+            identify faulty appliances. S.P.Ds and AFDDs can also be fitted if
+            required.
           </p>
           <a
             href="mailto:alex@alexwildingelectricalservices.com"
