@@ -4,6 +4,11 @@ $mobile-breakpoint: 850px;
   max-width: 1811px;
   margin: auto;
 }
+
+p {
+  margin-bottom: 0 !important;
+}
+
 .homepage {
   display: grid;
   grid-template-columns: 1fr;

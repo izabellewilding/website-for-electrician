@@ -13,10 +13,6 @@ const ServiceArticle = () => (
     <div className="mobile-header-padding"></div>
 
     <div className="article-layout1">
-      {/* <div className="article-title">
-        <h1>DOMESTIC REWIRES</h1>
-      </div> */}
-
       <ServiceIcons />
 
       <div className="article-content">
@@ -47,7 +43,6 @@ const ServiceArticle = () => (
           <Img
             className="main-image"
             src="../images/markus-spiske-kK7uPfb2YWU-unsplash.jpg"
-            alt="finished dish"
           />
         </div>
         {/* <!--end main image container--> */}

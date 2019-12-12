@@ -32,6 +32,11 @@ a:hover {
   grid-template-rows: 1fr;
   grid-template-columns: 0.5fr;
   padding-left: 2rem;
+
+  @media (max-width: $mobile-breakpoint) {
+    padding-left: 0;
+    grid-template-columns: auto;
+  }
 }
 
 .header-row2 {
@@ -47,16 +52,25 @@ a:hover {
   font-size: 4.3rem;
   text-transform: uppercase;
   text-shadow: 0 2px 20px rgba(0, 0, 0, 0.16);
+
+  @media (max-width: $mobile-breakpoint) {
+    font-size: 3rem;
+  }
 }
 
 .sub-heading {
   font-family: "Electro-Reg";
   text-transform: uppercase;
   font-size: 2rem;
+
   letter-spacing: 0.25rem;
   font-weight: bold;
   color: #fff;
   text-shadow: 0 2px 20px rgba(0, 0, 0, 0.16);
+
+  @media (max-width: $mobile-breakpoint) {
+    font-size: 1.25rem;
+  }
 }
 
 .header-contact-details {
@@ -114,6 +128,12 @@ a:hover {
   display: none;
 }
 
+.mobile-hidden-button {
+  @media (max-width: $mobile-breakpoint) {
+    display: none !important;
+  }
+}
+
 .website-logo-wrapper {
   grid-column: 1/2;
   grid-row: 1/2;
@@ -128,12 +148,18 @@ a:hover {
   transition: ease-in-out 0.3s;
 
   @media (max-width: $mobile-breakpoint) {
-    padding-left: 2rem;
+    padding: 1rem;
   }
 }
 
 .website-logo {
   text-align: center;
+  line-height: 3.5rem;
+
+  @media (max-width: $mobile-breakpoint) {
+    line-height: 2.5rem;
+    padding: 1rem;
+  }
 }
 
 .back-button {
@@ -230,7 +256,7 @@ a:hover {
   }
 }
 
-.contact-details p {
+.contact-details {
   margin: 0.75rem;
 }
 

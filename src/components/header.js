@@ -94,12 +94,12 @@ const Header = props => {
               />
             </div>
             <div className="mobile-nav-drawer">
-              <Button className="menu-button">
+              <Button className="menu-button mobile-hidden-button">
                 <a href="mailto:alex@alexwildingelectricalservices.com">
                   Contact
                 </a>
               </Button>
-              <Button outlined className="menu-button">
+              <Button outlined className="menu-button mobile-hidden-button">
                 <Link to="/domestic-rewires">
                   <p>Services</p>
                 </Link>

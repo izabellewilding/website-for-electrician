@@ -111,7 +111,6 @@ const IndexPage = () => {
       {/* end homepage section 2 */}
       <div className="homepage-section3">
         <WhiteCurveInvert className="white-curve-invert" />
-        {/* <Slider className="img-slider" /> */}
       </div>
     </Layout>
   )
