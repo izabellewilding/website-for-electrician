@@ -60,9 +60,11 @@ const Header = props => {
       <header className="header">
         <div className="header-content">
           <div className="header-row1">
-            <Link to="/" className="website-logo">
-              <p className="main-heading">Alex Wilding</p>
-              <p className="sub-heading">Electrical Services</p>
+            <Link to="/" className="website-logo-wrapper">
+              <div className="website-logo">
+                <p className="main-heading">Alex Wilding</p>
+                <p className="sub-heading">Electrical Services</p>
+              </div>
             </Link>
 
             <div className="header-contact-details">
@@ -92,7 +94,17 @@ const Header = props => {
               />
             </div>
             <div className="mobile-nav-drawer">
-              {" "}
+              <Button className="menu-button">
+                <a href="mailto:alex@alexwildingelectricalservices.com">
+                  Contact
+                </a>
+              </Button>
+              <Button outlined className="menu-button">
+                <Link to="/domestic-rewires">
+                  <p>Services</p>
+                </Link>
+              </Button>
+
               <Button
                 className="menu-button"
                 onClick={() => setMenuOpen(!menuOpen)}
@@ -100,6 +112,7 @@ const Header = props => {
               >
                 MENU
               </Button>
+
               <Drawer
                 dir="rtl"
                 modal

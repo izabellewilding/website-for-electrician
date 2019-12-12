@@ -13,6 +13,7 @@ import LivelyTick from "../assets/check-mark.svg"
 import Email from "../assets/email.svg"
 import Mobile from "../assets/smartphone-call.svg"
 import Telephone from "../assets/old-telephone-ringing.svg"
+import Carousel from "react-bootstrap/Carousel"
 
 import WhiteCurve from "../assets/white-curve.svg"
 import WhiteCurveInvert from "../assets/white-curve-invert.svg"
