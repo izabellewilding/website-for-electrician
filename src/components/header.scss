@@ -9,7 +9,6 @@ a:hover {
   justify-content: center;
   margin: auto;
   z-index: 6;
-  position: fixed;
 
   background: linear-gradient(rgba(0, 13, 43, 0.959), #004c8e);
   /* width: 100vw; */
@@ -41,6 +40,8 @@ a:hover {
 
 .header-row2 {
   display: grid;
+  z-index: 1;
+
   grid-template-rows: 1fr;
   background-color: white;
   box-shadow: 0 4px 2px -2px rgba(93, 107, 124, 0.753);
