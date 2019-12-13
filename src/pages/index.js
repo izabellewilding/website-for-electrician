@@ -106,11 +106,40 @@ const IndexPage = () => {
         <div className="homepage-section2">
           <ServiceIcons />
         </div>
-      </div>
 
-      {/* end homepage section 2 */}
-      <div className="homepage-section3">
-        <WhiteCurveInvert className="white-curve-invert" />
+        {/* end homepage section 2 */}
+        <div className="homepage-section3">
+          <div className="section3-img-wrapper">
+            <div className="featured-imgs">
+              <Link to="/">
+                <Img
+                  src="../images/commercial2-after.jpg"
+                  alt="summer cocktails"
+                  className="featured-img"
+                  type="small"
+                />
+              </Link>
+
+              <Link to="/macaron-recipe">
+                <Img
+                  src="../images/commercial-after.jpg"
+                  alt="spices on the table"
+                  className="featured-img "
+                  type="small"
+                />
+              </Link>
+
+              <Link to="/ice-pop-recipe">
+                <Img
+                  src="../images/patrick-tomasso-1NTFSnV-KLs-unsplash.jpg"
+                  alt="ice pops"
+                  className="featured-img"
+                  type="small"
+                />
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
     </Layout>
   )
