@@ -111,28 +111,28 @@ const IndexPage = () => {
         <div className="homepage-section3">
           <div className="section3-img-wrapper">
             <div className="featured-imgs">
-              <Link to="/">
+              <Link to="/" className="img-wrapper">
                 <Img
                   src="../images/commercial2-after.jpg"
-                  alt="summer cocktails"
                   className="featured-img"
                   type="small"
                 />
+                <div className="info-box">
+                  <p>Commercial Lighting Clunderwen</p>
+                </div>
               </Link>
 
-              <Link to="/macaron-recipe">
+              <Link to="/" className="img-wrapper">
                 <Img
                   src="../images/commercial-after.jpg"
-                  alt="spices on the table"
                   className="featured-img "
                   type="small"
                 />
               </Link>
 
-              <Link to="/ice-pop-recipe">
+              <Link to="/" className="img-wrapper">
                 <Img
                   src="../images/patrick-tomasso-1NTFSnV-KLs-unsplash.jpg"
-                  alt="ice pops"
                   className="featured-img"
                   type="small"
                 />
