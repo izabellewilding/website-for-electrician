@@ -94,7 +94,6 @@ a:hover {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  z-index: 4;
 }
 
 .contact-details {
@@ -119,6 +118,7 @@ a:hover {
     display: none;
   }
 }
+
 .header-buttons {
   display: none !important;
 }
@@ -206,6 +206,7 @@ a:hover {
   margin: 1rem;
   height: auto;
   max-height: 40px;
+  text-decoration: none !important;
 
   align-items: center;
   justify-content: center;

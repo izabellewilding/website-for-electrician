@@ -2,24 +2,15 @@ import React, { useState } from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import "./header.scss"
 import Img from "../components/image"
-import classNames from "classnames"
 import { List, ListItem, SimpleListItem } from "@rmwc/list"
 import "@material/list/dist/mdc.list.css"
 
 import "@rmwc/icon/icon.css"
 import { Icon } from "@rmwc/icon"
-import "@material/fab/dist/mdc.fab.css"
-import { Fab } from "@rmwc/fab"
 import "@material/button/dist/mdc.button.css"
 import { Button } from "@rmwc/button"
 // import "@material/drawer/dist/mdc.drawer.css"
-import {
-  Drawer,
-  DrawerHeader,
-  DrawerTitle,
-  DrawerSubtitle,
-  DrawerContent,
-} from "@rmwc/drawer"
+import { Drawer, DrawerHeader, DrawerTitle, DrawerContent } from "@rmwc/drawer"
 import Email from "../assets/email.svg"
 import Mobile from "../assets/smartphone-call.svg"
 import Telephone from "../assets/old-telephone-ringing.svg"
@@ -67,7 +58,7 @@ const Header = props => {
               </div>
             </Link>
 
-            <div className="header-contact-details">
+            <div className=".footer-contact-details">
               <div className="contact-details">
                 <p>alex@alexwildingelectricalservices.com</p>{" "}
                 <Email className="contact-svg" />
