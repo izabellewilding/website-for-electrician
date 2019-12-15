@@ -4,19 +4,14 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./index.scss"
 import Img from "../components/image.js"
-import Curve from "../assets/corner-curve.svg"
 import ServiceIcons from "../components/service-icons"
 import "../components/service-icons.scss"
-import Tick from "../assets/check-symbol.svg"
 import LivelyTick from "../assets/check-mark.svg"
 
 import Email from "../assets/email.svg"
 import Mobile from "../assets/smartphone-call.svg"
 import Telephone from "../assets/old-telephone-ringing.svg"
-import Carousel from "react-bootstrap/Carousel"
-
 import WhiteCurve from "../assets/white-curve.svg"
-import WhiteCurveInvert from "../assets/white-curve-invert.svg"
 
 const IndexPage = () => {
   const [viewMore, setViewMore] = useState(false)

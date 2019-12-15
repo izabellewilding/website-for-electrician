@@ -126,8 +126,12 @@ p {
   align-items: flex-start;
 
   width: 100%;
-  padding: 3rem;
+  padding: 1.5rem;
   padding-top: 5rem;
+
+  @media (max-width: $mobile-breakpoint) {
+    padding-top: 2rem;
+  }
 }
 
 .website-description {
@@ -381,15 +385,6 @@ p {
   }
   .section1-img {
     height: 600px;
-  }
-
-  .section1-text-wrapper {
-    padding: 2rem;
-    padding-top: 3rem;
-
-    @media (max-width: $mobile-breakpoint) {
-      padding-top: 5rem;
-    }
   }
 
   .website-description {
