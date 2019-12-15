@@ -58,7 +58,7 @@ const Header = props => {
               </div>
             </Link>
 
-            <div className=".footer-contact-details">
+            <div className="header-contact-details">
               <div className="contact-details">
                 <p>alex@alexwildingelectricalservices.com</p>{" "}
                 <Email className="contact-svg" />

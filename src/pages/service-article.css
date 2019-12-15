@@ -26,9 +26,6 @@
 }
 
 .article-content {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: auto;
   overflow: hidden;
 
   line-height: 2rem;
@@ -54,6 +51,7 @@
   grid-column: 2/3;
   max-height: 1000px;
   max-width: 880px;
+  padding: 3rem;
 
   overflow: hidden;
 }
