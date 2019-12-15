@@ -311,10 +311,10 @@ p {
 
 .info-box {
   position: absolute;
-  max-width: 75%;
+  width: 100%;
 
-  right: -81%;
   top: 43%;
+  transform: translateX(-100%);
 
   color: rgb(255, 252, 249);
   font-size: 3rem;
@@ -331,7 +331,7 @@ p {
 }
 
 .section3-img-wrapper:hover .info-box {
-  transform: translateX(-125%);
+  transform: translateX(0);
 }
 
 .featured-img {
