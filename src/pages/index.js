@@ -106,14 +106,14 @@ const IndexPage = () => {
         <div className="homepage-section3">
           <div className="section3-img-wrapper">
             <div className="featured-imgs">
-              <Link to="/" className="img-wrapper">
+              <Link to="/commercial" className="img-wrapper">
                 <Img
                   src="../images/commercial2-after.jpg"
                   className="featured-img"
                   type="small"
                 />
                 <div className="info-box">
-                  <p>Commercial Lighting Clunderwen</p>
+                  <p>Commercial Lighting</p>
                 </div>
               </Link>
 
