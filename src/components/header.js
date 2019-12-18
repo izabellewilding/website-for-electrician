@@ -71,77 +71,79 @@ const Header = props => {
           </div>
           {/* end mobile nav drawer */}
           <div className="header-row2">
-            <div className="header-logo-wrapper">
-              {homeLink}
-              <Img
-                src="../images/eca-registered-member-logo.jpg"
-                className="ECA-logo"
-                alt="Electrical Contractors Association logo"
-              />
-              <Img
-                src="../images/new-elecsa-logo.jpg"
-                className="elecsa-logo"
-                alt="Elecsa logo"
-              />
-            </div>
-            <div className="mobile-nav-drawer">
-              <Button className="menu-button mobile-hidden-button">
-                <a href="mailto:alex@alexwildingelectricalservices.com">
-                  Contact
-                </a>
-              </Button>
-              <Button outlined className="menu-button mobile-hidden-button">
-                <Link to="/domestic-rewires">
-                  <p>Services</p>
-                </Link>
-              </Button>
+            <div className="header-row2-content">
+              <div className="header-logo-wrapper">
+                {homeLink}
+                <Img
+                  src="../images/eca-registered-member-logo.jpg"
+                  className="ECA-logo"
+                  alt="Electrical Contractors Association logo"
+                />
+                <Img
+                  src="../images/new-elecsa-logo.jpg"
+                  className="elecsa-logo"
+                  alt="Elecsa logo"
+                />
+              </div>
+              <div className="mobile-nav-drawer">
+                <Button className="menu-button mobile-hidden-button">
+                  <a href="mailto:alex@alexwildingelectricalservices.com">
+                    Contact
+                  </a>
+                </Button>
+                <Button outlined className="menu-button mobile-hidden-button">
+                  <Link to="/domestic-rewires">
+                    <p>Services</p>
+                  </Link>
+                </Button>
 
-              <Button
-                className="menu-button"
-                onClick={() => setMenuOpen(!menuOpen)}
-                outlined
-              >
-                MENU
-              </Button>
+                <Button
+                  className="menu-button"
+                  onClick={() => setMenuOpen(!menuOpen)}
+                  outlined
+                >
+                  MENU
+                </Button>
 
-              <Drawer
-                dir="rtl"
-                modal
-                open={menuOpen}
-                onClose={() => setMenuOpen(false)}
-              >
-                {/** Set the content back to left-to-right */}
-                <DrawerHeader dir="ltr">
-                  <DrawerTitle>Menu</DrawerTitle>
-                </DrawerHeader>
+                <Drawer
+                  dir="rtl"
+                  modal
+                  open={menuOpen}
+                  onClose={() => setMenuOpen(false)}
+                >
+                  {/** Set the content back to left-to-right */}
+                  <DrawerHeader dir="ltr">
+                    <DrawerTitle>Menu</DrawerTitle>
+                  </DrawerHeader>
 
-                <DrawerContent dir="ltr">
-                  {" "}
-                  <List>
-                    <Link to="/" className="menu-link">
-                      <ListItem>Home</ListItem>
-                    </Link>
-                    <Link to="/EICRs" className="menu-link">
-                      <ListItem>EICRs</ListItem>
-                    </Link>
-                    <Link to="/domestic-rewires" className="menu-link">
-                      <ListItem>Domestic Rewires</ListItem>
-                    </Link>
-                    <Link to="/fault-finding" className="menu-link">
-                      <ListItem>Fault Finding</ListItem>
-                    </Link>
-                    <Link to="/commercial" className="menu-link">
-                      <ListItem>Commercial</ListItem>
-                    </Link>
-                    <Link to="/new-builds" className="menu-link">
-                      <ListItem>New Builds</ListItem>
-                    </Link>
-                    <Link to="/consumer-unit" className="menu-link">
-                      <ListItem>Consumer Unit Upgrades</ListItem>
-                    </Link>
-                  </List>
-                </DrawerContent>
-              </Drawer>
+                  <DrawerContent dir="ltr">
+                    {" "}
+                    <List>
+                      <Link to="/" className="menu-link">
+                        <ListItem>Home</ListItem>
+                      </Link>
+                      <Link to="/EICRs" className="menu-link">
+                        <ListItem>EICRs</ListItem>
+                      </Link>
+                      <Link to="/domestic-rewires" className="menu-link">
+                        <ListItem>Domestic Rewires</ListItem>
+                      </Link>
+                      <Link to="/fault-finding" className="menu-link">
+                        <ListItem>Fault Finding</ListItem>
+                      </Link>
+                      <Link to="/commercial" className="menu-link">
+                        <ListItem>Commercial</ListItem>
+                      </Link>
+                      <Link to="/new-builds" className="menu-link">
+                        <ListItem>New Builds</ListItem>
+                      </Link>
+                      <Link to="/consumer-unit" className="menu-link">
+                        <ListItem>Consumer Unit Upgrades</ListItem>
+                      </Link>
+                    </List>
+                  </DrawerContent>
+                </Drawer>
+              </div>
             </div>
           </div>
         </div>

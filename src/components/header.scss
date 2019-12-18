@@ -16,7 +16,6 @@ a:hover {
   left: 0;
   right: 0;
   height: 154.33px;
-  max-width: 1811px;
 
   @media (max-width: $mobile-breakpoint) {
     position: fixed;
@@ -36,6 +35,9 @@ a:hover {
   grid-template-rows: 1fr;
   grid-template-columns: 0.5fr;
   padding-left: 2rem;
+  max-width: 1811px;
+  justify-self: center;
+  width: 100%;
 
   @media (max-width: $mobile-breakpoint) {
     padding-left: 0;
@@ -44,12 +46,20 @@ a:hover {
 }
 
 .header-row2 {
-  display: grid;
   z-index: 1;
+  justify-content: center;
+  display: flex;
 
-  grid-template-rows: 1fr;
   background-color: white;
   box-shadow: 0 4px 2px -2px rgba(93, 107, 124, 0.753);
+}
+
+.header-row2-content {
+  max-width: 1811px;
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .main-heading {
