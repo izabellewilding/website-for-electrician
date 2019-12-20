@@ -134,7 +134,7 @@ p {
 }
 
 .website-description {
-  line-height: 1.618;
+  line-height: 1.9;
   margin-top: 3rem;
   margin-bottom: 5rem;
   width: 100%;
@@ -342,6 +342,15 @@ p {
   max-width: 781px;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.hover-img {
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 @media (max-width: $mobile-breakpoint) {
