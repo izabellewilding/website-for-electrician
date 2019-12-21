@@ -120,10 +120,13 @@ const IndexPage = () => {
 
               <Link to="/" className="img-wrapper">
                 <Img
-                  src="../images/commercial-after.jpg"
+                  src="../images/commercial-before.jpg"
                   className="hover-img "
                   type="small"
                 />
+                <div className="info-box">
+                  <p>Domestic Lighting</p>
+                </div>
               </Link>
 
               <Link to="/" className="img-wrapper">
