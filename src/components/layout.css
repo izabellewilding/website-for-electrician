@@ -52,6 +52,11 @@ body {
   overflow-x: hidden;
   margin: 0;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
 h1 {
   font-family: "Electro-reg";
   font-size: 3.75rem;
