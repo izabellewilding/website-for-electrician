@@ -35,7 +35,7 @@ a:hover {
   grid-template-rows: 1fr;
   grid-template-columns: 0.5fr;
   padding-left: 2rem;
-  max-width: 1811px;
+  max-width: 120rem;
   justify-self: center;
   width: 100%;
 
@@ -55,7 +55,7 @@ a:hover {
 }
 
 .header-row2-content {
-  max-width: 1811px;
+  max-width: 120rem;
   display: grid;
   grid-template-rows: 1fr;
   justify-content: space-between;
@@ -273,13 +273,10 @@ a:hover {
 
 .header-logo-wrapper {
   grid-row: 1/2;
-  padding-left: 2rem;
   display: flex;
+  padding-left: 1rem;
 
   align-items: center;
-  @media (max-width: $mobile-breakpoint) {
-    padding-left: 1rem;
-  }
 }
 
 .contact-details {
