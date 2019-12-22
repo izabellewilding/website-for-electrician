@@ -51,6 +51,8 @@
 body {
   overflow-x: hidden;
   margin: 0;
+  line-height: 130%;
+  letter-spacing: 0.25em;
 }
 
 a {

@@ -22,12 +22,9 @@ $mobile-breakpoint: 850px;
 }
 
 .service-items-wrapper {
-  padding-left: 3rem;
-  padding-right: 3rem;
   width: 100%;
   max-width: 120rem;
-  grid-column: 1/2;
-  grid-row: 1/2;
+
   -webkit-overflow-scrolling: touch;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
