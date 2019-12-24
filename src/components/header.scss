@@ -47,19 +47,25 @@ a:hover {
 
 .header-row2 {
   z-index: 1;
-  justify-content: center;
   display: flex;
 
   background-color: white;
   box-shadow: 0 4px 2px -2px rgba(93, 107, 124, 0.753);
 }
 
+.social-icon {
+  padding: 1rem;
+}
 .header-row2-content {
   max-width: 120rem;
-  display: grid;
+  display: flex;
   grid-template-rows: 1fr;
   justify-content: space-between;
   width: 100%;
+}
+
+.mobile-nav-drawer {
+  grid-row: 1/2;
 }
 
 .main-heading {

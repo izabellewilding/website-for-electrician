@@ -5,7 +5,7 @@ import Email from "../assets/email.svg"
 import Mobile from "../assets/smartphone-call.svg"
 import Telephone from "../assets/old-telephone-ringing.svg"
 
-import "../../node_modules/font-awesome/css/font-awesome.css"
+
 
 const Footer = () => {
   return (

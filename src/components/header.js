@@ -14,6 +14,9 @@ import { Drawer, DrawerHeader, DrawerTitle, DrawerContent } from "@rmwc/drawer"
 import Email from "../assets/email.svg"
 import Mobile from "../assets/smartphone-call.svg"
 import Telephone from "../assets/old-telephone-ringing.svg"
+import Facebook from "../assets/iconmonstr-facebook-6.svg"
+import Instagram from "../assets/iconmonstr-instagram-11.svg"
+import Twitter from "../assets/iconmonstr-twitter-1.svg"
 
 const Header = props => {
   // const [open, setOpen] = useState(false)
@@ -84,6 +87,16 @@ const Header = props => {
                   className="elecsa-logo"
                   alt="Elecsa logo"
                 />
+              </div>
+              <div className="icon-bar">
+                <Link href="https://www.facebook.com/alexwildingelectricalservices/">
+                  <Facebook className="social-icon" />
+                </Link>
+                <Link href="https://www.facebook.com/alexwildingelectricalservices/">
+                  <Instagram className="social-icon" />
+                </Link>
+
+                <Twitter className="social-icon" />
               </div>
               <div className="mobile-nav-drawer">
                 <Button className="menu-button mobile-hidden-button">
