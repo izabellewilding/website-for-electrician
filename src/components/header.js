@@ -61,6 +61,17 @@ const Header = props => {
               </div>
             </Link>
 
+            <div className="icon-bar">
+              <a href="https://www.facebook.com/alexwildingelectricalservices/">
+                <Facebook className="social-icon" />
+              </a>
+              <a href="https://www.instagram.com/alexwildingelectrical/?hl=en">
+                <Instagram className="social-icon" />
+              </a>
+
+              <Twitter className="social-icon" />
+            </div>
+
             <div className="header-contact-details">
               <div className="contact-details">
                 <p>alex@alexwildingelectricalservices.com</p>{" "}
@@ -88,16 +99,7 @@ const Header = props => {
                   alt="Elecsa logo"
                 />
               </div>
-              <div className="icon-bar">
-                <Link href="https://www.facebook.com/alexwildingelectricalservices/">
-                  <Facebook className="social-icon" />
-                </Link>
-                <Link href="https://www.facebook.com/alexwildingelectricalservices/">
-                  <Instagram className="social-icon" />
-                </Link>
 
-                <Twitter className="social-icon" />
-              </div>
               <div className="mobile-nav-drawer">
                 <Button className="menu-button mobile-hidden-button">
                   <a href="mailto:alex@alexwildingelectricalservices.com">
