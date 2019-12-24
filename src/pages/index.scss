@@ -309,11 +309,30 @@ p {
   opacity: 1;
 }
 
-.img-wrapper {
+.img-wrapper1 {
   position: relative;
   overflow: hidden;
   background-image: url(../images/commercial3-before.jpg);
   background-size: cover;
+  height: 489px;
+  width: 747px;
+}
+
+.img-wrapper2 {
+  position: relative;
+  overflow: hidden;
+  // background-image: url(../images/commercial3-before.jpg);
+  background-size: cover;
+  height: 489px;
+  width: 747px;
+}
+.img-wrapper3 {
+  position: relative;
+  overflow: hidden;
+  // background-image: url(../images/commercial3-before.jpg);
+  background-size: cover;
+  height: 489px;
+  width: 747px;
 }
 
 .info-box {

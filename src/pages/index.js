@@ -106,7 +106,7 @@ const IndexPage = () => {
         <div className="homepage-section3">
           <div className="section3-img-wrapper">
             <div className="featured-imgs">
-              <Link to="/commercial" className="img-wrapper">
+              <Link to="/commercial" className="img-wrapper1">
                 {" "}
                 <Img
                   src="../images/commercial-3.jpg"
@@ -118,20 +118,20 @@ const IndexPage = () => {
                 </div>
               </Link>
 
-              <Link to="/" className="img-wrapper">
+              <Link to="/" className="img-wrapper2">
                 <Img
-                  src="../images/commercial-before.jpg"
+                  src="../images/van.jpg"
                   className="hover-img "
                   type="small"
                 />
                 <div className="info-box">
-                  <p>Domestic Lighting</p>
+                  <p></p>
                 </div>
               </Link>
 
-              <Link to="/" className="img-wrapper">
+              <Link to="/" className="img-wrapper3">
                 <Img
-                  src="../images/patrick-tomasso-1NTFSnV-KLs-unsplash.jpg"
+                  src="../images/commercial-after.jpg"
                   className="featured-img"
                   type="small"
                 />
