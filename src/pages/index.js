@@ -110,7 +110,7 @@ const IndexPage = () => {
                 {" "}
                 <Img
                   src="../images/commercial-3.jpg"
-                  className="featured-img"
+                  className="featured-img1"
                   type="small"
                 />
                 <div className="info-box">
