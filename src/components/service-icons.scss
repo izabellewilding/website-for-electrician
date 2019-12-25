@@ -93,10 +93,6 @@ $mobile-breakpoint: 850px;
 
   text-justify: center;
   text-align: center;
-
-  @media (max-width: $mobile-breakpoint) {
-    display: none;
-  }
 }
 
 .svg-wrapper:hover .gradient-svg {
