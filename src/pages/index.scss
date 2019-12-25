@@ -248,13 +248,7 @@ p {
   -webkit-overflow-scrolling: touch;
 
   @media (max-width: $mobile-breakpoint) {
-    .homepage-section2 {
-      display: none;
-      height: 800px;
-      width: 100vw;
-      max-width: 100vw;
-      min-width: 100vw;
-    }
+    display: none;
   }
 }
 
@@ -266,10 +260,6 @@ p {
   height: auto;
   display: flex;
   width: 100%;
-
-  @media (max-width: $mobile-breakpoint) {
-    display: none;
-  }
 }
 
 .section3-img-wrapper {
@@ -283,25 +273,31 @@ p {
 .featured-imgs {
   width: 100%;
   display: grid;
-
+  grid-template-rows: 1fr 1fr 1fr;
   grid-row-gap: 3rem;
   padding: 4rem;
-}
+  max-height: 1380px;
 
-.img-wrapper1:hover .featured-img1 {
-  opacity: 1;
+  @media (max-width: $mobile-breakpoint) {
+    padding: 0rem;
+  }
 }
 
 .img-wrapper1 {
-  position: relative;
   overflow: hidden;
+  position: relative;
   background-image: url(../images/commercial3-before.jpg);
   background-size: cover;
-  height: 489px;
-  width: 747px;
+  // height: 489px;
+  // width: 747px;
+
+  @media (max-width: $mobile-breakpoint) {
+    // width: 100vw;
+    // height: 250px;
+  }
 }
 
-.featured-img1 {
+.featured-img {
   padding: 3rem;
 
   width: auto;
@@ -315,22 +311,38 @@ p {
   transition: all 0.5s;
 }
 
+.section3-img-wrapper:hover .featured-img {
+  opacity: 1;
+}
+
+.section3-img-wrapper:hover .info-box {
+  transform: translateX(0);
+}
+
 .img-wrapper2 {
-  position: relative;
   overflow: hidden;
-  // background-image: url(../images/commercial3-before.jpg);
+  position: relative;
   background-size: cover;
-  height: 489px;
-  width: 747px;
+  background-image: url(../images/tool-2766835_1920.jpg);
+
+  @media (max-width: $mobile-breakpoint) {
+    // width: 100vw;
+    // height: 250px;
+  }
 }
 
 .img-wrapper3 {
   position: relative;
   overflow: hidden;
+  position: relative;
+
   // background-image: url(../images/commercial3-before.jpg);
   background-size: cover;
-  height: 489px;
-  width: 747px;
+
+  @media (max-width: $mobile-breakpoint) {
+    // width: 100vw;
+    // height: 250px;
+  }
 }
 
 .info-box {
@@ -352,10 +364,6 @@ p {
   text-align: center;
 
   transition: all 0.25s ease-in;
-}
-
-.section3-img-wrapper:hover .info-box {
-  transform: translateX(0);
 }
 
 @media (max-width: $mobile-breakpoint) {

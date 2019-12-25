@@ -6,7 +6,7 @@ $mobile-breakpoint: 850px;
   font-size: 3rem;
 
   @media (max-width: $mobile-breakpoint) {
-    padding-top: 2rem;
+    display: none;
   }
 }
 
@@ -56,10 +56,6 @@ $mobile-breakpoint: 850px;
   max-width: 120rem;
 
   padding: 2rem;
-
-  @media (max-width: $mobile-breakpoint) {
-    padding: 1rem;
-  }
 }
 
 .gradient-svg {
@@ -99,7 +95,7 @@ $mobile-breakpoint: 850px;
   text-align: center;
 
   @media (max-width: $mobile-breakpoint) {
-    font-size: 1rem;
+    display: none;
   }
 }
 

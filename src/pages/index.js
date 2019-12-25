@@ -110,7 +110,7 @@ const IndexPage = () => {
                 {" "}
                 <Img
                   src="../images/commercial-3.jpg"
-                  className="featured-img1"
+                  className="featured-img"
                   type="small"
                 />
                 <div className="info-box">
@@ -121,7 +121,7 @@ const IndexPage = () => {
               <Link to="/" className="img-wrapper2">
                 <Img
                   src="../images/van.jpg"
-                  className="hover-img "
+                  className="featured-img "
                   type="small"
                 />
                 <div className="info-box">
