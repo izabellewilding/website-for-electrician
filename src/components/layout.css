@@ -52,7 +52,7 @@ body {
   overflow-x: hidden;
   margin: 0;
   line-height: 130%;
-  letter-spacing: 0.15rem;
+  letter-spacing: 0.1rem;
 }
 
 a {
@@ -87,7 +87,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 850px) {
   h1 {
-    font-size: 3rem;
+    font-size: 2.75rem;
     font-family: "Ubuntu";
     font-weight: lighter !important;
   }

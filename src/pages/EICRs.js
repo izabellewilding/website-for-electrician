@@ -2,22 +2,17 @@ import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import "./service-article.css"
+import "./service-article.scss"
 import Img from "../components/image"
 import "@rmwc/icon/icon.css"
 import { Icon } from "@rmwc/icon"
-import ServiceIcons from "../components/service-icons"
+import ServiceArticleContainer from "../components/service-article-container"
 
 const ServiceArticle = () => (
   <Layout showLinkToHome>
     <div className="mobile-header-padding"></div>
 
-    <div className="article-layout1">
-      {/* <div className="article-title">
-        <h1>DOMESTIC REWIRES</h1>
-      </div> */}
-      <ServiceIcons />
-
+    <ServiceArticleContainer>
       <div className="article-content">
         <div className="article-text">
           {" "}
@@ -37,12 +32,6 @@ const ServiceArticle = () => (
             not deteriorated. If you feel that you're due an EICR or a landlord
             who needs certification, get in touch to discuss the process.
           </p>
-          <a
-            href="mailto:alex@alexwildingelectricalservices.com"
-            className="mailto-link mailto-services"
-          >
-            Contact
-          </a>
         </div>
         {/* <!--end into text--> */}
 
@@ -56,7 +45,7 @@ const ServiceArticle = () => (
         {/* <!--end main image container--> */}
       </div>
       {/* <!--end blog-intro--> */}
-    </div>
+    </ServiceArticleContainer>
     {/* <!--end of article--> */}
   </Layout>
 )

@@ -2,7 +2,7 @@ import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import "./service-article.css"
+import "./service-article.scss"
 import Img from "../components/image"
 import "@rmwc/icon/icon.css"
 import { Icon } from "@rmwc/icon"
@@ -11,14 +11,11 @@ import ServiceIcons from "../components/service-icons"
 const ServiceArticle = () => (
   <Layout showLinkToHome>
     <div className="mobile-header-padding"></div>
-
     <div className="article-layout1">
-      <ServiceIcons />
-
+      <h1 className="article-subheading">Consumer Unit Upgrades</h1>
       <div className="article-content">
         <div className="article-text">
           {" "}
-          <h1 className="article-subheading">Consumer Unit Upgrades</h1>
           <p>
             {" "}
             Commonly referred to as fuse boxes, consumer units play an important
@@ -29,15 +26,7 @@ const ServiceArticle = () => (
             identify faulty appliances. S.P.Ds and AFDDs can also be fitted if
             required.
           </p>
-          <a
-            href="mailto:alex@alexwildingelectricalservices.com"
-            className="mailto-link mailto-services"
-          >
-            Contact
-          </a>
         </div>
-
-        {/* <!--end into text--> */}
 
         <div className="article-img-container">
           <Img
@@ -47,6 +36,8 @@ const ServiceArticle = () => (
         </div>
         {/* <!--end main image container--> */}
       </div>
+      <ServiceIcons />
+
       {/* <!--end blog-intro--> */}
     </div>
     {/* <!--end of article--> */}

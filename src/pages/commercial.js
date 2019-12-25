@@ -2,7 +2,7 @@ import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import "./service-article.css"
+import "./service-article.scss"
 import Img from "../components/image"
 import "@rmwc/icon/icon.css"
 import { Icon } from "@rmwc/icon"
@@ -22,12 +22,6 @@ const ServiceArticle = () => (
         <div className="article-text">
           {" "}
           <h1 className="article-subheading">Commercial</h1>
-          <a
-            href="mailto:alex@alexwildingelectricalservices.com"
-            className="mailto-link mailto-services"
-          >
-            Contact
-          </a>
         </div>
         {/* <!--end into text--> */}
 

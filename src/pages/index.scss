@@ -267,16 +267,16 @@ p {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  max-width: 910px;
+  max-width: 85rem;
 }
 
 .featured-imgs {
-  width: 100%;
+  width: 100vw;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-row-gap: 3rem;
   padding: 4rem;
-  max-height: 1380px;
+  max-height: 164rem;
 
   @media (max-width: $mobile-breakpoint) {
     padding: 0rem;
@@ -292,8 +292,7 @@ p {
   // width: 747px;
 
   @media (max-width: $mobile-breakpoint) {
-    // width: 100vw;
-    // height: 250px;
+    background-image: none;
   }
 }
 
@@ -304,11 +303,14 @@ p {
   position: relative;
   opacity: 0;
 
-  max-height: 501px;
-  min-height: 408px;
-  min-width: 744px;
+  height: auto;
+  width: 100%;
 
   transition: all 0.5s;
+
+  @media (max-width: $mobile-breakpoint) {
+    opacity: 1;
+  }
 }
 
 .section3-img-wrapper:hover .featured-img {
