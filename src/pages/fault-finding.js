@@ -16,7 +16,7 @@ const ServiceArticle = () => (
       <div className="article-content">
         <div className="article-text">
           {" "}
-          <h1 className="article-subheading">Fault Finding</h1>
+          <h1 className="article-subheading">Landlord Electrical Services</h1>
         </div>
         {/* <!--end into text--> */}
 

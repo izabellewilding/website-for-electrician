@@ -16,7 +16,9 @@ const ServiceArticle = () => (
       <div className="article-content">
         <div className="article-text">
           {" "}
-          <h1 className="article-subheading">EICRs</h1>
+          <h1 className="article-subheading">
+            EICRs and Landlord Electrical Services
+          </h1>
           <p>
             {" "}
             An Electrical Installation Condition Report (EICR) is a formal

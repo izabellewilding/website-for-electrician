@@ -49,10 +49,15 @@ const IndexPage = () => {
               </div>
               <div className="website-description">
                 <p>
-                  Fully qualified electrician based in Maenclochog, Pembrokeshire. From a broken socket to a full domestic rewire,
-                  I offer a range of professional electrical services across
-                  South West Wales. All jobs are considered, so get in touch via
-                  email or phone to discuss services and prices.
+                  Fully qualified and highly experienced electrician based in
+                  Maenclochog, Pembrokeshire. The diverse range of clients I
+                  work with include private companies, homeowners, and building
+                  firms. I undertake professional electrical work for businesses
+                  and individuals across Pembrokeshire. Before I commence the
+                  work I will agree a quotation for the work, fix a firm start
+                  date, and expected completion date. After completion, it will
+                  be fully tested and certified, with a copy of the relevant
+                  certificates given straight to you.
                 </p>
 
                 <br />
@@ -76,16 +81,18 @@ const IndexPage = () => {
               <div className="certification-items">
                 <LivelyTick className="tick-svg" />
                 <p className="certification-text">
-                  Fully qualified to the 18th edition
+                  Fully qualified to the 18th edition and over 10 years'
+                  experience
                 </p>
                 <LivelyTick className="tick-svg" />
                 <p className="certification-text">
                   Registered member of the Electrical Contractors' Association
-                  (ECA) and Elecsa for part P
+                  (ECA)
                 </p>
                 <LivelyTick className="tick-svg" />
                 <p className="certification-text">
-                  All jobs considered, no job too small
+                  Fully compliant with Part P of the Building Regulations for
+                  domestic/home electrical installation work and repairs.
                 </p>
               </div>
             </div>
