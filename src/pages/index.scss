@@ -44,6 +44,12 @@ p {
   grid-template-rows: auto;
 
   background: linear-gradient(rgba(0, 13, 43, 0.75), rgba(5, 115, 211, 0.62));
+
+  @media (max-width: $mobile-breakpoint) {
+    display: flex;
+    height: 1473px;
+    position: relative;
+  }
 }
 
 .section1-logos {
@@ -141,12 +147,13 @@ p {
   flex-direction: column;
   justify-content: left;
   align-items: left;
-  color: rgb(255, 232, 221);
-
-  font-size: 1.75rem;
+  color: #fff5f1;
+  font-size: 1.45rem;
   font-family: "Ubuntu";
-
   font-weight: lighter !important;
+  background-color: #00000054;
+  box-shadow: 2px 2px 15px black;
+  padding: 2rem;
 }
 
 .mailto-link {
@@ -381,12 +388,6 @@ p {
     height: auto;
     display: grid;
     grid-template-columns: 1fr;
-  }
-
-  .homepage-section1 {
-    display: flex;
-    height: 885px;
-    position: relative;
   }
 
   .section1-content {

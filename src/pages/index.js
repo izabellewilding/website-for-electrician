@@ -53,11 +53,15 @@ const IndexPage = () => {
                   Maenclochog, Pembrokeshire. The diverse range of clients I
                   work with include private companies, homeowners, and building
                   firms. I undertake professional electrical work for businesses
-                  and individuals across Pembrokeshire. Before I commence the
-                  work I will agree a quotation for the work, fix a firm start
-                  date, and expected completion date. After completion, it will
-                  be fully tested and certified, with a copy of the relevant
-                  certificates given straight to you.
+                  and individuals across Pembrokeshire.
+                </p>
+                <br />
+                <p>
+                  Before I begin the work I will agree a quotation for the work,
+                  fix a firm start date and expected completion date, and
+                  address any queries you have surrounding the work. After
+                  completion, it will be fully tested and certified, with a copy
+                  of the relevant certificates given straight to you.
                 </p>
 
                 <br />
