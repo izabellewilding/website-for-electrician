@@ -36,7 +36,7 @@ p {
   position: relative;
   max-width: 100vw;
   width: 100%;
-  height: 822px;
+  height: 962px;
   padding-top: 5rem;
 
   display: grid;
@@ -152,7 +152,8 @@ p {
   font-family: "Ubuntu";
   font-weight: lighter !important;
   background-color: #00000054;
-  box-shadow: 2px 2px 15px black;
+  box-shadow: 6px 7px 15px #001a3b;
+  text-shadow: 5px 4px 10px black;
   padding: 2rem;
 }
 
@@ -216,7 +217,7 @@ p {
 
   max-height: 37rem;
   margin-top: 3rem;
-  margin: 1rem;
+  margin: 8rem;
   padding: 3rem;
 
   align-items: center;
