@@ -49,8 +49,7 @@ const IndexPage = () => {
               </div>
               <div className="website-description">
                 <p>
-                  Fully qualified electrician based in Maenclochog,
-                  Pembrokeshire. From a broken socket to a full domestic rewire,
+                  Fully qualified electrician based in Maenclochog, Pembrokeshire. From a broken socket to a full domestic rewire,
                   I offer a range of professional electrical services across
                   South West Wales. All jobs are considered, so get in touch via
                   email or phone to discuss services and prices.

@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
     author: `@izabellewilding`,
-    title: "Alex Wilding Electrical Services",
+    title: "Alex Wilding Electrical Services Maenclochog",
     titleTemplate: "%s · Alex Wilding Electrical Services ",
     description:
-      "Fully qualified electrician in Pembrokeshire, Wales. I carry out electrical services accross Pembrokeshire and South West Wales. Examples of the service I provide accross Pembrokeshire are Domestic Rewires, Fuse Box (Consumer Unit Upgrades), new build rewires, electrical installations, and EICR tests.",
+      "Fully qualified electrician based in Maenclochog Pembrokeshire. Covering areas such as Maenclochog, Whitland, Clynderwen, Narberth, Ceredigion, and the whole of South West Wales. Examples of the service I provide accross Pembrokeshire are Domestic Rewires, Fuse Box (Consumer Unit Upgrades), new build rewires, electrical installations, commerical electrics, and EICR tests.",
     url: "https://www.alexwildingelectricalservices.com", // No trailing slash allowed!
   },
 
