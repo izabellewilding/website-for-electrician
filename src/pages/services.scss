@@ -1,0 +1,47 @@
+.article-layout1 {
+  padding-top: 6rem;
+
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 850px) {
+  .article-layout1 {
+    padding-top: 3rem;
+  }
+}
+
+.article-content {
+  overflow: hidden;
+  max-width: 120rem;
+
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+  padding: 2rem;
+  font-family: "Ubuntu";
+  width: 100vw;
+  max-height: 2000px;
+  font-size: 1.1rem;
+  background-color: white;
+}
+
+.article-subheading {
+  font-family: "Electro-Reg";
+  padding-bottom: 3.5rem;
+  padding-top: 3.5rem;
+
+  line-height: 4rem;
+  text-transform: uppercase;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.services-list {
+  text-align: center;
+  list-style: none;
+  padding: 6rem;
+}

@@ -4,6 +4,7 @@ $bigscreen-breakpoint: 2000px;
 .header {
   display: flex;
   justify-content: center;
+  position: inherit;
   margin: auto;
   z-index: 6;
 
@@ -11,10 +12,10 @@ $bigscreen-breakpoint: 2000px;
   /* width: 100vw; */
   left: 0;
   right: 0;
-  height: 154.33px;
 
   @media (max-width: $mobile-breakpoint) {
     position: fixed;
+    height: 154.33px;
   }
 }
 

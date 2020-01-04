@@ -23,7 +23,6 @@ const Layout = ({ children, ...props }) => {
       <meta charset="UTF-8" />
 
       <Header {...props} />
-
       {children}
       <Footer />
       <link
