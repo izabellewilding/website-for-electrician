@@ -19,11 +19,11 @@ const IndexPage = () => {
   const [viewLess, setViewLess] = useState(false)
   return (
     <Layout>
-      <SEO title="Homepage" />
+      <SEO title="homepage" />
 
-      <div className="homepage">
+      <div className="home">
         <div className="mobile-header-padding"></div>
-        <div className="homepage-section1">
+        <div className="home-section1">
           <Img
             className="section1-img"
             src="../images/electrician-3087536_1920.jpg"
@@ -78,7 +78,7 @@ const IndexPage = () => {
           {/* end section1 content */}
           {/* <WhiteCurve className="white-curve" /> */}
         </div>
-        {/* end homepage section 1 */} "}
+        {/* end home section 1 */} "}
         <p className="article-text site-description">
           Fully <strong>qualified </strong> and <strong>experienced </strong>{" "}
           electrician operating throughout Pembrokeshire for commerical,
@@ -90,11 +90,11 @@ const IndexPage = () => {
         <div className="services-title-wrapper">
           <h1 className="services-title">Services</h1>
         </div>
-        <div className="homepage-section2">
+        <div className="home-section2">
           <ServiceIcons />
         </div>
-        {/* end homepage section 2 */}
-        <div className="homepage-section3">
+        {/* end home section 2 */}
+        <div className="home-section3">
           <div className="section3-img-wrapper">
             <div className="featured-imgs">
               <Link to="/commercial" className="img-wrapper1">

@@ -27,7 +27,7 @@ const ServicesHome = () => (
           <li>Landlord Electrical Certificates</li>
         </ul>
         <p>
-          Before work begins, I will agree a quotation for the work, fix a firm
+          Before work begins, we will agree a quotation for the work, fix a firm
           start date and expected completion date. On completion, it will be
           fully tested and certified, with a copy of the relevant certificates
           given straight to you.{" "}
