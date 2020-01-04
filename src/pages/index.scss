@@ -19,6 +19,8 @@ p {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -102,33 +104,6 @@ p {
   color: white;
 }
 
-.white-curve {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-.white-curve-invert {
-  display: none;
-  position: absolute;
-  z-index: 1;
-  top: -15px;
-  width: 100vw;
-}
-
-.section1-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  width: 100%;
-  padding: 2.25rem;
-  padding-top: 9rem;
-
-  @media (max-width: $mobile-breakpoint) {
-    padding-top: 2rem;
-  }
-}
-
 .home-section1-content {
   line-height: 1.9;
   width: 100%;
@@ -155,11 +130,6 @@ p {
 .svg-container {
   height: 100%;
   padding: 3rem;
-}
-
-.site-description {
-  background-color: white;
-  padding-top: 5rem;
 }
 
 .home-bulb {
@@ -262,6 +232,23 @@ p {
 .van-img {
   height: 250px;
   width: auto;
+}
+
+.text-box {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.75;
+  padding-bottom: 8rem;
+  color: rgb(50, 50, 60);
+
+  text-align: center;
+
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-top: 5rem;
+  width: 100%;
+  max-width: 120rem;
+  margin: auto;
 }
 
 /* home section 2 - svgs */
@@ -422,21 +409,6 @@ p {
   .section1-img {
     height: 600px;
   }
-
-  .website-description {
-    width: 100%;
-    font-size: 1.65rem;
-  }
-
-  /* 
-  .contact-details {
-    width: 100vw;
-    font-size: 1.25rem;
-    font-weight: bold;
-    letter-spacing: 0.1rem;
-    line-height: 2.25rem;
-    padding: 3rem;
-  } */
 
   .service-svg {
     width: 75px;

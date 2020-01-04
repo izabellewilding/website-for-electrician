@@ -79,7 +79,7 @@ const IndexPage = () => {
           {/* <WhiteCurve className="white-curve" /> */}
         </div>
         {/* end home section 1 */} "}
-        <p className="article-text site-description">
+        <p className="text-box">
           Fully <strong>qualified </strong> and <strong>experienced </strong>{" "}
           electrician operating throughout Pembrokeshire for commerical,
           domestic, and agricultural clients. A number of my customers are based
