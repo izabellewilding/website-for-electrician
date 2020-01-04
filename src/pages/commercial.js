@@ -9,7 +9,8 @@ import { Icon } from "@rmwc/icon"
 import ServiceIcons from "../components/service-icons"
 
 const ServiceArticle = () => (
-  <Layout showLinkToHome>
+  <Layout showLinkToHome title="commercial">
+    <SEO title="commerial" />
     <div className="mobile-header-padding"></div>
 
     <div className="article-layout1">

@@ -10,6 +10,7 @@ import ServiceArticleContainer from "../components/service-article-container"
 
 const ServiceArticle = () => (
   <Layout showLinkToHome>
+    <SEO title="fault finding" />
     <div className="mobile-header-padding"></div>
 
     <ServiceArticleContainer>

@@ -6,6 +6,7 @@ module.exports = {
     description:
       "Fully qualified electrician based in Maenclochog Pembrokeshire. Covering areas such as Maenclochog, Whitland, Clynderwen, Narberth, Ceredigion, and the whole of South West Wales. Services include Domestic Rewires, Landlord Electrical Services, Fuse Box (Consumer Unit Upgrades), new build rewires, electrical installations, commerical electrics, and EICR tests.",
     url: "https://www.alexwildingelectricalservices.com", // No trailing slash allowed!
+    image: "/src/images/awelectrical.PNG",
   },
 
   plugins: [

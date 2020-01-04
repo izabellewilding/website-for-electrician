@@ -49,19 +49,13 @@ const IndexPage = () => {
               </div>
               <div className="website-description">
                 <p>
-                  Fully qualified and highly experienced electrician based in
-                  Maenclochog, Pembrokeshire. The diverse range of clients I
-                  work with include private companies, homeowners, and building
-                  firms. I undertake professional electrical work for businesses
-                  and individuals across Pembrokeshire.
-                </p>
-                <br />
-                <p>
-                  Before I begin the work I will agree a quotation for the work,
-                  fix a firm start date and expected completion date, and
-                  address any queries you have surrounding the work. After
-                  completion, it will be fully tested and certified, with a copy
-                  of the relevant certificates given straight to you.
+                  Fully <strong>qualified </strong> and{" "}
+                  <strong>experienced </strong> electrician operating throughout
+                  Pembrokeshire for commerical, domestic, and agricultural
+                  clients. My customers are based in Cardigan, Newport,
+                  Haverfordwest, Narberth, Whitland, and all surrounding areas.
+                  No job is too big or small, so please get in touch to discuss
+                  services and prices.
                 </p>
 
                 <br />
@@ -72,7 +66,7 @@ const IndexPage = () => {
                 >
                   Contact
                 </a>
-                <Link to="/domestic-rewires" className="services-button">
+                <Link to="/services" className="services-button">
                   <div className="services-button-content">
                     <p>Services</p>
                   </div>

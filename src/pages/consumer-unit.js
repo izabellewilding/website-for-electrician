@@ -10,9 +10,15 @@ import ServiceIcons from "../components/service-icons"
 
 const ServiceArticle = () => (
   <Layout showLinkToHome>
+    <SEO
+      title="consumer-unit-upgrades"
+      description="consumer unit upgrades in Pembrokeshire"
+    />
     <div className="mobile-header-padding"></div>
     <div className="article-layout1">
-      <h1 className="article-subheading">Consumer Unit Upgrades</h1>
+      <h1 className="article-subheading">
+        Consumer Unit Upgrades in Pembrokeshire
+      </h1>
       <div className="article-content">
         <div className="article-text">
           {" "}

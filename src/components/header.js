@@ -107,7 +107,7 @@ const Header = props => {
                   </a>
                 </Button>
                 <Button outlined className="menu-button mobile-hidden-button">
-                  <Link to="/domestic-rewires">
+                  <Link to="/services">
                     <p>Services</p>
                   </Link>
                 </Button>

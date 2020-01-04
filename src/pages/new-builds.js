@@ -1,5 +1,4 @@
 import React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./service-article.scss"
@@ -11,6 +10,7 @@ import ServiceArticleContainer from "../components/service-article-container"
 
 const ServiceArticle = () => (
   <Layout showLinkToHome>
+    <SEO title="new-builds" />
     <div className="mobile-header-padding"></div>
 
     <ServiceArticleContainer>
