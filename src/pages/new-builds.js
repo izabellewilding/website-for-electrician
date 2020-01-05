@@ -9,8 +9,11 @@ import { Icon } from "@rmwc/icon"
 import ServiceArticleContainer from "../components/service-article-container"
 
 const ServiceArticle = () => (
-  <Layout showLinkToHome>
-    <SEO title="new-builds" />
+  <Layout>
+    <SEO
+      title="new-builds"
+      description="new build electrical wiring and installation in Pembrokeshire"
+    />
     <div className="mobile-header-padding"></div>
 
     <ServiceArticleContainer>

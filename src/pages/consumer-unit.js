@@ -9,7 +9,7 @@ import { Icon } from "@rmwc/icon"
 import ServiceIcons from "../components/service-icons"
 
 const ServiceArticle = () => (
-  <Layout showLinkToHome>
+  <Layout>
     <SEO
       title="consumer-unit-upgrades"
       description="consumer unit upgrades in Pembrokeshire"

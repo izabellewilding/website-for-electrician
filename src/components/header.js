@@ -24,13 +24,6 @@ const Header = props => {
   const [menuOpen, setMenuOpen] = React.useState(false)
 
   console.warn(props.className)
-  // let arrowIcon
-
-  // if (open) {
-  //   arrowIcon = "keyboard_arrow_right"
-  // } else {
-  //   arrowIcon = "keyboard_arrow_left"
-  // }
 
   let contactArrowIcon
   let homeLink
@@ -105,13 +98,12 @@ const Header = props => {
                   <a href="mailto:alex@alexwildingelectricalservices.com">
                     Contact
                   </a>
-                </Button>
-                <Button outlined className="menu-button mobile-hidden-button">
-                  <Link to="/services">
+                </Button>{" "}
+                <Link to="/services">
+                  <Button outlined className="menu-button mobile-hidden-button">
                     <p>Services</p>
-                  </Link>
-                </Button>
-
+                  </Button>{" "}
+                </Link>
                 <Button
                   className="menu-button"
                   onClick={() => setMenuOpen(!menuOpen)}
@@ -119,7 +111,6 @@ const Header = props => {
                 >
                   MENU
                 </Button>
-
                 <Drawer
                   dir="rtl"
                   modal

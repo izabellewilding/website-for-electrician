@@ -9,15 +9,18 @@ import { Icon } from "@rmwc/icon"
 import ServiceArticleContainer from "../components/service-article-container"
 
 const ServiceArticle = () => (
-  <Layout showLinkToHome>
-    <SEO title="fault finding" />
+  <Layout>
+    <SEO
+      title="fault finding"
+      description="electrical fault finding in Pembrokeshire"
+    />
     <div className="mobile-header-padding"></div>
 
     <ServiceArticleContainer>
       <div className="article-content">
         <div className="article-text">
           {" "}
-          <h1 className="article-subheading">Landlord Electrical Services</h1>
+          <h1 className="article-subheading">Fault Finding</h1>
         </div>
         {/* <!--end into text--> */}
 

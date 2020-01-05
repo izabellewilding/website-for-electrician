@@ -19,9 +19,6 @@ $bigscreen-breakpoint: 2000px;
 }
 
 .article-layout1 {
-  padding-top: 6rem;
-
-  padding-top: 6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,7 +37,6 @@ $bigscreen-breakpoint: 2000px;
 
   line-height: 2rem;
   letter-spacing: 0.1rem;
-  padding: 2rem;
   font-family: "Ubuntu";
   width: 100vw;
   max-height: 2000px;
@@ -76,10 +72,12 @@ $bigscreen-breakpoint: 2000px;
   width: 850px;
   padding-left: 40px;
   padding-right: 40px;
+  margin-bottom: 9rem;
 
   @media (max-width: $mobile-breakpoint) {
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 0rem;
   }
 }
 

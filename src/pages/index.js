@@ -56,42 +56,46 @@ const IndexPage = () => {
             </div>
 
             <br />
-
-            {/* <div className="certification-items">
-                <LivelyTick className="tick-svg" />
-                <p className="certification-text">
-                  Fully qualified to the 18th edition and over 10 years'
-                  experience
-                </p>
-                <LivelyTick className="tick-svg" />
-                <p className="certification-text">
-                  Registered member of the Electrical Contractors' Association
-                  (ECA)
-                </p>
-                <LivelyTick className="tick-svg" />
-                <p className="certification-text">
-                  Fully compliant with Part P of the Building Regulations for
-                  domestic/home electrical installation work and repairs.
-                </p>
-              </div> */}
           </div>
           {/* end section1 content */}
-          {/* <WhiteCurve className="white-curve" /> */}
         </div>
-        {/* end home section 1 */} "}
+        {/* end home section 1 */}
+        <div className="breadcrumb">
+          <div className="certification-items">
+            <LivelyTick className="tick-svg" />
+            <p className="certification-text">
+              Fully qualified to the 18th edition
+            </p>
+            <LivelyTick className="tick-svg" />
+            <p className="certification-text">
+              Registered member of the Electrical Contractors' Association (ECA)
+            </p>
+            <LivelyTick className="tick-svg" />
+            <p className="certification-text">
+              Compliant with Part P of the Building Regulations for domestic
+              installation work and repairs.
+            </p>
+          </div>
+        </div>
+
         <p className="text-box">
-          Fully <strong>qualified </strong> and <strong>experienced </strong>{" "}
-          electrician operating throughout Pembrokeshire for commerical,
-          domestic, and agricultural clients. A number of my customers are based
-          in Cardigan, Newport, Haverfordwest, Narberth, Whitland, and all
-          surrounding areas. No job is too big or small, so please get in touch
+          <strong>Fully qualified </strong> electrician with over{" "}
+          <strong>10 years' experience </strong> carrying out electrical
+          services across Pemrokeshire for{" "}
+          <strong>commerical, domestic, and agricultural clients</strong>.
+          Clients are currently based in Clynderwen, Crymych, Cardigan, Newport,
+          Haverfordwest, Narberth, Whitland and surrounding regions.{" "}
+          <strong>No job too big or small,</strong> get in touch if you'd like
           to discuss services and prices.
         </p>
-        <div className="services-title-wrapper">
-          <h1 className="services-title">Services</h1>
-        </div>
+        <Link to="/services">
+          <h2 className="mob-clickme">Click to view services</h2>
+        </Link>
+        <Link to="/services" className="services-title-wrapper">
+          <h1 className="services-title">Some of Our Services</h1>
+        </Link>
         <div className="home-section2">
-          <ServiceIcons />
+          <ServiceIcons id="index-icons" />
         </div>
         {/* end home section 2 */}
         <div className="home-section3">

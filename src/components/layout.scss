@@ -1,3 +1,6 @@
+$mobile-breakpoint: 850px;
+$bigscreen-breakpoint: 2000px;
+
 * {
   margin: 0;
   padding: 0;
@@ -70,6 +73,10 @@ h2 {
   font-size: 2.75rem;
   color: #ffffff;
   text-transform: uppercase;
+
+  @media (max-width: $mobile-breakpoint) {
+    font-size: 2rem;
+  }
 }
 
 html {

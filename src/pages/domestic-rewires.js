@@ -9,8 +9,11 @@ import { Icon } from "@rmwc/icon"
 import ServiceArticleContainer from "../components/service-article-container"
 
 const ServiceArticle = () => (
-  <Layout showLinkToHome>
-    <SEO title="domestic rewires" />
+  <Layout>
+    <SEO
+      title="domestic rewires"
+      description="domestic rewires in Pembrokeshire"
+    />
     <div className="mobile-header-padding"></div>
 
     <ServiceArticleContainer>
@@ -33,12 +36,6 @@ const ServiceArticle = () => (
             wiring is safe. If your property still has it's original wiring and
             is over 30 years old, it is likely that the wiring will need
             upgrading, at least in part, to the modern standard.
-          </p>
-          <br />
-          <p>
-            {" "}
-            As a registered electrician I am fully qualified to carry out
-            Periodic Inspection Reports and domestic rewires.
           </p>
         </div>
 

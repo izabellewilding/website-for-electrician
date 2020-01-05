@@ -4,9 +4,22 @@ $mobile-breakpoint: 850px;
   font-family: "Ubuntu";
   text-transform: uppercase;
   font-size: 3rem;
+  color: white !important;
+
+  // @media (max-width: $mobile-breakpoint) {
+  //   display: none;
+  // }
+}
+
+.mob-clickme {
+  display: none;
 
   @media (max-width: $mobile-breakpoint) {
-    display: none;
+    display: block;
+    background-color: #e9c803;
+    color: #17233e;
+    padding: 2rem;
+    text-align: center;
   }
 }
 
@@ -18,7 +31,12 @@ $mobile-breakpoint: 850px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 5rem;
+  background: linear-gradient(rgba(0, 13, 43, 0.911), rgba(0, 13, 43, 0.911));
+
+  @media (max-width: $mobile-breakpoint) {
+    display: none;
+  }
 }
 
 .service-items-wrapper {
@@ -30,6 +48,7 @@ $mobile-breakpoint: 850px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   flex-wrap: wrap;
+  border-radius: 29px;
 
   justify-self: center;
   position: relative;
