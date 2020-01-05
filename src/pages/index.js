@@ -62,18 +62,19 @@ const IndexPage = () => {
         {/* end home section 1 */}
         <div className="breadcrumb">
           <div className="certification-items">
+            {" "}
             <LivelyTick className="tick-svg" />
             <p className="certification-text">
               Fully qualified to the 18th edition
             </p>
             <LivelyTick className="tick-svg" />
             <p className="certification-text">
-              Registered member of the Electrical Contractors' Association (ECA)
-            </p>
-            <LivelyTick className="tick-svg" />
-            <p className="certification-text">
               Compliant with Part P of the Building Regulations for domestic
               installation work and repairs.
+            </p>{" "}
+            <LivelyTick className="tick-svg" />
+            <p className="certification-text">
+              Registered member of the Electrical Contractors' Association (ECA)
             </p>
           </div>
         </div>
