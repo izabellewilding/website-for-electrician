@@ -12,9 +12,9 @@ const ServicesHome = () => (
       title="services homepage"
       description="List of services Alex Wilding Electrical provides in Pembrokeshire"
     />
-    <div className="article-layout1">
+    <div className="article-layout1" id="services-page">
+      <h1 className="article-subheading">Some of Our Services</h1>
       <div className="article-content">
-        <h1 className="article-subheading">Some of Our Services</h1>
         <ServiceIcons />
 
         <div className="text-box">

@@ -128,6 +128,9 @@ const Header = props => {
                       <Link to="/" className="menu-link">
                         <ListItem>Home</ListItem>
                       </Link>
+                      <Link to="/services" className="menu-link">
+                        <ListItem>Services</ListItem>
+                      </Link>
                       <Link to="/EICRs" className="menu-link">
                         <ListItem>EICRs</ListItem>
                       </Link>
