@@ -21,7 +21,6 @@ const ServiceArticle = () => (
         {/* <div className="article-title">
         <h1>DOMESTIC REWIRES</h1>
       </div> */}
-        <ServiceIcons />
 
         <div className="article-content">
           <div className="article-text">

@@ -41,7 +41,7 @@ $bigscreen-breakpoint: 2000px;
     text-align: center;
 
     @media (max-width: $mobile-breakpoint) {
-      padding-top: 16rem;
+      // padding-top: 16rem;
     }
   }
 }
