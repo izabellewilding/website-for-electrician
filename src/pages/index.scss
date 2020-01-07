@@ -206,6 +206,7 @@ p {
   display: flex;
   justify-content: center;
   background-color: #ebc902;
+  padding: 0.75rem;
 }
 
 .certification-items {
@@ -220,6 +221,7 @@ p {
   color: #0f365a;
   font-size: 1rem;
   max-width: 100rem;
+  font-weight: bold;
 
   @media (max-width: $mobile-breakpoint) {
     padding: 1rem;
