@@ -4,7 +4,7 @@ module.exports = {
     title: "Alex Wilding Electrical Services Maenclochog",
     titleTemplate: "%s · Alex Wilding Electrical Services ",
     description:
-      "Fully qualified electrician based in Maenclochog Pembrokeshire. Covering areas such as Maenclochog, Whitland, Clynderwen, Narberth, Ceredigion, and the whole of South West Wales. Services include Domestic Rewires, Landlord Electrical Services, Fuse Box (Consumer Unit Upgrades), new build rewires, electrical installations, commerical electrics, and EICR tests.",
+      " We are an ECA and ELECSA approved contractor offering domestic, commercial and industrial services across all areas of Pembrokeshire.",
     url: "https://www.alexwildingelectricalservices.com", // No trailing slash allowed!
     image: "/src/images/awelectrical.PNG",
   },

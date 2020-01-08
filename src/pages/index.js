@@ -81,7 +81,7 @@ const IndexPage = () => {
 
         <p className="text-box">
           <strong>Fully qualified </strong> electrician with over{" "}
-          <strong>10 years' experience </strong> carrying out electrical
+          <strong>10 years of experience </strong> carrying out electrical
           services across Pemrokeshire for{" "}
           <strong>commercial, domestic, and agricultural clients</strong>.
           Clients are currently based in Clynderwen, Crymych, Cardigan, Newport,
