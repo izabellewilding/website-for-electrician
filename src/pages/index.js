@@ -83,7 +83,7 @@ const IndexPage = () => {
           <strong>Fully qualified </strong> electrician with over{" "}
           <strong>10 years' experience </strong> carrying out electrical
           services across Pemrokeshire for{" "}
-          <strong>commerical, domestic, and agricultural clients</strong>.
+          <strong>commercial, domestic, and agricultural clients</strong>.
           Clients are currently based in Clynderwen, Crymych, Cardigan, Newport,
           Haverfordwest, Narberth, Whitland and surrounding regions.{" "}
           <strong>No job too big or small,</strong> get in touch if you'd like

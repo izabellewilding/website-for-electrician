@@ -2,7 +2,9 @@ $mobile-breakpoint: 850px;
 $bigscreen-breakpoint: 2000px;
 
 #services-page {
-  padding-top: 17rem;
+  @media (max-width: $mobile-breakpoint) {
+    padding-top: 17rem;
+  }
 }
 .article-layout1 {
   display: flex;
