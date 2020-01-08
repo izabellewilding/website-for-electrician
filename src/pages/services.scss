@@ -2,6 +2,7 @@ $mobile-breakpoint: 850px;
 $bigscreen-breakpoint: 2000px;
 
 #services-page {
+  padding-top: 6rem;
   @media (max-width: $mobile-breakpoint) {
     padding-top: 17rem;
   }
