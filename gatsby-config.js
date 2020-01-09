@@ -25,6 +25,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sitemap`,
 
     {
       resolve: "gatsby-source-filesystem",
