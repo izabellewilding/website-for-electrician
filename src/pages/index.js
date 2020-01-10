@@ -19,7 +19,7 @@ const IndexPage = () => {
   const [viewLess, setViewLess] = useState(false)
   return (
     <Layout>
-      <SEO title="homepage" />
+      <SEO title="Pembrokeshire Electrician" />
 
       <div className="home">
         <div className="mobile-header-padding"></div>

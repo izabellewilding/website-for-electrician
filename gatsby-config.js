@@ -4,7 +4,7 @@ module.exports = {
     title: "Alex Wilding Electrical Services Maenclochog",
     titleTemplate: "%s · Alex Wilding Electrical Services ",
     description:
-      " We are an ECA and ELECSA approved contractor offering domestic, commercial and industrial services across all areas of Pembrokeshire.",
+      " ELECSA approved electrical contractor offering domestic, commercial and industrial services across all areas of Pembrokeshire.",
     url: "https://www.alexwildingelectricalservices.com", // No trailing slash allowed!
     image: "/src/images/awelectrical.PNG",
   },
