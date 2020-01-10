@@ -1,6 +1,24 @@
 $mobile-breakpoint: 850px;
 $bigscreen-breakpoint: 2000px;
 
+.top-section {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  padding-left: 1rem;
+  background: #e6c819;
+
+  @media (max-width: $mobile-breakpoint) {
+    display: none;
+  }
+
+  p {
+    padding: 1rem;
+    font-family: "open sans", sans-serif;
+  }
+}
+
 .header {
   display: flex;
   justify-content: center;
