@@ -1,0 +1,64 @@
+@mixin add-hover-effect($color) {
+  background: $color;
+  &:hover {
+    animation: background-effect;
+    animation-duration: 0.3s;
+    background: lighten($color, 10%);
+  }
+  @include background-effect-keyframes(lighten($color, 10%), $color);
+}
+
+@mixin background-effect-keyframes($color1, $color2) {
+  @keyframes background-effect {
+    0% {
+      background: linear-gradient(
+        135deg,
+        $color1,
+        $color1,
+        $color2,
+        $color2,
+        $color2
+      );
+    }
+    25% {
+      background: linear-gradient(
+        135deg,
+        $color1,
+        $color1,
+        $color2,
+        $color2,
+        $color2
+      );
+    }
+    50% {
+      background: linear-gradient(
+        135deg,
+        $color1,
+        $color1,
+        $color1,
+        $color2,
+        $color2
+      );
+    }
+    75% {
+      background: linear-gradient(
+        135deg,
+        $color1,
+        $color1,
+        $color1,
+        $color1,
+        $color2
+      );
+    }
+    100% {
+      background: linear-gradient(
+        135deg,
+        $color1,
+        $color1,
+        $color1,
+        $color1,
+        $color1
+      );
+    }
+  }
+}

@@ -1,3 +1,6 @@
+@import "./hover-effect.scss";
+$color2: #102140;
+
 $mobile-breakpoint: 850px;
 
 .services-title {
@@ -32,7 +35,9 @@ $mobile-breakpoint: 850px;
   justify-content: center;
   align-items: center;
   padding: 5rem;
+
   background: linear-gradient(rgba(0, 13, 43, 0.911), rgba(0, 13, 43, 0.911));
+  @include add-hover-effect($color2);
 
   @media (max-width: $mobile-breakpoint) {
     display: none;
