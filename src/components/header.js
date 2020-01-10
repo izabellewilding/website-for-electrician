@@ -46,8 +46,10 @@ const Header = props => {
   return (
     <>
       <div className="top-section">
-        <p>Electrician in Pembrokeshire </p> <Clock className="clock-svg" />
-        <p>08:00 - 21:00 Mon - Sat, 09:00 - 17:00 Sun</p>
+        <div className="top-section-content">
+          <p>Electrician in Pembrokeshire </p> <Clock className="clock-svg" />
+          <p>08:00 - 21:00 Mon - Sat, 09:00 - 17:00 Sun</p>
+        </div>
       </div>
       <header className="header">
         <div className="header-content">

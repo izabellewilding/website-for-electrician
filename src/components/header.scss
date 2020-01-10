@@ -3,9 +3,8 @@ $bigscreen-breakpoint: 2000px;
 
 .top-section {
   display: flex;
-  flex-direction: row;
-  text-align: center;
   align-items: center;
+  justify-content: center;
   padding-left: 1rem;
   background: #e6c819;
 
@@ -13,9 +12,20 @@ $bigscreen-breakpoint: 2000px;
     display: none;
   }
 
-  p {
-    padding: 1rem;
-    font-family: "open sans", sans-serif;
+  .top-section-content {
+    max-width: 120rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    padding-left: 1rem;
+
+    p {
+      padding: 1rem;
+
+      font-family: "open sans", sans-serif;
+    }
   }
 }
 
