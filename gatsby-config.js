@@ -5,7 +5,7 @@ module.exports = {
     titleTemplate: "%s · Alex Wilding Electrical Services ",
     description:
       " ELECSA approved electrical contractor offering domestic, commercial and industrial services across all areas of Pembrokeshire.",
-    url: "https://www.alexwildingelectricalservices.com", // No trailing slash allowed!
+    url: "https://www.alexwildingelectricalservices.com",
     image: "/src/images/awelectrical.PNG",
   },
 
@@ -25,7 +25,6 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sitemap`,
 
     {
       resolve: "gatsby-source-filesystem",
