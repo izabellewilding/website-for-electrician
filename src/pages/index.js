@@ -89,10 +89,13 @@ const IndexPage = () => {
           <strong>No job too big or small,</strong> get in touch if you'd like
           to discuss services and prices.
         </p>
-        <Link to="/services">
+        <Link to="/electrical-services-pembrokeshire">
           <h2 className="mob-clickme">Click to view services</h2>
         </Link>
-        <Link to="/services" className="services-title-wrapper">
+        <Link
+          to="/electrical-services-pembrokeshire"
+          className="services-title-wrapper"
+        >
           <h1 className="services-title">Some of Our Services</h1>
         </Link>
         <div className="home-section2">

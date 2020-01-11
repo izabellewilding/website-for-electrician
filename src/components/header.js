@@ -106,7 +106,7 @@ const Header = props => {
                     Contact
                   </a>
                 </Button>{" "}
-                <Link to="/services">
+                <Link to="/electrical-services-pembrokeshire">
                   <Button outlined className="menu-button mobile-hidden-button">
                     <p>Services</p>
                   </Button>{" "}
@@ -135,7 +135,10 @@ const Header = props => {
                       <Link to="/" className="menu-link">
                         <ListItem>Home</ListItem>
                       </Link>
-                      <Link to="/services" className="menu-link">
+                      <Link
+                        to="/electrical-services-pembrokeshire"
+                        className="menu-link"
+                      >
                         <ListItem>Services</ListItem>
                       </Link>
                       <Link to="/EICRs" className="menu-link">
