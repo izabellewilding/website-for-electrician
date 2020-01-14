@@ -17,6 +17,7 @@ import Telephone from "../assets/old-telephone-ringing.svg"
 import Facebook from "../assets/iconmonstr-facebook-6.svg"
 import Instagram from "../assets/iconmonstr-instagram-11.svg"
 import Twitter from "../assets/iconmonstr-twitter-1.svg"
+import Clock from "../assets/iconmonstr-clock-thin.svg"
 
 const Header = props => {
   const [menuOpen, setMenuOpen] = React.useState(false)
@@ -35,6 +36,12 @@ const Header = props => {
 
   return (
     <>
+      <div className="top-section">
+        <div className="top-section-content">
+          <p>Electrician in Pembrokeshire </p> <Clock className="clock-svg" />
+          <p>08:00 - 21:00 Mon - Sat, 09:00 - 17:00 Sun</p>
+        </div>
+      </div>
       <header className="header">
         <div className="header-content">
           <div className="header-row1">

@@ -19,7 +19,7 @@ const IndexPage = () => {
   const [viewLess, setViewLess] = useState(false)
   return (
     <Layout>
-      <SEO title="homepage" />
+      <SEO title="Pembrokeshire Electrician" />
 
       <div className="home">
         <div className="mobile-header-padding"></div>
@@ -95,7 +95,11 @@ const IndexPage = () => {
           to="/electrical-services-pembrokeshire"
           className="services-title-wrapper"
         >
+<<<<<<< HEAD
           <h1 className="services-title">Our Services</h1>
+=======
+          <h1 className="services-title">Some of Our Services</h1>
+>>>>>>> c81f17738da9952aeb00071ded55fc7385b976aa
         </Link>
         <div className="home-section2">
           <ServiceIcons id="index-icons" />

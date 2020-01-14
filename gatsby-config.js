@@ -4,8 +4,9 @@ module.exports = {
     title: "Alex Wilding Electrical Services Maenclochog",
     titleTemplate: "%s · Alex Wilding Electrical Services ",
     description:
-      " We are an ECA and ELECSA approved contractor offering domestic, commercial and industrial services across all areas of Pembrokeshire.",
-    url: "https://www.alexwildingelectricalservices.com", // No trailing slash allowed!
+      " ELECSA approved electrical contractor offering domestic, commercial and industrial services across all areas of Pembrokeshire.",
+    url: "https://www.alexwildingelectricalservices.com",
+    siteUrl: "https://www.alexwildingelectricalservices.com",
     image: "/src/images/awelectrical.PNG",
   },
 
@@ -26,14 +27,14 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
 
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        path: `${__dirname}/src/markdown-pages`,
-        name: "markdown-pages",
-      },
-    },
-    `gatsby-transformer-remark`,
+    // {
+    //   resolve: "gatsby-source-filesystem",
+    //   options: {
+    //     path: `${__dirname}/src/markdown-pages`,
+    //     name: "markdown-pages",
+    //   },
+    // },
+    // `gatsby-transformer-remark`,
 
     `gatsby-plugin-sharp`,
     {
@@ -57,7 +58,37 @@ module.exports = {
         },
       },
     },
-
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`,
+        createLinkInHead: true,
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+  
+            allSitePage {
+              edges {
+                node {
+                  path
+                }
+              }
+            }
+        }`,
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.edges.map(edge => {
+            return {
+              url: site.siteMetadata.siteUrl + edge.node.path,
+              changefreq: `daily`,
+              priority: 0.7,
+            }
+          }),
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
