@@ -19,28 +19,19 @@ import Instagram from "../assets/iconmonstr-instagram-11.svg"
 import Twitter from "../assets/iconmonstr-twitter-1.svg"
 
 const Header = props => {
-  // const [open, setOpen] = useState(false)
-  const [contactOpen, setContactOpen] = useState(false)
   const [menuOpen, setMenuOpen] = React.useState(false)
 
   console.warn(props.className)
 
-  let contactArrowIcon
   let homeLink
 
-  if (contactOpen) {
-    contactArrowIcon = "keyboard_arrow_up"
-  } else {
-    contactArrowIcon = "keyboard_arrow_down"
-  }
-
-  if (props.showLinkToHome) {
-    homeLink = (
-      <Link to="/" className="back-button">
-        <Icon icon="arrow_back" className="back-button-arrow" />
-      </Link>
-    )
-  }
+  // if (props.showLinkToHome) {
+  //   homeLink = (
+  //     <Link to="/" className="back-button">
+  //       <Icon icon="arrow_back" className="back-button-arrow" />
+  //     </Link>
+  //   )
+  // }
 
   return (
     <>
@@ -99,7 +90,7 @@ const Header = props => {
                     Contact
                   </a>
                 </Button>{" "}
-                <Link to="/services">
+                <Link to="/electrical-services-pembrokeshire">
                   <Button outlined className="menu-button mobile-hidden-button">
                     <p>Services</p>
                   </Button>{" "}
@@ -128,7 +119,10 @@ const Header = props => {
                       <Link to="/" className="menu-link">
                         <ListItem>Home</ListItem>
                       </Link>
-                      <Link to="/services" className="menu-link">
+                      <Link
+                        to="/electrical-services-pembrokeshire"
+                        className="menu-link"
+                      >
                         <ListItem>Services</ListItem>
                       </Link>
                       <Link to="/EICRs" className="menu-link">

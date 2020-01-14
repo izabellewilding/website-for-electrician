@@ -18,10 +18,6 @@ const ServiceArticle = () => (
     <div className="mobile-header-padding"></div>
     <ServiceArticleContainer>
       <div className="article-layout1">
-        {/* <div className="article-title">
-        <h1>DOMESTIC REWIRES</h1>
-      </div> */}
-
         <div className="article-content">
           <div className="article-text">
             {" "}
@@ -29,7 +25,7 @@ const ServiceArticle = () => (
             <p>
               When you own, lease or rent commercial premises, the safety of
               your staff and customers is paramount. Alex Wilding Electrical
-              offers a complete electrical service including, design,
+              Services offers a complete electrical service including, design,
               installation, maintenance contracts, certification and more. From
               small business like shops, salons and restaurants to larger
               premises like mechanical workshops and offices. A bespoke services

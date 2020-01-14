@@ -36,6 +36,15 @@ const IndexPage = () => {
             />
           </div>
           <div className="home-section1-content">
+            <h2 className="home-title">Domestic and Commercial Electrician </h2>
+            <h2 className="home-title2">
+              {" "}
+              <strong>Based in Maenclochog</strong> <br />
+              <strong>Pembrokeshire</strong>
+            </h2>
+            <div className="svg-container">
+              <Bulb className="home-bulb" />
+            </div>
             <div className="header-contact-details">
               <div className="contact-details-mob ">
                 {" "}
@@ -46,16 +55,6 @@ const IndexPage = () => {
                 <p>01437 532307</p>
               </div>
             </div>
-            <h2 className="home-title">Domestic and Commercial Electrician </h2>
-            <h2 className="home-title2">
-              {" "}
-              <strong>Based in Pembrokeshire</strong>
-            </h2>
-            <div className="svg-container">
-              <Bulb className="home-bulb" />
-            </div>
-
-            <br />
           </div>
           {/* end section1 content */}
         </div>
@@ -82,18 +81,21 @@ const IndexPage = () => {
         <p className="text-box">
           <strong>Fully qualified </strong> electrician with over{" "}
           <strong>10 years of experience </strong> carrying out electrical
-          services across Pemrokeshire for{" "}
+          services across Pemrokeshire and surrounding areas for{" "}
           <strong>commercial, domestic, and agricultural clients</strong>.
           Clients are currently based in Clynderwen, Crymych, Cardigan, Newport,
           Haverfordwest, Narberth, Whitland and surrounding regions.{" "}
           <strong>No job too big or small,</strong> get in touch if you'd like
           to discuss services and prices.
         </p>
-        <Link to="/services">
+        <Link to="/electrical-services-pembrokeshire">
           <h2 className="mob-clickme">Click to view services</h2>
         </Link>
-        <Link to="/services" className="services-title-wrapper">
-          <h1 className="services-title">Some of Our Services</h1>
+        <Link
+          to="/electrical-services-pembrokeshire"
+          className="services-title-wrapper"
+        >
+          <h1 className="services-title">Our Services</h1>
         </Link>
         <div className="home-section2">
           <ServiceIcons id="index-icons" />

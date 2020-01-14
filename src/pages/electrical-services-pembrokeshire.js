@@ -3,17 +3,17 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from "../components/image"
 
-import "./services.scss"
+import "./electrical-services-pembrokeshire.scss"
 import ServiceIcons from "../components/service-icons"
 
 const ServicesHome = () => (
   <Layout>
     <SEO
       title="services homepage"
-      description="List of services Alex Wilding Electrical provides in Pembrokeshire"
+      description="List of services Alex Wilding Electrical provides in Pembrokeshire and surrounding areas"
     />
     <div className="article-layout1" id="services-page">
-      <h1 className="article-subheading">Some of Our Services</h1>
+      <h1 className="article-subheading">Electrical Services Pembrokeshire</h1>
       <div className="article-content">
         <ServiceIcons />
 
