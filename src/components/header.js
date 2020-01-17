@@ -26,13 +26,13 @@ const Header = props => {
 
   let homeLink
 
-  // if (props.showLinkToHome) {
-  //   homeLink = (
-  //     <Link to="/" className="back-button">
-  //       <Icon icon="arrow_back" className="back-button-arrow" />
-  //     </Link>
-  //   )
-  // }
+  if (props.showLinkToHome) {
+    homeLink = (
+      <Link to="/" className="back-button">
+        <Icon icon="arrow_back" className="back-button-arrow" />
+      </Link>
+    )
+  }
 
   return (
     <>

@@ -17,6 +17,7 @@ $bigscreen-breakpoint: 2000px;
 @font-face {
   font-family: "Ubuntu Bold";
   font-display: auto;
+  font-display: swap;
   src: url(../fonts/Ubuntu/Ubuntu-Bold.ttf);
 }
 
