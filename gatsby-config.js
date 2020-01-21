@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     author: `@izabellewilding`,
     title: "Alex Wilding Electrical Services Maenclochog",
-    titleTemplate: "%s · Alex Wilding Electrical Services ",
+    titleTemplate: "Alex Wilding Electrical Services · %s",
     description:
       " ELECSA approved electrical contractor offering domestic, commercial and industrial services across all areas of Pembrokeshire.",
     url: "https://www.alexwildingelectricalservices.com",

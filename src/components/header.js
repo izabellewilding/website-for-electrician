@@ -104,7 +104,13 @@ const Header = props => {
                 </Link>
                 <Button
                   className="menu-button"
-                  onClick={() => setMenuOpen(!menuOpen)}
+                  onClick={() => {
+                    if (menuOpen) {
+                      setMenuOpen(false)
+                    } else {
+                      setMenuOpen(true)
+                    }
+                  }}
                   outlined
                 >
                   MENU
