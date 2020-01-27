@@ -27,6 +27,7 @@ const IndexPage = () => {
           <Img
             className="section1-img"
             src="../images/electrician-3087536_1920.jpg"
+            size="medium"
           />
           <div className="section1-logos">
             <Img src="../images/new-elecsa-logo.jpg" className="elesca-logo" />

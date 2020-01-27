@@ -3,13 +3,10 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import "./header.scss"
 import Img from "../components/image"
 import { List, ListItem, SimpleListItem } from "@rmwc/list"
-import "@material/list/dist/mdc.list.css"
 
-import "@rmwc/icon/icon.css"
-import { Icon } from "@rmwc/icon"
-import "@material/button/dist/mdc.button.css"
+// import { Icon } from "@rmwc/icon"
 import { Button } from "@rmwc/button"
-// import "@material/drawer/dist/mdc.drawer.css"
+
 import { Drawer, DrawerHeader, DrawerTitle, DrawerContent } from "@rmwc/drawer"
 import Email from "../assets/email.svg"
 import Mobile from "../assets/smartphone-call.svg"
@@ -26,13 +23,13 @@ const Header = props => {
 
   let homeLink
 
-  if (props.showLinkToHome) {
-    homeLink = (
-      <Link to="/" className="back-button">
-        <Icon icon="arrow_back" className="back-button-arrow" />
-      </Link>
-    )
-  }
+  // if (props.showLinkToHome) {
+  //   homeLink = (
+  //     <Link to="/" className="back-button">
+  //       <Icon icon="arrow_back" className="back-button-arrow" />
+  //     </Link>
+  //   )
+  // }
 
   return (
     <>
@@ -99,7 +96,7 @@ const Header = props => {
                 </Button>{" "}
                 <Link to="/electrical-services-pembrokeshire">
                   <Button outlined className="menu-button mobile-hidden-button">
-                    <p>Services</p>
+                    Services
                   </Button>{" "}
                 </Link>
                 <Button
