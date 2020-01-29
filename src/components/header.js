@@ -3,10 +3,9 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import "./header.scss"
 import Img from "../components/image"
 import { List, ListItem, SimpleListItem } from "@rmwc/list"
-
+import "./base.scss"
 // import { Icon } from "@rmwc/icon"
 import { Button } from "@rmwc/button"
-
 import { Drawer, DrawerHeader, DrawerTitle, DrawerContent } from "@rmwc/drawer"
 import Email from "../assets/email.svg"
 import Mobile from "../assets/smartphone-call.svg"

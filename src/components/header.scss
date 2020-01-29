@@ -204,9 +204,7 @@ $bigscreen-breakpoint: 2000px;
   padding-right: 3rem;
 }
 
-.menu-button {
-  display: none;
-}
+
 
 .mobile-hidden-button {
   @media (max-width: $mobile-breakpoint) {
