@@ -49,10 +49,16 @@ const Header = props => {
             </Link>
 
             <div className="icon-bar">
-              <a href="https://www.facebook.com/alexwildingelectricalservices/">
+              <a
+                href="https://www.facebook.com/alexwildingelectricalservices/"
+                target="_blank"
+              >
                 <Facebook className="social-icon" />
               </a>
-              <a href="https://www.instagram.com/alexwildingelectrical/?hl=en">
+              <a
+                href="https://www.instagram.com/alexwildingelectrical/?hl=en"
+                target="_blank"
+              >
                 <Instagram className="social-icon" />
               </a>
 

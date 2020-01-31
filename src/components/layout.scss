@@ -1,3 +1,5 @@
+$yellow: #ebc902;
+
 $mobile-breakpoint: 850px;
 $bigscreen-breakpoint: 2000px;
 
@@ -51,6 +53,10 @@ $bigscreen-breakpoint: 2000px;
   src: url(../fonts/Electrolize-Regular.ttf);
 }
 
+html {
+  font-size: 12px;
+}
+
 body {
   overflow-x: hidden;
   margin: 0;
@@ -79,8 +85,15 @@ h2 {
   }
 }
 
+h3 {
+  font-size: 1.25rem;
+  color: $yellow;
+  font-family: "Ubuntu";
+  text-transform: uppercase;
+}
+
 p {
-font-family: "open sans", sans-serif;
+  font-family: "open sans", sans-serif;
 }
 
 html {

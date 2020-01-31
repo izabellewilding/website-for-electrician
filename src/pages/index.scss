@@ -1,3 +1,5 @@
+@import "../components/layout.scss";
+
 $mobile-breakpoint: 850px;
 $bigscreen-breakpoint: 2000px;
 
@@ -126,12 +128,11 @@ p {
 }
 
 .home-title2 {
-  color: #ebc902 !important;
-  font-size: 4rem !important;
+  color: #ebc902;
   text-align: center;
 
   @media (max-width: $mobile-breakpoint) {
-    font-size: 2.75rem !important;
+    font-size: 2.75rem;
   }
 }
 
@@ -162,8 +163,8 @@ p {
 
 .mailto-link {
   padding: 0.5rem;
-  color: #ebc902;
-  border: #ebc902 solid 1px;
+  color: $yellow;
+  border: $yellow solid 1px;
   height: 42px;
   justify-content: center;
   display: flex;
@@ -184,8 +185,8 @@ p {
 
 .services-button {
   padding: 0.5rem;
-  color: #ebc902;
-  border: #ebc902 solid 1px;
+  color: $yellow;
+  border: $yellow solid 1px;
   height: 42px;
   justify-content: center;
   display: flex;
@@ -210,7 +211,7 @@ p {
 .breadcrumb {
   display: flex;
   justify-content: center;
-  background-color: #ebc902;
+  background-color: $yellow;
   padding: 0.75rem;
 }
 

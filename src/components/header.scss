@@ -1,3 +1,5 @@
+@import "./layout.scss";
+
 $mobile-breakpoint: 850px;
 $bigscreen-breakpoint: 2000px;
 
@@ -6,7 +8,7 @@ $bigscreen-breakpoint: 2000px;
   align-items: center;
   justify-content: center;
   padding-left: 1rem;
-  background-color: #ebc902;
+  background-color: $yellow;
 
   @media (max-width: $mobile-breakpoint) {
     display: none;
@@ -204,8 +206,6 @@ $bigscreen-breakpoint: 2000px;
   padding-right: 3rem;
 }
 
-
-
 .mobile-hidden-button {
   @media (max-width: $mobile-breakpoint) {
     display: none !important;
@@ -338,7 +338,7 @@ $bigscreen-breakpoint: 2000px;
 }
 
 .contact-svg {
-  fill: #ebc902;
+  fill: $yellow;
   width: 1.45rem;
   height: 1.45rem;
   margin: 0.75rem;
