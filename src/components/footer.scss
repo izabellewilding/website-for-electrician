@@ -26,6 +26,10 @@ $bigscreen-breakpoint: 2000px;
     margin-top: 2rem;
     margin-bottom: 0rem;
   }
+
+  @media (max-width: $mobile-breakpoint) {
+    padding-right: 0;
+  }
 }
 
 .footer-contact-details {

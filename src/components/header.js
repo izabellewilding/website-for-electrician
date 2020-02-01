@@ -14,10 +14,10 @@ import Facebook from "../assets/iconmonstr-facebook-6.svg"
 import Instagram from "../assets/iconmonstr-instagram-11.svg"
 import Twitter from "../assets/iconmonstr-twitter-1.svg"
 import Clock from "../assets/iconmonstr-clock-thin.svg"
+import styled from "styled-components"
 
 const Header = props => {
   const [menuOpen, setMenuOpen] = React.useState(false)
-
   console.warn(props.className)
 
   let homeLink
@@ -30,6 +30,11 @@ const Header = props => {
   //   )
   // }
 
+  const StlyedDrawer = styled(Drawer)`
+    top: 0;
+    bottom: 0;
+    left: 0;
+  `
   return (
     <>
       <div className="top-section">
@@ -93,19 +98,19 @@ const Header = props => {
                 />
               </div>
 
-              <div className="mobile-nav-drawer">
-                <Button className="menu-button mobile-hidden-button">
+              <div className="nav">
+                <Button className="nav-button mobile-hidden-button">
                   <a href="mailto:alex@alexwildingelectricalservices.com">
                     Contact
                   </a>
                 </Button>{" "}
                 <Link to="/electrical-services-pembrokeshire">
-                  <Button outlined className="menu-button mobile-hidden-button">
+                  <Button outlined className="nav-button mobile-hidden-button">
                     Services
                   </Button>{" "}
                 </Link>
                 <Button
-                  className="menu-button"
+                  className="nav button menu-button"
                   onClick={() => {
                     if (menuOpen) {
                       setMenuOpen(false)
@@ -117,8 +122,8 @@ const Header = props => {
                 >
                   MENU
                 </Button>
-                <Drawer
-                  dir="rtl"
+                <StlyedDrawer
+                  dir="ltr"
                   modal
                   open={menuOpen}
                   onClose={() => setMenuOpen(false)}
@@ -160,7 +165,7 @@ const Header = props => {
                       </Link>
                     </List>
                   </DrawerContent>
-                </Drawer>
+                </StlyedDrawer>
               </div>
             </div>
           </div>

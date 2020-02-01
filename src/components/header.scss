@@ -115,7 +115,7 @@ $bigscreen-breakpoint: 2000px;
   width: 100%;
 }
 
-.mobile-nav-drawer {
+.nav {
   grid-row: 1/2;
 }
 
@@ -263,7 +263,7 @@ $bigscreen-breakpoint: 2000px;
   }
 }
 
-.menu-button {
+.nav-button {
   padding: 1rem;
   color: #0592cb !important;
   border: #0592cb solid !important;
@@ -276,6 +276,26 @@ $bigscreen-breakpoint: 2000px;
   justify-content: center;
 
   font-family: "Ubuntu Bold" !important;
+}
+
+.menu-button {
+  display: none;
+  padding: 1rem;
+  color: #0592cb !important;
+  border: #0592cb solid !important;
+  margin: 1rem;
+  height: auto;
+  max-height: 40px;
+  text-decoration: none !important;
+
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Ubuntu Bold" !important;
+
+  @media (max-width: $mobile-breakpoint) {
+    display: flex;
+  }
 }
 
 // start back button css
