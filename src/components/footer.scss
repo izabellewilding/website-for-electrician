@@ -68,4 +68,8 @@ $bigscreen-breakpoint: 2000px;
     margin-top: 2rem;
     margin-left: 0;
   }
+
+  @media (max-width: $mobile-breakpoint) {
+    display: none;
+  }
 }
