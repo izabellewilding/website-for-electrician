@@ -1,0 +1,66 @@
+@import "./layout.scss";
+
+.contact-details {
+  display: grid;
+  grid-template-columns: auto 3rem;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  font-family: "Ubuntu";
+  letter-spacing: 0.1rem;
+
+  text-decoration: none;
+  text-align: end;
+  font-size: 1.25rem;
+  margin: 1rem;
+}
+
+.headerContactDeatils {
+  grid-row: 1/2;
+  width: 100%;
+  display: grid;
+  justify-content: flex-end;
+  align-items: center;
+  color: whitesmoke;
+  @media (max-width: $mobile-breakpoint) {
+    display: none;
+  }
+}
+
+.headerContactDetails.contact-svg {
+  fill: #08193c;
+}
+
+.mobileContactDetails {
+  display: none;
+  text-align: left;
+  flex-direction: column;
+  line-height: 2rem;
+  color: #08193c;
+  @media (max-width: $mobile-breakpoint) {
+    display: flex;
+  }
+  .contact-svg {
+    display: none;
+  }
+}
+
+// .headerContactSVG {
+//   fill: ;
+// }
+
+.contact-svg {
+  fill: $yellow;
+  width: 1.45rem;
+  height: 1.45rem;
+  margin: 0.75rem;
+}
+
+.footerContactDetails {
+  color: whitesmoke;
+  margin: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  @media (max-width: $mobile-breakpoint) {
+    font-size: 1rem;
+  }
+}

@@ -3,20 +3,18 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import "./header.scss"
 import Img from "../components/image"
 import { List, ListItem, SimpleListItem } from "@rmwc/list"
+import cx from "classnames"
 import "./base.scss"
-// import { Icon } from "@rmwc/icon"
 import { Button } from "@rmwc/button"
 import { Drawer, DrawerHeader, DrawerTitle, DrawerContent } from "@rmwc/drawer"
-import Email from "../assets/email.svg"
-import Mobile from "../assets/smartphone-call.svg"
-import Telephone from "../assets/old-telephone-ringing.svg"
 import Facebook from "../assets/iconmonstr-facebook-6.svg"
 import Instagram from "../assets/iconmonstr-instagram-11.svg"
 import Twitter from "../assets/iconmonstr-twitter-1.svg"
 import Clock from "../assets/iconmonstr-clock-thin.svg"
 import styled from "styled-components"
+import ContactDetails from "./contact-details"
 
-const Header = props => {
+const Header = ({ ...props }) => {
   const [menuOpen, setMenuOpen] = React.useState(false)
   console.warn(props.className)
 
@@ -53,6 +51,7 @@ const Header = props => {
               </div>
             </Link>
 
+            {/* icon bar */}
             <div className="icon-bar">
               <a
                 href="https://www.facebook.com/alexwildingelectricalservices/"
@@ -69,17 +68,7 @@ const Header = props => {
 
               <Twitter className="social-icon" />
             </div>
-
-            <div className="header-contact-details">
-              <div className="contact-details">
-                <p>alex@alexwildingelectricalservices.com</p>{" "}
-                <Email className="contact-svg" />
-                <p className="phone-numb">07527 929222</p>{" "}
-                <Mobile className="contact-svg" />
-                <p className="phone-numb">01437 532307</p>{" "}
-                <Telephone className="contact-svg" />
-              </div>
-            </div>
+            <ContactDetails location="header" />
           </div>
           {/* end mobile nav drawer */}
           <div className="header-row2">

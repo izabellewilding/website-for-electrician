@@ -26,7 +26,7 @@ const Layout = ({ children, ...props }) => {
 
       <Header {...props} />
       {children}
-      <Footer />
+      <Footer exampleText="foo" />
       <link
         href="https://fonts.googleapis.com/icon?family=Material+Icons"
         rel="stylesheet"

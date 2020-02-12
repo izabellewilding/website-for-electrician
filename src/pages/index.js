@@ -7,6 +7,7 @@ import Img from "../components/image.js"
 import ServiceIcons from "../components/service-icons"
 import "../components/service-icons.scss"
 import LivelyTick from "../assets/check-mark.svg"
+import ContactDetails from "../components/contact-details"
 
 import Bulb from "../assets/idea.svg"
 import Email from "../assets/email.svg"
@@ -14,7 +15,7 @@ import Mobile from "../assets/smartphone-call.svg"
 import Telephone from "../assets/old-telephone-ringing.svg"
 import WhiteCurve from "../assets/white-curve.svg"
 
-const IndexPage = () => {
+const IndexPage = (...props) => {
   const [viewMore, setViewMore] = useState(false)
   const [viewLess, setViewLess] = useState(false)
   return (
@@ -46,20 +47,23 @@ const IndexPage = () => {
             <div className="svg-container">
               <Bulb className="home-bulb" />
             </div>
-            <div className="header-contact-details">
-              <div className="contact-details-mob ">
-                {" "}
-                <Email className="contact-svg" />
-                <p>alex@alexwildingelectricalservices.com</p>{" "}
-                <Mobile className="contact-svg" />
-                <p>07527 929222</p> <Telephone className="contact-svg" />
-                <p>01437 532307</p>
-              </div>
-            </div>
-          </div>
+          </div>{" "}
           {/* end section1 content */}
         </div>
-        {/* end home section 1 */}
+        {/* end home section 1 */}{" "}
+        {/* <div className="contact-details-mob ">
+          {" "}
+          <Email className="contact-svg" />
+          <p>alex@alexwildingelectricalservices.com</p>{" "}
+          <Mobile className="contact-svg" />
+          <p>07527 929222</p> <Telephone className="contact-svg" />
+          <p>01437 532307</p>
+        </div> */}
+        {/* contact details on homepage for mobile  */}
+        <div className="contact-section-mobile-wrapper">
+          <h2>Get in Touch for a Quote</h2>
+          <ContactDetails location="mobile" />
+        </div>
         <div className="breadcrumb">
           <div className="certification-items">
             {" "}
@@ -78,7 +82,6 @@ const IndexPage = () => {
             </p>
           </div>
         </div>
-
         <p className="text-box">
           <strong>Fully qualified </strong> electrician with over{" "}
           <strong>10 years of experience </strong> carrying out electrical
