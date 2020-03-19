@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.alexwildingelectricalservices.com/">
-    ![Site Logo](src/images/awelectrical.PNG)
+    ![Site Logo](src/images/aw-favicon.png)
   </a>
 </p>
 <h1 align="center">
@@ -58,7 +58,7 @@ gatsby develop
 
 Izabelle Wilding - izabellewilding@gmail.com
 
-Project Link: [https://github.com/izabellewilding/gatsby-recipe-blog.git](https://github.com/izabellewilding/website-for-electrician)
+Project Link: [https://github.com/izabellewilding/website-for-electrician](https://github.com/izabellewilding/website-for-electrician)
 
 
 <!-- AUTO-GENERATED-CONTENT:END -->
