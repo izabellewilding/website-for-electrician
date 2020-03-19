@@ -65,8 +65,6 @@ const Header = ({ ...props }) => {
               >
                 <Instagram className="social-icon" />
               </a>
-
-              <Twitter className="social-icon" />
             </div>
             <ContactDetails location="header" />
           </div>
