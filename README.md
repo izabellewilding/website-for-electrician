@@ -1,8 +1,8 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.alexwildingelectricalservices.com/">
-    ![Site Logo](src/images/aw-favicon.png)
-  </a>
+  
+![Site Logo](src/images/aw-favicon-small.png)
+
 </p>
 <h1 align="center">
   Alex Wilding Electrical: Small Business Website 
@@ -10,9 +10,6 @@
 
 <p align="center">A small business website made with Gatsby.</p>
 
-<div align="center">
-![Site-screenshot](src/images/elec-site-img.png)
-  </div>
 
 <!-- FRAMEWORKS -->
 ## Built With
