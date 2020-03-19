@@ -1,11 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  
-![Site Logo](src/images/aw-favicon-small.png)
 
-</p>
 <h1 align="center">
-  Alex Wilding Electrical: Small Business Website 
+  Gatsby Website for Electrician 
 </h1>
 
 <p align="center">A small business website made with Gatsby.</p>
