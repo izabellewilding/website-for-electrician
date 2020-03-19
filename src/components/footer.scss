@@ -9,7 +9,6 @@ $bigscreen-breakpoint: 2000px;
   width: 100%;
 
   justify-content: space-between;
-  align-items: center;
 
   background-color: #0a1638;
 }
@@ -33,6 +32,7 @@ $bigscreen-breakpoint: 2000px;
 .address-wrapper {
   height: 100%;
   padding-left: 3rem;
+  font-family: "open sans", sans-serif;
 
   h3 {
     margin-top: 2rem;
@@ -41,9 +41,8 @@ $bigscreen-breakpoint: 2000px;
   address {
     color: white;
     letter-spacing: 0.1rem;
-    font-weight: bold;
     font-family: "open sans", sans-serif;
-
+    font-size: 1.25rem;
     text-decoration: none;
     font-style: normal;
     margin: 1rem;

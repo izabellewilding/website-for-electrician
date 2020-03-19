@@ -12,7 +12,6 @@ const Footer = props => {
       </div>
       <div className="footer-contact-wrapper">
         <h3>Contact</h3>
-
         <ContactDetails location="footer" />
       </div>
     </footer>
