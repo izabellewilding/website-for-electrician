@@ -7,9 +7,7 @@
 
 import React, { useState } from "react"
 import PropTypes from "prop-types"
-import classNames from "classnames"
 import "./layout.scss"
-import SEO from "./seo"
 import "./base.scss"
 
 import Header from "./header"
