@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./index.scss"
@@ -8,12 +8,9 @@ import ServiceIcons from "../components/service-icons"
 import "../components/service-icons.scss"
 import LivelyTick from "../assets/check-mark.svg"
 import ContactDetails from "../components/contact-details"
+import ContactForm from "../components/contact-form"
 
 import Bulb from "../assets/idea.svg"
-import Email from "../assets/email.svg"
-import Mobile from "../assets/smartphone-call.svg"
-import Telephone from "../assets/old-telephone-ringing.svg"
-import WhiteCurve from "../assets/white-curve.svg"
 
 const IndexPage = (...props) => {
   const [viewMore, setViewMore] = useState(false)
@@ -103,6 +100,9 @@ const IndexPage = (...props) => {
         </Link>
         <div className="home-section2">
           <ServiceIcons id="index-icons" />
+        </div>
+        <div className="home-section3">
+          <ContactForm />
         </div>
         {/* end home section 2 */}
       </div>
