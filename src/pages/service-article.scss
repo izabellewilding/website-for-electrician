@@ -49,13 +49,11 @@ $bigscreen-breakpoint: 2000px;
 .article-text {
   font-size: 1.6rem;
   line-height: 1.75;
-  padding-bottom: 8rem;
+  padding: 2rem;
+  width: 75%;
+  margin: auto;
   color: rgb(50, 50, 60);
-
   text-align: center;
-
-  padding-left: 20rem;
-  padding-right: 20rem;
 
   @media (max-width: $mobile-breakpoint) {
     padding-right: 20px;

@@ -105,42 +105,6 @@ const IndexPage = (...props) => {
           <ServiceIcons id="index-icons" />
         </div>
         {/* end home section 2 */}
-        <div className="home-section3">
-          <div className="section3-img-wrapper">
-            <div className="featured-imgs">
-              <Link to="/commercial" className="img-wrapper1">
-                {" "}
-                <Img
-                  src="../images/commercial-3.jpg"
-                  className="featured-img"
-                  type="small"
-                />
-                <div className="info-box">
-                  <p>Commercial Lighting</p>
-                </div>
-              </Link>
-
-              {/* <Link to="/" className="img-wrapper2">
-                <Img
-                  src="../images/van.jpg"
-                  className="featured-img "
-                  type="small"
-                />
-                <div className="info-box">
-                  <p></p>
-                </div>
-              </Link>
-
-              <Link to="/" className="img-wrapper3">
-                <Img
-                  src="../images/commercial-after.jpg"
-                  className="featured-img"
-                  type="small"
-                />
-              </Link> */}
-            </div>
-          </div>
-        </div>
       </div>
     </Layout>
   )

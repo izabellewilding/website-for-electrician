@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./service-article.scss"
@@ -31,12 +32,22 @@ const ServiceArticle = () => (
           </div>
           {/* <!--end into text--> */}
 
-          <div className="article-img-container">
-            <Img
-              className="main-image"
-              src="../images/commercial-3.jpg"
-              alt="image of the service"
-            />
+          <div className="home-section3">
+            <div className="section3-img-wrapper">
+              <div className="featured-imgs">
+                <div className="img-wrapper1">
+                  {" "}
+                  <Img
+                    src="../images/commercial-3.jpg"
+                    className="featured-img"
+                    type="small"
+                  />
+                  <div className="info-box">
+                    <p>Commercial Lighting</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           {/* <!--end main image container--> */}
         </div>
