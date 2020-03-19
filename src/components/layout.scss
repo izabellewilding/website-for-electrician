@@ -12,7 +12,6 @@ $bigscreen-breakpoint: 2000px;
 @font-face {
   font-family: "Ubuntu";
   font-display: swap;
-
   src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
 }
 
@@ -27,29 +26,10 @@ $bigscreen-breakpoint: 2000px;
   font-display: swap;
   src: url(../fonts/Britannic-Bold-Regular.ttf);
 }
-@font-face {
-  font-family: "Teko-Bold";
-  font-display: swap;
-  src: url(../fonts/Teko-Bold.ttf);
-}
-@font-face {
-  font-family: "Teko-Medium";
-  font-display: swap;
-  src: url(../fonts/Teko-Medium.ttf);
-  font-stretch: ultra-expanded;
-}
-
-@font-face {
-  font-family: "Teko-Regular";
-  font-display: swap;
-  src: url(../fonts/Teko-Regular.ttf);
-  font-stretch: ultra-expanded;
-}
 
 @font-face {
   font-family: "Electro-Reg";
   font-display: swap;
-
   src: url(../fonts/Electrolize-Regular.ttf);
 }
 
@@ -101,15 +81,15 @@ html {
   font-size: 75%;
 }
 
-body::-webkit-scrollbar {
-  background-color: rgb(245, 245, 245);
-  width: 2rem;
-}
+// body::-webkit-scrollbar {
+//   background-color: rgb(245, 245, 245);
+//   width: 2rem;
+// }
 
-body::-webkit-scrollbar-thumb {
-  background: linear-gradient(rgba(0, 47, 105, 0.959), rgb(2, 10, 49));
-  border-radius: 5px;
-}
+// body::-webkit-scrollbar-thumb {
+//   background: linear-gradient(rgba(0, 47, 105, 0.959), rgb(2, 10, 49));
+//   border-radius: 5px;
+// }
 
 @media (max-width: 850px) {
   h1 {
