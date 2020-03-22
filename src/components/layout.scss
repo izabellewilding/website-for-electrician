@@ -1,5 +1,14 @@
-$yellow: #ebc902;
+@import "@material/button/mdc-button";
+@import "@material/list/mdc-list";
+@import "@material/drawer/mdc-drawer";
 
+//color variables
+$midTone: #718096;
+$lightTone: #ebf8ff;
+$darkTone: #2a4365;
+$yellow: #ffd400;
+
+//mobile breakpoints
 $mobile-breakpoint: 850px;
 $bigscreen-breakpoint: 2000px;
 
@@ -33,6 +42,25 @@ $bigscreen-breakpoint: 2000px;
   src: url(../fonts/Electrolize-Regular.ttf);
 }
 
+@font-face {
+  font-family: "Barlow";
+  font-display: swap;
+  src: url(../fonts/BarlowCondensed-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Barlow Light";
+  font-display: swap;
+  src: url(../fonts/BarlowCondensed-Light.ttf);
+}
+
+.barlow {
+  font-family: "Barlow";
+}
+
+.barlow-light {
+  font-family: "Barlow Light";
+}
 html {
   font-size: 12px;
   overflow-y: scroll;
@@ -69,7 +97,7 @@ h2 {
 
 h3 {
   font-size: 1.25rem;
-  color: $yellow;
+  color: $midTone;
   font-family: "Ubuntu";
   text-transform: uppercase;
 }

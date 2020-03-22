@@ -1,22 +1,18 @@
-import React, { useState } from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
+import React from "react"
+import { Link } from "gatsby"
 import "./header.scss"
 import Img from "../components/image"
-import { List, ListItem, SimpleListItem } from "@rmwc/list"
-import cx from "classnames"
-import "./base.scss"
+import { List, ListItem } from "@rmwc/list"
 import { Button } from "@rmwc/button"
 import { Drawer, DrawerHeader, DrawerTitle, DrawerContent } from "@rmwc/drawer"
 import Facebook from "../assets/iconmonstr-facebook-6.svg"
 import Instagram from "../assets/iconmonstr-instagram-11.svg"
-import Twitter from "../assets/iconmonstr-twitter-1.svg"
 import Clock from "../assets/iconmonstr-clock-thin.svg"
 import styled from "styled-components"
 import ContactDetails from "./contact-details"
 
 const Header = ({ ...props }) => {
   const [menuOpen, setMenuOpen] = React.useState(false)
-  console.warn(props.className)
 
   let homeLink
 
@@ -33,6 +29,21 @@ const Header = ({ ...props }) => {
     bottom: 0;
     left: 0;
   `
+
+  const StyledButton = styled(Button)`
+    padding: 1rem;
+    color:  #f7fafc;
+    border: #718096 ;
+    margin: 1rem;
+    height: auto;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  `
+
   return (
     <>
       <div className="top-section">
@@ -86,29 +97,25 @@ const Header = ({ ...props }) => {
               </div>
 
               <div className="nav">
-                <Button className="nav-button mobile-hidden-button">
-                  <a href="mailto:alex@alexwildingelectricalservices.com">
-                    Contact
-                  </a>
-                </Button>{" "}
-                <Link to="/electrical-services-pembrokeshire">
-                  <Button outlined className="nav-button mobile-hidden-button">
-                    Services
-                  </Button>{" "}
-                </Link>
-                <Button
-                  className="nav button menu-button"
+                {/* <Button className="nav-button mobile-hidden-button"> */}
+                {/* <a href="mailto:alex@alexwildingelectricalservices.com">
+                  Contact
+                </a> */}
+                {/* </Button>{" "} */}
+                {/* <Link to="/electrical-services-pembrokeshire"> */}
+                {/* <Button outlined className="nav-button mobile-hidden-button"> */}
+                {/* Services */}
+                {/* </Button>{" "} */}
+                {/* </Link> */}
+                <StyledButton
+                  className=""
                   onClick={() => {
-                    if (menuOpen) {
-                      setMenuOpen(false)
-                    } else {
-                      setMenuOpen(true)
-                    }
+                    setMenuOpen(!menuOpen)
                   }}
                   outlined
                 >
                   MENU
-                </Button>
+                </StyledButton>
                 <StlyedDrawer
                   dir="ltr"
                   modal

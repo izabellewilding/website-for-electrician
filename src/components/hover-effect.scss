@@ -8,56 +8,56 @@
   @include background-effect-keyframes(lighten($color, 10%), $color);
 }
 
-@mixin background-effect-keyframes($color1, $color2) {
+@mixin background-effect-keyframes($midTone, $darkTone) {
   @-moz-keyframes button-effect {
     0% {
       background: linear-gradient(
         135deg,
-        $color1,
-        $color1,
-        $color2,
-        $color2,
-        $color2
+        $midTone,
+        $midTone,
+        $darkTone,
+        $darkTone,
+        $darkTone
       );
     }
     25% {
       background: linear-gradient(
         135deg,
-        $color1,
-        $color1,
-        $color2,
-        $color2,
-        $color2
+        $midTone,
+        $midTone,
+        $darkTone,
+        $darkTone,
+        $darkTone
       );
     }
     50% {
       background: linear-gradient(
         135deg,
-        $color1,
-        $color1,
-        $color1,
-        $color2,
-        $color2
+        $midTone,
+        $midTone,
+        $midTone,
+        $darkTone,
+        $darkTone
       );
     }
     75% {
       background: linear-gradient(
         135deg,
-        $color1,
-        $color1,
-        $color1,
-        $color1,
-        $color2
+        $midTone,
+        $midTone,
+        $midTone,
+        $midTone,
+        $darkTone
       );
     }
     100% {
       background: linear-gradient(
         135deg,
-        $color1,
-        $color1,
-        $color1,
-        $color1,
-        $color1
+        $midTone,
+        $midTone,
+        $midTone,
+        $midTone,
+        $midTone
       );
     }
   }
@@ -65,51 +65,51 @@
     0% {
       background: linear-gradient(
         135deg,
-        $color1,
-        $color1,
-        $color2,
-        $color2,
-        $color2
+        $midTone,
+        $midTone,
+        $darkTone,
+        $darkTone,
+        $darkTone
       );
     }
     25% {
       background: linear-gradient(
         135deg,
-        $color1,
-        $color1,
-        $color2,
-        $color2,
-        $color2
+        $midTone,
+        $midTone,
+        $darkTone,
+        $darkTone,
+        $darkTone
       );
     }
     50% {
       background: linear-gradient(
         135deg,
-        $color1,
-        $color1,
-        $color1,
-        $color2,
-        $color2
+        $midTone,
+        $midTone,
+        $midTone,
+        $darkTone,
+        $darkTone
       );
     }
     75% {
       background: linear-gradient(
         135deg,
-        $color1,
-        $color1,
-        $color1,
-        $color1,
-        $color2
+        $midTone,
+        $midTone,
+        $midTone,
+        $midTone,
+        $darkTone
       );
     }
     100% {
       background: linear-gradient(
         135deg,
-        $color1,
-        $color1,
-        $color1,
-        $color1,
-        $color1
+        $midTone,
+        $midTone,
+        $midTone,
+        $midTone,
+        $midTone
       );
     }
   }

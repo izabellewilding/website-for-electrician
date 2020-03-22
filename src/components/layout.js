@@ -8,7 +8,6 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
 import "./layout.scss"
-import "./base.scss"
 
 import Header from "./header"
 import Footer from "./footer"

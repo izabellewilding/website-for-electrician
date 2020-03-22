@@ -8,7 +8,7 @@ $bigscreen-breakpoint: 2000px;
   align-items: center;
   justify-content: center;
   padding-left: 1rem;
-  background-color: $yellow;
+  background-color: $lightTone;
 
   @media (max-width: $mobile-breakpoint) {
     display: none;
@@ -36,7 +36,7 @@ $bigscreen-breakpoint: 2000px;
   margin: auto;
   z-index: 6;
 
-  background: linear-gradient(rgba(0, 13, 43, 0.959), #004c8e);
+  background: $darkTone;
   /* width: 100vw; */
   left: 0;
   right: 0;
@@ -85,10 +85,14 @@ $bigscreen-breakpoint: 2000px;
       padding: 0.75rem;
       height: 3rem;
       width: 3rem;
-      fill: #e9c803;
-      @media (max-width: 500px) {
-        fill: #031029;
+      fill: $yellow;
+      transition: all 0.15s;
+      &:hover {
+        fill: $lightTone;
       }
+      // @media (max-width: 500px) {
+      //   fill: $darkTone;
+      // }
     }
   }
 
@@ -122,7 +126,7 @@ $bigscreen-breakpoint: 2000px;
 .main-heading {
   color: #fff;
   font-family: "Britannic Bold";
-  font-size: 3.75rem;
+  font-size: 3rem;
   text-transform: uppercase;
   text-shadow: 0 2px 20px rgba(0, 0, 0, 0.16);
 
@@ -138,7 +142,7 @@ $bigscreen-breakpoint: 2000px;
 .sub-heading {
   font-family: "Electro-Reg";
   text-transform: uppercase;
-  font-size: 1.75rem;
+  font-size: 1.4rem;
 
   letter-spacing: 0.25rem;
   font-weight: bold;
@@ -228,21 +232,6 @@ $bigscreen-breakpoint: 2000px;
   @media (max-width: $mobile-breakpoint) {
     display: none;
   }
-}
-
-.nav-button {
-  padding: 1rem;
-  color: #0592cb !important;
-  border: #0592cb solid !important;
-  margin: 1rem;
-  height: auto;
-  max-height: 40px;
-  text-decoration: none !important;
-
-  align-items: center;
-  justify-content: center;
-
-  font-family: "Ubuntu Bold" !important;
 }
 
 .menu-button {

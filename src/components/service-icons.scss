@@ -1,5 +1,5 @@
 @import "./hover-effect.scss";
-$color2: #102140;
+@import "./layout.scss";
 
 $mobile-breakpoint: 850px;
 
@@ -19,8 +19,8 @@ $mobile-breakpoint: 850px;
 
   @media (max-width: $mobile-breakpoint) {
     display: block;
-    background-color: #e9c803;
-    color: #17233e;
+    background-color: $midTone;
+    color: $darkTone;
     padding: 2rem;
     text-align: center;
   }
@@ -37,7 +37,7 @@ $mobile-breakpoint: 850px;
   padding: 5rem;
 
   background: linear-gradient(rgba(0, 13, 43, 0.911), rgba(0, 13, 43, 0.911));
-  @include add-hover-effect($color2);
+  @include add-hover-effect($darkTone);
 
   @media (max-width: $mobile-breakpoint) {
     display: none;
