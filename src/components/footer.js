@@ -8,7 +8,7 @@ const Gradient = styled.div`
     linear,
     left top,
     left bottom,
-    from(rgba(42, 67, 101, 0.68)),
+    from(rgb(42, 67, 101)),
     to(#00192db5)
   );
   position: absolute;
@@ -16,7 +16,6 @@ const Gradient = styled.div`
   left: 0;
   right: 0;
   top: 0;
-  opacity: 0.75;
 `
 
 const ContactForm = () => {

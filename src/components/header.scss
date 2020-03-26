@@ -234,25 +234,25 @@ $bigscreen-breakpoint: 2000px;
   }
 }
 
-.menu-button {
-  display: none;
-  padding: 1rem;
-  color: #0592cb !important;
-  border: #0592cb solid !important;
-  margin: 1rem;
-  height: auto;
-  max-height: 40px;
-  text-decoration: none !important;
+// .menu-button {
+//   display: none;
+//   padding: 1rem;
+//   color: #0592cb !important;
+//   border: #0592cb solid !important;
+//   margin: 1rem;
+//   height: auto;
+//   max-height: 40px;
+//   text-decoration: none !important;
 
-  align-items: center;
-  justify-content: center;
+//   align-items: center;
+//   justify-content: center;
 
-  font-family: "Ubuntu Bold" !important;
+//   font-family: "Ubuntu Bold" !important;
 
-  @media (max-width: $mobile-breakpoint) {
-    display: flex;
-  }
-}
+//   @media (max-width: $mobile-breakpoint) {
+//     display: flex;
+//   }
+// }
 
 // start back button css
 

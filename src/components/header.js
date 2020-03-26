@@ -32,16 +32,13 @@ const Header = ({ ...props }) => {
 
   const StyledButton = styled(Button)`
     padding: 1rem;
-    color:  #f7fafc;
-    border: #718096 ;
+    color: #f7fafc;
+    border: #718096;
     margin: 1rem;
     height: auto;
     text-decoration: none;
     align-items: center;
     justify-content: center;
-
-  }
-  
   `
 
   return (
@@ -124,7 +121,11 @@ const Header = ({ ...props }) => {
                 >
                   {/** Set the content back to left-to-right */}
                   <DrawerHeader dir="ltr">
-                    <DrawerTitle>Menu</DrawerTitle>
+                    <DrawerTitle
+                      style={{ fontSize: "2rem", textTransform: "uppercase" }}
+                    >
+                      Menu
+                    </DrawerTitle>
                   </DrawerHeader>
 
                   <DrawerContent dir="ltr">

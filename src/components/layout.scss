@@ -1,12 +1,14 @@
-@import "@material/button/mdc-button";
-@import "@material/list/mdc-list";
-@import "@material/drawer/mdc-drawer";
-
 //color variables
 $midTone: #718096;
 $lightTone: #ebf8ff;
 $darkTone: #2a4365;
 $yellow: #ffd400;
+
+$mdc-theme-primary: $darkTone;
+
+@import "@material/button/mdc-button";
+@import "@material/list/mdc-list";
+@import "@material/drawer/mdc-drawer";
 
 //mobile breakpoints
 $mobile-breakpoint: 850px;
