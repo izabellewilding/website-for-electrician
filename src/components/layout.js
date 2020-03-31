@@ -6,10 +6,23 @@
  */
 
 import React, { useState } from "react"
+import { navigate } from "gatsby"
 import PropTypes from "prop-types"
 import "./layout.scss"
+import Header from "../components/header.js"
+import Footer from "../components/footer.js"
 
 import "../../node_modules/font-awesome/css/font-awesome.css"
+
+const handleHeaderNavigation = navItem => {
+  if (navItem === "landing") {
+    navigate("/")
+  } else if (navItem === "services") {
+    navigate("/services")
+  } else if (navItem === "contact") {
+    navigate("/#contact")
+  }
+}
 
 const Layout = ({ children, ...props }) => {
   return (
@@ -17,9 +30,9 @@ const Layout = ({ children, ...props }) => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta charset="UTF-8" />
       <html lang="en" />
-
+      <Header onNav={handleHeaderNavigation} />
       {children}
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

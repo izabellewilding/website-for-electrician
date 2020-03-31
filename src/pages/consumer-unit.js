@@ -7,15 +7,17 @@ import "@rmwc/icon/icon.css"
 import ServiceArticleContainer from "../components/service-article-container"
 
 const ServiceArticle = () => (
-  <Layout>
-    <SEO
-      title="consumer-unit-upgrades"
-      description="consumer unit upgrades in Pembrokeshire"
-    />
-    <div className="mobile-header-padding"></div>
-
+  <div>
+    {" "}
     <ServiceArticleContainer>
+      <SEO
+        title="consumer-unit-upgrades"
+        description="consumer unit upgrades in Pembrokeshire"
+      />
+
       <div className="article-layout1">
+        {" "}
+        <div className="mobile-header-padding"></div>
         <h1 className="article-subheading">Consumer Unit Upgrades</h1>
         <div className="article-content">
           <div className="article-text">
@@ -40,12 +42,11 @@ const ServiceArticle = () => (
           </div>
           {/* <!--end main image container--> */}
         </div>
-
         {/* <!--end blog-intro--> */}
       </div>
       {/* <!--end of article--> */}
     </ServiceArticleContainer>
-  </Layout>
+  </div>
 )
 
 export default ServiceArticle

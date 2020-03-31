@@ -9,19 +9,8 @@ import Footer from "../components/footer.js"
 import "./electrical-services-pembrokeshire.scss"
 import ServiceIcons from "../components/service-icons"
 
-const handleHeaderNavigation = navItem => {
-  if (navItem === "landing") {
-    navigate("/")
-  } else if (navItem === "services") {
-    navigate("/services")
-  } else if (navItem === "contact") {
-    navigate("/#contact")
-  }
-}
-
 const ServicesHome = () => (
   <Layout>
-    <Header onNav={handleHeaderNavigation} />
     <SEO
       title="services homepage"
       description="List of services Alex Wilding Electrical provides in Pembrokeshire and surrounding areas"
@@ -49,7 +38,6 @@ const ServicesHome = () => (
         </div>
       </div>
     </div>
-    <Footer />
   </Layout>
 )
 

@@ -34,19 +34,7 @@ $bigscreen-breakpoint: 2000px;
   font-size: 1.1rem;
   background-color: white;
 
-  .article-subheading {
-    font-family: "Electro-Reg";
-    padding-bottom: 2rem;
-    padding-top: 3.5rem;
-
-    line-height: 4rem;
-    text-transform: uppercase;
-    justify-content: center;
-    display: flex;
-    text-align: center;
-
-    @media (max-width: $mobile-breakpoint) {
-      // padding-top: 16rem;
-    }
+  @media (max-width: $mobile-breakpoint) {
+    // padding-top: 16rem;
   }
 }

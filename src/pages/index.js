@@ -29,7 +29,6 @@ const IndexPage = (...props) => {
   return (
     <Layout>
       <SEO title="Electrician in Pembrokeshire" />
-      <Header onNav={handleHeaderNavigation} />
       <div className="home">
         <div className="mobile-header-padding"></div>
         <div className="home-section1" ref={landingRef} navItem="landing">
@@ -112,7 +111,6 @@ const IndexPage = (...props) => {
         <div className="home-section2">
           <ServiceIcons id="index-icons" />
         </div>
-        <Footer ref={contactRef} navItem="contact" id="contact" />
         {/* end home section 2 */}
       </div>
     </Layout>

@@ -9,34 +9,32 @@ import { Icon } from "@rmwc/icon"
 import ServiceArticleContainer from "../components/service-article-container"
 
 const ServiceArticle = () => (
-  <Layout>
+  <ServiceArticleContainer>
     <SEO
       title="fault finding"
       description="electrical fault finding in Pembrokeshire"
     />
     <div className="mobile-header-padding"></div>
 
-    <ServiceArticleContainer>
-      <div className="article-content">
-        <div className="article-text">
-          {" "}
-          <h1 className="article-subheading">Fault Finding</h1>
-        </div>
-        {/* <!--end into text--> */}
-
-        <div className="article-img-container">
-          <Img
-            className="main-image"
-            src="../images/shirish-suwal-ctmuaOO-JJI-unsplash.jpg"
-            alt="finished dish"
-          />
-        </div>
-        {/* <!--end main image container--> */}
+    <div className="article-content">
+      <div className="article-text">
+        {" "}
+        <h1 className="article-subheading">Fault Finding</h1>
       </div>
-      {/* <!--end blog-intro--> */}
-    </ServiceArticleContainer>
+      {/* <!--end into text--> */}
+
+      <div className="article-img-container">
+        <Img
+          className="main-image"
+          src="../images/shirish-suwal-ctmuaOO-JJI-unsplash.jpg"
+          alt="finished dish"
+        />
+      </div>
+      {/* <!--end main image container--> */}
+    </div>
+    {/* <!--end blog-intro--> */}
     {/* <!--end of article--> */}
-  </Layout>
+  </ServiceArticleContainer>
 )
 
 export default ServiceArticle

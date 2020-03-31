@@ -54,6 +54,10 @@ const ContactForm = () => {
       action="POST"
       data-netlify="true"
       data-netlify-honeypot="bot-filed"
+      onSubmit={event => {
+        event.preventDefault()
+        navigate("/form-submitted/")
+      }}
     >
       <input type="hidden" name="form-name" value="contact" />
       <div className="feilds">

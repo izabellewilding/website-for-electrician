@@ -77,7 +77,7 @@ function ServiceIcons(props) {
       </Link>
 
       <Link
-        to="/domestic-rewires"
+        to="/commercial"
         className="service-item-wrapper"
         aria-label=" commercial services"
       >

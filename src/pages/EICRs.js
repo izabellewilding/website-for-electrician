@@ -9,14 +9,14 @@ import { Icon } from "@rmwc/icon"
 import ServiceArticleContainer from "../components/service-article-container"
 
 const ServiceArticle = () => (
-  <Layout>
-    <SEO
-      title="EICRs"
-      description="Electrical installation condition reports(EICRS) in Pembrokeshire"
-    />
-    <div className="mobile-header-padding"></div>
-
+  <div>
     <ServiceArticleContainer>
+      <SEO
+        title="EICRs"
+        description="Electrical installation condition reports(EICRS) in Pembrokeshire"
+      />
+      <div className="mobile-header-padding"></div>
+
       <div className="article-content">
         <div className="article-text">
           {" "}
@@ -53,7 +53,7 @@ const ServiceArticle = () => (
       {/* <!--end blog-intro--> */}
     </ServiceArticleContainer>
     {/* <!--end of article--> */}
-  </Layout>
+  </div>
 )
 
 export default ServiceArticle
