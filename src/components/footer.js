@@ -37,7 +37,7 @@ const ContactForm = () => {
     const form = e.target
     fetch("/", {
       method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      headers: { "Content-Type": "multipart/form-data" },
       body: encode({
         "form-name": form.getAttribute("name"),
         ...state,
@@ -51,13 +51,11 @@ const ContactForm = () => {
     <form
       className="contact-form"
       name="contact"
-      action="POST"
+      method="post"
+      action="/pages/thanks/"
       data-netlify="true"
       data-netlify-honeypot="bot-filed"
-      onSubmit={event => {
-        event.preventDefault()
-        navigate("/form-submitted/")
-      }}
+      onSubmit={handleSubmit}
     >
       <input type="hidden" name="form-name" value="contact" />
       <div className="feilds">
