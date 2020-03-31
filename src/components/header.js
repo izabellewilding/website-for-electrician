@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 import "./header.scss"
 import Img from "../components/image"
 import { List, ListItem } from "@rmwc/list"
-import { Button } from "@rmwc/button"
 import { Drawer, DrawerHeader, DrawerTitle, DrawerContent } from "@rmwc/drawer"
 import Facebook from "../assets/iconmonstr-facebook-6.svg"
 import Instagram from "../assets/iconmonstr-instagram-11.svg"
@@ -28,20 +27,6 @@ const Header = ({ ...props }) => {
     top: 0;
     bottom: 0;
     left: 0;
-  `
-
-  const StyledButton = styled.button`
-    padding: 1rem;
-    color: white;
-    border: #2a4365 solid 1.25px;
-    background-color: #2a4365;
-    border-radius: 2px;
-    margin: 1rem;
-    height: auto;
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
   `
 
   return (
@@ -97,15 +82,14 @@ const Header = ({ ...props }) => {
               </div>
 
               <div className="nav">
-                <StyledButton
+                <button
                   className="menu-button"
                   onClick={() => {
                     setMenuOpen(!menuOpen)
                   }}
-                  outlined
                 >
                   MENU
-                </StyledButton>
+                </button>
                 <StlyedDrawer
                   dir="ltr"
                   modal
