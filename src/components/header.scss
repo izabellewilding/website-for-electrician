@@ -35,7 +35,13 @@ $bigscreen-breakpoint: 2000px;
   margin: auto;
   z-index: 6;
 
-  background: $darkTone;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(1, 24, 56)),
+    to(#1a5584d6)
+  );
   /* width: 100vw; */
   left: 0;
   right: 0;
