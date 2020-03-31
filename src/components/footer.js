@@ -120,9 +120,9 @@ const Footer = props => {
         <div className="contact-form-wrapper">
           <h2>Contact</h2>
           <h3 className="contact-subheading">
-            Got a question?
+            Have a question?
             <br />
-            Send a message and we'll get back to you as soon as possible
+            Send us a message and we'll get back as soon as possible...
           </h3>
           <ContactForm />
         </div>

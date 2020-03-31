@@ -9,9 +9,6 @@ import React, { useState } from "react"
 import PropTypes from "prop-types"
 import "./layout.scss"
 
-import Header from "./header"
-import Footer from "./footer"
-
 import "../../node_modules/font-awesome/css/font-awesome.css"
 
 const Layout = ({ children, ...props }) => {
@@ -21,9 +18,8 @@ const Layout = ({ children, ...props }) => {
       <meta charset="UTF-8" />
       <html lang="en" />
 
-      <Header {...props} />
       {children}
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }

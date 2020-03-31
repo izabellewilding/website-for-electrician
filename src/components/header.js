@@ -94,16 +94,6 @@ const Header = ({ ...props }) => {
               </div>
 
               <div className="nav">
-                {/* <Button className="nav-button mobile-hidden-button"> */}
-                {/* <a href="mailto:alex@alexwildingelectricalservices.com">
-                  Contact
-                </a> */}
-                {/* </Button>{" "} */}
-                {/* <Link to="/electrical-services-pembrokeshire"> */}
-                {/* <Button outlined className="nav-button mobile-hidden-button"> */}
-                {/* Services */}
-                {/* </Button>{" "} */}
-                {/* </Link> */}
                 <StyledButton
                   className=""
                   onClick={() => {
@@ -131,33 +121,24 @@ const Header = ({ ...props }) => {
                   <DrawerContent dir="ltr">
                     {" "}
                     <List>
-                      <Link to="/" className="menu-link">
+                      <a
+                        onClick={() => props.onNav("landing")}
+                        className="menu-link"
+                      >
                         <ListItem>Home</ListItem>
-                      </Link>
+                      </a>
                       <Link
                         to="/electrical-services-pembrokeshire"
                         className="menu-link"
                       >
                         <ListItem>Services</ListItem>
                       </Link>
-                      <Link to="/EICRs" className="menu-link">
-                        <ListItem>EICRs</ListItem>
-                      </Link>
-                      <Link to="/domestic-rewires" className="menu-link">
-                        <ListItem>Domestic Rewires</ListItem>
-                      </Link>
-                      <Link to="/fault-finding" className="menu-link">
-                        <ListItem>Fault Finding</ListItem>
-                      </Link>
-                      <Link to="/commercial" className="menu-link">
-                        <ListItem>Commercial</ListItem>
-                      </Link>
-                      <Link to="/new-builds" className="menu-link">
-                        <ListItem>New Builds</ListItem>
-                      </Link>
-                      <Link to="/consumer-unit" className="menu-link">
-                        <ListItem>Consumer Unit Upgrades</ListItem>
-                      </Link>
+                      <a
+                        onClick={() => props.onNav("contact")}
+                        className="menu-link"
+                      >
+                        <ListItem>Contact</ListItem>
+                      </a>
                     </List>
                   </DrawerContent>
                 </StlyedDrawer>

@@ -1,24 +1,38 @@
-import React, { useState } from "react"
-import { Link } from "gatsby"
+import React, { useState, useRef } from "react"
+import { Link, navigate } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./index.scss"
 import Img from "../components/image.js"
 import ServiceIcons from "../components/service-icons"
 import "../components/service-icons.scss"
+import Header from "../components/header"
+
 import LivelyTick from "../assets/check-mark.svg"
 import ContactDetails from "../components/contact-details"
-
-import Bulb from "../assets/idea.svg"
+import Footer from "../components/footer"
 
 const IndexPage = (...props) => {
+  const landingRef = useRef()
+  const contactRef = useRef()
+
+  const handleHeaderNavigation = navItem => {
+    if (navItem === "landing") {
+      navigate("/")
+    } else if (navItem === "services") {
+      navigate("/services")
+    } else if (navItem === "contact") {
+      navigate("/#contact")
+    }
+  }
+
   return (
     <Layout>
       <SEO title="Electrician in Pembrokeshire" />
-
+      <Header onNav={handleHeaderNavigation} />
       <div className="home">
         <div className="mobile-header-padding"></div>
-        <div className="home-section1">
+        <div className="home-section1" ref={landingRef} navItem="landing">
           <Img className="section1-img" src="../images/van.jpg" size="medium" />
           <div className="section1-logos">
             <Img src="../images/new-elecsa-logo.jpg" className="elesca-logo" />
@@ -98,6 +112,7 @@ const IndexPage = (...props) => {
         <div className="home-section2">
           <ServiceIcons id="index-icons" />
         </div>
+        <Footer ref={contactRef} navItem="contact" id="contact" />
         {/* end home section 2 */}
       </div>
     </Layout>
