@@ -74,6 +74,7 @@ const ContactForm = () => {
           <label className="label" for="email">
             Email
           </label>
+          <br />
           <div className="control">
             <input
               className="input"
@@ -97,7 +98,11 @@ const ContactForm = () => {
           </div>
         </div>
         <div className="field">
-          <button className="button is-link" type="submit">
+          <button
+            className="submit-button"
+            type="submit"
+            onClick={handleSubmit}
+          >
             Send
           </button>
         </div>
@@ -114,16 +119,17 @@ const Footer = props => {
       <div className="footerInner">
         <div className="contact-form-wrapper">
           <h2>Contact</h2>
-          <h3>
-            Have a question? Send a message with your email address and I'll get
-            back...
+          <h3 className="contact-subheading">
+            Got a question?
+            <br />
+            Send a message and we'll get back to you as soon as possible
           </h3>
           <ContactForm />
         </div>
-        <div className="contact-specifics">
+        {/* <div className="contact-specifics">
           <address>Galchen fach, Maenclochog, Pembrokeshire, SA66 7JX</address>
           <ContactDetails location="footer" />
-        </div>
+        </div> */}
       </div>
     </footer>
   )
