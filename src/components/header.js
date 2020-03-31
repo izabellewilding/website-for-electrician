@@ -30,15 +30,18 @@ const Header = ({ ...props }) => {
     left: 0;
   `
 
-  const StyledButton = styled(Button)`
+  const StyledButton = styled.button`
     padding: 1rem;
-    color: #f7fafc;
-    border: #718096;
+    color: white;
+    border: #2a4365 solid 1.25px;
+    background-color: #2a4365;
+    border-radius: 2px;
     margin: 1rem;
     height: auto;
     text-decoration: none;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
   `
 
   return (
@@ -95,7 +98,7 @@ const Header = ({ ...props }) => {
 
               <div className="nav">
                 <StyledButton
-                  className=""
+                  className="menu-button"
                   onClick={() => {
                     setMenuOpen(!menuOpen)
                   }}
