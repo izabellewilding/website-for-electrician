@@ -32,7 +32,7 @@ const Layout = ({ children, ...props }) => {
       <html lang="en" />
       <Header onNav={handleHeaderNavigation} />
       {children}
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }

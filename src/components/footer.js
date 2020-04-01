@@ -1,6 +1,6 @@
 import React from "react"
 import { navigate } from "gatsby-link"
-
+import ContactForm from "../pages/contact/index"
 import "./footer.scss"
 import ContactDetails from "./contact-details"
 import styled from "styled-components"
@@ -19,105 +19,11 @@ const Gradient = styled.div`
   right: 0;
   top: 0;
 `
-function encode(data) {
-  return Object.keys(data)
-    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&")
-}
-
-const ContactForm = () => {
-  const [state, setState] = React.useState({})
-
-  const handleChange = e => {
-    setState({ ...state, [e.target.name]: e.target.value })
-  }
-
-  const handleSubmit = e => {
-    e.preventDefault()
-    const form = e.target
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "multipart/form-data" },
-      body: encode({
-        "form-name": form.getAttribute("name"),
-        ...state,
-      }),
-    })
-      .then(() => navigate(form.getAttribute("action")))
-      .catch(error => alert(error))
-  }
-
-  return (
-    <form
-      className="contact-form"
-      name="contact"
-      method="post"
-      action="/pages/thanks/"
-      data-netlify="true"
-      data-netlify-honeypot="bot-filed"
-      onSubmit={handleSubmit}
-    >
-      <input type="hidden" name="form-name" value="contact" />
-      <div className="feilds">
-        <div className="field">
-          <label className="label" for="name">
-            Your name
-          </label>
-          <div className="control">
-            <input
-              className="input"
-              type="text"
-              name="name"
-              onChange={handleChange}
-            />
-          </div>
-        </div>{" "}
-        <div className="field">
-          <label className="label" for="email">
-            Email
-          </label>
-          <br />
-          <div className="control">
-            <input
-              className="input"
-              onChange={handleChange}
-              type="email"
-              name="email"
-            />
-          </div>
-        </div>
-        <div className="field">
-          <label for="message" className="label ">
-            Message
-          </label>
-          <div className="control">
-            <textarea
-              className="input text-area"
-              type="text"
-              name="message"
-              onChange={handleChange}
-            />
-          </div>
-        </div>
-        <div className="field">
-          <button
-            className="submit-button"
-            type="submit"
-            onClick={handleSubmit}
-          >
-            Send
-          </button>
-        </div>
-      </div>
-    </form>
-  )
-}
 
 const Footer = props => {
   return (
     <footer className="footer">
       {" "}
-      {/* <Gradient /> */}
       <div className="footerInner">
         <div className="contact-form-wrapper">
           <h2>Contact</h2>
@@ -126,7 +32,7 @@ const Footer = props => {
             <br />
             Send us a message and we'll get back as soon as possible...
           </h3>
-          <ContactForm />
+          {/* <ContactForm /> */}
         </div>
         {/* <div className="contact-specifics">
           <address>Galchen fach, Maenclochog, Pembrokeshire, SA66 7JX</address>

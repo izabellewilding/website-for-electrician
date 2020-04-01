@@ -1,10 +1,9 @@
 import React from "react"
-import Layout from "../components/Layout"
+import Layout from "../../components/layout"
 
-export default () => (
+const Thanks = () => (
   <Layout>
     <div className="page-top-padding"></div>
-
     <section className="section">
       <div className="container section-padding-medium">
         <div className="content">
@@ -15,3 +14,5 @@ export default () => (
     </section>
   </Layout>
 )
+
+export default Thanks
