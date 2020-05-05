@@ -6,11 +6,9 @@ import "./index.scss"
 import Img from "../components/image.js"
 import ServiceIcons from "../components/service-icons"
 import "../components/service-icons.scss"
-import Header from "../components/header"
 
 import LivelyTick from "../assets/check-mark.svg"
 import ContactDetails from "../components/contact-details"
-import Footer from "../components/footer"
 
 const IndexPage = (...props) => {
   const landingRef = useRef()
@@ -32,7 +30,7 @@ const IndexPage = (...props) => {
       <div className="home">
         <div className="mobile-header-padding"></div>
         <div className="home-section1" ref={landingRef} navItem="landing">
-          <Img className="section1-img" src="../images/van.jpg" size="medium" />
+          <Img className="section1-img" src="../images/van.jpg" type="medium" />
           <div className="section1-logos">
             <Img src="../images/new-elecsa-logo.jpg" className="elesca-logo" />
             <Img
@@ -40,21 +38,21 @@ const IndexPage = (...props) => {
               className="ECA-logo"
             />
           </div>
-          <div className="landing-inner">
-            <div className="home-section1-content">
-              <h2 className="home-title barlow">
-                Domestic and Commercial Electrician{" "}
-              </h2>
-              <h2 className="home-title2 barlow-light">
-                {" "}
-                <strong>Based in Maenclochog</strong> <br />
-                <strong>Pembrokeshire</strong>
-              </h2>
-              {/* <div className="svg-container">
+
+          <div className="home-section1-content">
+            <h2 className="home-title barlow">
+              Domestic and Commercial Electrician{" "}
+            </h2>
+            <h2 className="home-title2 barlow-light">
+              {" "}
+              <strong>Based in Maenclochog</strong> <br />
+              <strong>Pembrokeshire</strong>
+            </h2>
+            {/* <div className="svg-container">
                 <Bulb className="home-bulb" />
               </div> */}
-            </div>
-          </div>{" "}
+          </div>
+
           {/* end section1 content */}
         </div>
         {/* end home section 1 */}{" "}
