@@ -1,6 +1,6 @@
 import React from "react"
 import { navigate } from "gatsby-link"
-import ContactForm from "../pages/contact/index"
+import ContactForm from "../pages/contact"
 import "./footer.scss"
 import ContactDetails from "./contact-details"
 import styled from "styled-components"

@@ -1,6 +1,6 @@
 import React from "react"
 import { navigate } from "gatsby"
-import "../../components/footer.scss"
+import "../components/footer.scss"
 
 function encode(data) {
   return Object.keys(data)

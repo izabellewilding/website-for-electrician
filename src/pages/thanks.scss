@@ -1,0 +1,12 @@
+@import "../components/layout.scss";
+$mobile-breakpoint: 850px;
+
+.thanks-wrapper {
+  padding: 1rem;
+  padding-top: 7rem;
+  min-height: 30vh;
+  @media (min-width: $mobile-breakpoint) {
+    padding: 4rem;
+    padding-top: 4rem;
+  }
+}
