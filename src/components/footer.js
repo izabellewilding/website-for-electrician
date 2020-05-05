@@ -32,7 +32,7 @@ const Footer = props => {
             <br />
             Send us a message and we'll get back as soon as possible...
           </h3>
-          {/* <ContactForm /> */}
+          <ContactForm />
         </div>
         {/* <div className="contact-specifics">
           <address>Galchen fach, Maenclochog, Pembrokeshire, SA66 7JX</address>

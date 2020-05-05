@@ -96,7 +96,6 @@ $bigscreen-breakpoint: 2000px;
   flex-direction: column;
   display: flex;
   justify-content: space-evenly;
-  padding: 1.75rem;
   padding-top: 2rem;
 
   @media (max-width: $mobile-breakpoint) {

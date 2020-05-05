@@ -8,14 +8,17 @@ function encode(data) {
     .join("&")
 }
 
-const ContactForm = () => {
-  const [state, setState] = React.useState({})
-
-  const handleChange = e => {
-    setState({ ...state, [e.target.name]: e.target.value })
+export default class Index extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = { isValidated: false }
   }
 
-  const handleSubmit = e => {
+  handleChange = e => {
+    this.setState({ [e.target.name]: e.target.value })
+  }
+
+  handleSubmit = e => {
     e.preventDefault()
     const form = e.target
     fetch("/", {
@@ -23,84 +26,83 @@ const ContactForm = () => {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({
         "form-name": form.getAttribute("name"),
-        ...state,
+        ...this.state,
       }),
     })
       .then(() => navigate(form.getAttribute("action")))
       .catch(error => alert(error))
   }
 
-  return (
-    <form
-      className="contact-form"
-      name="contact"
-      method="post"
-      action="/thanks"
-      data-netlify="true"
-      netlify-honeypot="bot-filed"
-      onSubmit={handleSubmit}
-    >
-      <input type="hidden" name="form-name" value="contact" />
-      <div hidden>
-        <label for="bot-field">
-          Don’t fill this out:{" "}
-          <input name="bot-field" onChange={handleChange} />
-        </label>
-      </div>{" "}
-      <div className="fields">
-        <div className="field">
-          <label className="label" for="name" htmlFor={"name"}>
-            Your name
+  render() {
+    return (
+      <form
+        name="contact"
+        method="post"
+        action="/thanks"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        onSubmit={this.handleSubmit}
+      >
+        <input type="hidden" name="form-name" value="contact" />
+        <div hidden>
+          <label>
+            Don’t fill this out:{" "}
+            <input name="bot-field" onChange={this.handleChange} />
           </label>
-          {/* <div className="control"> */}
-          <input
-            className="input"
-            type={"text"}
-            name={"name"}
-            onChange={handleChange}
-          />
-          {/* </div> */}
         </div>{" "}
-        <div className="field">
-          <label className="label" htmlFor={"email"}>
-            Email
-          </label>
-          <br />
-          {/* <div className="control"> */}
-          <input
-            className="input"
-            onChange={handleChange}
-            type={"email"}
-            name={"email"}
-          />
-          {/* </div> */}
+        <div className="fields">
+          <div className="field">
+            <label className="label" htmlFor={"name"}>
+              Your name
+            </label>
+            {/* <div className="control"> */}
+            <input
+              className="input"
+              type={"text"}
+              name={"name"}
+              onChange={this.handleChange}
+              id={"name"}
+              required={true}
+            />
+            {/* </div> */}
+          </div>{" "}
+          <div className="field">
+            <label className="label" htmlFor={"email"}>
+              Email
+            </label>
+            <br />
+            {/* <div className="control"> */}
+            <input
+              className="input"
+              type={"email"}
+              name={"email"}
+              onChange={this.handleChange}
+              id={"email"}
+              required={true}
+            />
+            {/* </div> */}
+          </div>
+          <div className="field">
+            <label className="label" htmlFor="message">
+              Message
+            </label>
+            {/* <div className="control"> */}
+            <textarea
+              className="input text-area"
+              name={"message"}
+              onChange={this.handleChange}
+              id={"message"}
+              required={true}
+            />
+            {/* </div> */}
+          </div>
+          <div className="field">
+            <button className="submit-button" type="submit">
+              Send
+            </button>
+          </div>
         </div>
-        <div className="field">
-          <label htmlFor="message" className="label ">
-            Message
-          </label>
-          {/* <div className="control"> */}
-          <textarea
-            className="input text-area"
-            id={"message"}
-            required={true}
-            name={"message"}
-            onChange={handleChange}
-          />
-          {/* </div> */}
-        </div>
-        <div className="field">
-          <button
-            className="submit-button"
-            type="submit"
-            onClick={handleSubmit}
-          >
-            Send
-          </button>
-        </div>
-      </div>
-    </form>
-  )
+      </form>
+    )
+  }
 }
-
-export default ContactForm
