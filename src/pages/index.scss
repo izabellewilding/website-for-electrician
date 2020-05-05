@@ -40,13 +40,11 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgba(8, 13, 20, 0.68)),
-    to(#00192db5)
-  );
+  height: 70vh;
+
+  background-image: url(../images/van.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
 
   @media (max-width: $mobile-breakpoint) {
     display: flex;
@@ -64,6 +62,13 @@ p {
     color: #fff5f1;
     font-family: "Ubuntu";
     font-weight: bold;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(8, 13, 20, 0.68)),
+      to(#00192db5)
+    );
   }
 }
 
@@ -77,9 +82,8 @@ p {
   height: 597px;
   width: auto;
   object-fit: cover;
-  position: unset !important;
 
-  z-index: -1;
+  // position: unset !important;
 }
 
 .contact-section-mobile-wrapper {

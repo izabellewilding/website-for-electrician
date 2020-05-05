@@ -13,7 +13,7 @@ $bigscreen-breakpoint: 2000px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #09263ffd;
+  background-color: $darkTone;
 
   @media (min-width: $mobile-breakpoint) {
     padding: 5.5rem 1.5rem;
@@ -74,6 +74,7 @@ $bigscreen-breakpoint: 2000px;
   border-top: solid 1.25px;
   margin: 2rem 0 0;
   padding: 1rem 0;
+  color: rgba(255, 255, 255, 0.842);
 }
 
 .contact-image {

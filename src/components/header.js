@@ -70,7 +70,7 @@ const Header = ({ ...props }) => {
               <div className="header-logo-wrapper">
                 {homeLink}
                 <Img
-                  src="../images/eca-registered-member-logo.jpg"
+                  src="../images/eca-registered-member-logo.png"
                   className="ECA-logo"
                   alt="Electrical Contractors Association logo"
                 />
