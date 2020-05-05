@@ -9,23 +9,26 @@ $bigscreen-breakpoint: 2000px;
 }
 
 .footerInner {
-  padding: 4.5rem 2.5rem;
-  height: 100vh;
+  padding: 2.5rem 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #09263ffd;
 
-  @media (max-width: $mobile-breakpoint) {
-    display: block;
-    width: 100%;
+  @media (min-width: $mobile-breakpoint) {
+    padding: 5.5rem 1.5rem;
   }
 }
 .contact-form-wrapper {
   height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+
+  @media (min-width: 700px) {
+    width: 60%;
+  }
 }
 
 .contact-specifics {
@@ -68,12 +71,8 @@ $bigscreen-breakpoint: 2000px;
 
 .contact-subheading {
   border-top: solid 1.25px;
-  padding-top: 1rem;
-}
-
-.contact-subtitle {
-  width: 65%;
-  padding: 2rem;
+  margin: 2rem 0 0;
+  padding: 1rem 0;
 }
 
 .contact-image {
@@ -166,11 +165,6 @@ $bigscreen-breakpoint: 2000px;
     width: 100%;
 
     border: solid black 2px;
-  }
-
-  .contact-subtitle {
-    width: 100%;
-    padding: 2rem;
   }
 
   .contact-image {

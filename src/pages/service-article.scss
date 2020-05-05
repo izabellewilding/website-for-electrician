@@ -67,19 +67,10 @@ $bigscreen-breakpoint: 2000px;
   margin: auto;
   display: flex;
   align-items: center;
-  height: 450px;
   width: 850px;
   padding-left: 40px;
   padding-right: 40px;
   margin-bottom: 9rem;
-  margin-top: 5rem;
-  padding-top: 3rem;
-
-  @media (max-width: $mobile-breakpoint) {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 0rem;
-  }
 }
 
 .main-image {

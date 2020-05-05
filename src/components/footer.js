@@ -27,11 +27,7 @@ const Footer = props => {
       <div className="footerInner">
         <div className="contact-form-wrapper">
           <h2>Contact</h2>
-          <h3 className="contact-subheading">
-            Have a question?
-            <br />
-            Send us a message and we'll get back as soon as possible...
-          </h3>
+          <h3 className="contact-subheading">Have a question?</h3>
           <ContactForm />
         </div>
         {/* <div className="contact-specifics">
