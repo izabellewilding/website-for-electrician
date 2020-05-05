@@ -17,7 +17,6 @@ const ServiceArticle = () => (
 
       <div className="article-layout1">
         {" "}
-        <div className="mobile-header-padding"></div>
         <h1 className="article-subheading">Consumer Unit Upgrades</h1>
         <div className="article-content">
           <div className="article-text">

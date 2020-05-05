@@ -15,7 +15,6 @@ const ServiceArticle = () => (
         title="EICRs"
         description="Electrical installation condition reports(EICRS) in Pembrokeshire"
       />
-      <div className="mobile-header-padding"></div>
 
       <div className="article-content">
         <div className="article-text">

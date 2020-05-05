@@ -19,6 +19,8 @@ const ServiceArticleContainer = props => {
     <div>
       <Header onNav={handleHeaderNavigation} />
       <div className="article-layout1">
+        <div className="mobile-header-padding"></div>
+        <ServiceIcons />
         {props.children} <Footer />
       </div>
     </div>
