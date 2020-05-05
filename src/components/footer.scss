@@ -22,6 +22,7 @@ $bigscreen-breakpoint: 2000px;
 .contact-form-wrapper {
   height: 100%;
   width: 100%;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
