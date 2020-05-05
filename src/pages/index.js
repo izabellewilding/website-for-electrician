@@ -30,7 +30,7 @@ const IndexPage = (...props) => {
       <div className="home">
         <div className="mobile-header-padding"></div>
         <div className="home-section1" ref={landingRef} navItem="landing">
-          <Img className="section1-img" src="../images/van.jpg" type="medium" />
+          <Img className="section1-img" src="../images/van.jpg" />
           <div className="section1-logos">
             <Img src="../images/new-elecsa-logo.jpg" className="elesca-logo" />
             <Img
