@@ -28,7 +28,7 @@
     "gatsby-plugin-sharp": "^2.2.12",
     "gatsby-plugin-sitemap": "^2.2.26",
     "gatsby-source-filesystem": "^2.1.9",
-    "gatsby-transformer-remark": "^2.6.24",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.2.6",
     "jquery": "^3.4.1",
     "node-sass": "^4.12.0",
